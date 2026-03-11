@@ -16,6 +16,10 @@
     "youtube-watcher": {
       "version": "1.0.0",
       "installedAt": 1772243488230
+    },
+    "api-gateway-1-0-31": {
+      "version": "1.0.0",
+      "installedAt": 1773196876770
     }
   }
 }
