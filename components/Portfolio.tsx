@@ -7,6 +7,7 @@ const projects = [
     name: 'Summer Street Hair Studio',
     category: 'Salon',
     description: 'Professional hair salon website with booking system, service gallery, and team profiles.',
+    url: 'https://summer-street-salon.vercel.app',
     metrics: {
       lighthouse: 96,
       performance: '2.1s LCP',
@@ -17,6 +18,7 @@ const projects = [
     name: 'Example Plumbing Co.',
     category: 'Plumbing',
     description: 'Local plumbing service site with service overview, emergency callout, and testimonials.',
+    url: 'https://example-plumbing.vercel.app',
     metrics: {
       lighthouse: 94,
       performance: '1.8s LCP',
@@ -27,6 +29,7 @@ const projects = [
     name: 'Local Restaurant',
     category: 'Restaurant',
     description: 'Restaurant site with menu, reservations, location, and online ordering integration.',
+    url: 'https://local-restaurant.vercel.app',
     metrics: {
       lighthouse: 95,
       performance: '2.2s LCP',
@@ -75,7 +78,7 @@ export default function Portfolio() {
                 </div>
                 <p className="text-gray-300 mb-4">{project.description}</p>
                 
-                <div className="space-y-2 text-sm">
+                <div className="space-y-2 text-sm mb-4">
                   <div className="flex justify-between items-center">
                     <span className="text-gray-400">Lighthouse Score</span>
                     <span className="font-bold text-yellow-400">{project.metrics.lighthouse}</span>
@@ -89,6 +92,17 @@ export default function Portfolio() {
                     <span className="font-bold text-yellow-400">WCAG {project.metrics.accessibility}</span>
                   </div>
                 </div>
+                
+                {project.url && (
+                  <a 
+                    href={project.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-block w-full text-center px-4 py-2 bg-yellow-400 text-black font-bold hover:bg-yellow-500 transition-colors"
+                  >
+                    View Live Site →
+                  </a>
+                )}
               </div>
             </motion.div>
           ))}
