@@ -4,38 +4,32 @@ import { motion } from 'framer-motion'
 
 const services = [
   {
-    icon: 'D',
-    color: 'bg-blue-600',
+    image: 'https://images.pexels.com/photos/3194519/pexels-photo-3194519.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Custom Design',
     description: 'Bespoke design tailored to your business. Professional, modern, and conversion-focused.'
   },
   {
-    icon: 'P',
-    color: 'bg-purple-600',
+    image: 'https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'High Performance',
     description: 'Lighthouse 95+ score. Lightning-fast load times. Optimized for mobile and desktop.'
   },
   {
-    icon: 'A',
-    color: 'bg-green-600',
+    image: 'https://images.pexels.com/photos/3570129/pexels-photo-3570129.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Accessibility First',
     description: 'WCAG AA compliant. Your site works for everyone, everywhere.'
   },
   {
-    icon: 'R',
-    color: 'bg-orange-600',
+    image: 'https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Fully Responsive',
     description: 'Perfect on mobile, tablet, and desktop. Built mobile-first from the ground up.'
   },
   {
-    icon: 'S',
-    color: 'bg-red-600',
+    image: 'https://images.pexels.com/photos/3945704/pexels-photo-3945704.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'SEO Optimized',
     description: 'Structured data, meta tags, and semantic HTML. Built to rank.'
   },
   {
-    icon: 'F',
-    color: 'bg-indigo-600',
+    image: 'https://images.pexels.com/photos/5632399/pexels-photo-5632399.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Fast Delivery',
     description: '10-day timeline from kickoff to launch. No lengthy projects.'
   }
@@ -73,9 +67,11 @@ export default function Services() {
               whileHover={{ y: -5 }}
               className="p-8 border border-gray-700 hover:border-yellow-400 hover:shadow-lg hover:shadow-yellow-400/20 transition-all bg-gray-900"
             >
-              <div className={`w-16 h-16 ${service.color} flex items-center justify-center text-white text-2xl font-bold mb-6 border border-gray-600`}>
-                {service.icon}
-              </div>
+              <img 
+                src={service.image} 
+                alt={service.title}
+                className="w-full h-32 object-cover mb-6 border border-gray-600"
+              />
               <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
               <p className="text-gray-400 leading-relaxed">{service.description}</p>
             </motion.div>
