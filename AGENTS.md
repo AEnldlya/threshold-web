@@ -17,6 +17,45 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
+## After Every Fix/Improvement
+
+Non-negotiable process (do this EVERY TIME):
+
+1. **Log to `.learnings/YYYY-MM-DD-description.md`**
+   - What was broken?
+   - What was the root cause?
+   - How did you fix it?
+   - What's the lesson?
+
+2. **Update `MEMORY.md`**
+   - Add to "Critical Fixes" or relevant section
+   - Document the improvement
+   - Link to learning file
+
+3. **Create/Update Templates**
+   - BUILD_CHECKLIST.md (if build-related)
+   - CONFIG_TEMPLATE.md (if configuration issue)
+   - [TOPIC]_BEST_PRACTICES.md (general lesson)
+   - Goal: Prevent same problem happening again
+
+4. **Commit to Git**
+   ```bash
+   git add MEMORY.md .learnings/[file] [templates]
+   git commit -m "Fix: [what] because [why]
+   
+   Root cause: [root cause]
+   Solution: [solution]
+   Prevention: [how to avoid]
+   See .learnings/[file] for details"
+   ```
+
+5. **Update SOUL.md or AGENTS.md if behavior changed**
+   - If this is a pattern
+   - If this changes how you work
+   - If this is a core lesson
+
+This is how you build institutional memory.
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:
