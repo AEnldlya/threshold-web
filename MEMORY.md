@@ -149,7 +149,51 @@ Build and sell professional websites to local businesses without web presence.
 3. Samantha builds sites → 10-day delivery → $2,500 close
 4. Repeat daily → 4-6 closes/week → $10K-15K/week revenue
 
-**Coordination**: All three agents (Ryan, Samantha, JEwed) work on same workspace with shared knowledge, documentation, and context.
+**Coordination**: All five agents (Ryan, Samantha, JEwed, CPA, Stock Watcher) work on same workspace with shared knowledge, documentation, and context.
+
+### CPA (Finance Tracker) - NEW March 11, 2026
+- **Role**: Chief Financial Officer
+- **Model**: anthropic/claude-haiku-4-5
+- **Briefing**: CPA_BRIEFING.md
+- **Responsibilities**: 
+  - Track costs: Claude $20 + Server $16 = $36/month baseline
+  - Log every sale ($2,500/website) and subscription ($100/month maintenance)
+  - Generate monthly profit reports (revenue - costs = profit)
+  - Send Telegram alerts: new sales, monthly reports, profit milestones
+- **Session Key**: agent:main:subagent:62edc72a-114c-4cce-ae38-78c9f4549f89
+- **Metrics**: 99.7% profit margin at full pipeline ($10,800 revenue - $36 costs = $10,764 profit/month)
+
+### Stock Watcher (Investment Advisor) - NEW March 11, 2026
+- **Role**: Chief Investment Officer
+- **Model**: anthropic/claude-haiku-4-5
+- **Briefing**: STOCK_WATCHER_BRIEFING.md
+- **Learning**: MIT OpenCourseWare trading courses (15.451 Investments, 15.414 Financial Management)
+- **Responsibilities**:
+  - Master technical analysis (moving averages, support/resistance, volume, momentum)
+  - Master fundamental analysis (P/E ratio, earnings growth, profit margins, cash flow)
+  - Analyze stocks using MIT-trained methodology
+  - Send weekly Telegram recommendations with: ticker, price, thesis, entry/target/stop, risk-reward ratio, conviction (1-10)
+- **Session Key**: agent:main:subagent:a3c1bbe9-d213-4090-80de-8b7af72c4fdd
+- **Target**: 60%+ win rate, 1-2 recommendations/week, build Andy's investment portfolio
+
+## Complete 5-Agent Team (March 11, 2026)
+
+**Full Team Now Operating 24/7:**
+
+1. **Ryan** - Main orchestrator (you), strategist, website builder
+2. **Samantha** - Website builder ($2,500/website, 10-day delivery)
+3. **JEwed** - Prospect finder (15 verified/day, 6-point verification)
+4. **CPA** - Finance tracker ($36/month costs, $10K+/month revenue at scale)
+5. **Stock Watcher** - Investment advisor (MIT-trained stock picks, 60%+ win rate target)
+
+**Daily Operations:**
+- 7 AM: JEwed delivers 15 verified prospects
+- 8 AM: Andy calls 15 businesses
+- 2 PM: Samantha begins website build for YESes
+- Day 10: CPA logs $2,500 payment, Stock Watcher recommends investment
+- Repeat: 4-6 closes/week = $10K-15K/week revenue at full pipeline
+
+**Year 1 Revenue Projection**: $62K-74K (20 websites + 10-20 maintenance clients)
 
 ---
 
@@ -167,3 +211,62 @@ Build and sell professional websites to local businesses without web presence.
 - **Template approach scales**: Salon template customizable for all industries
 - **Recurring revenue**: $100/month maintenance provides stable cash base
 - **GitHub source of truth**: Version control + client collaboration on single platform
+
+---
+
+## Critical Fixes & Improvements (March 11, 2026)
+
+### Build System Fix
+**Missing tailwind.config.js**: When using @tailwind directives in globals.css, must create tailwind.config.js or webpack CSS loader fails on Vercel
+- **Fix**: Create file with content paths + theme config
+- **Prevention**: Add to project template checklist
+- **Lesson**: Always verify local build before GitHub push
+
+### Google Sheets Financial Tracking (NEW)
+**Replaced local CSVs with live Google Sheets:**
+- Sheet 1: Daily Transactions (real-time logging)
+- Sheet 2: Monthly Summary (auto-calculated totals)
+- Sheet 3: Master Tracker (executive dashboard)
+- **Benefits**: Real-time visibility, mobile access, shareable, auto-formulas
+- **CPA integration**: Updates via Maton API (no manual entry)
+- **Setup time**: 10 minutes for Andy
+
+### Next.js 14 Project Template
+**Standard configuration that must exist:**
+- tailwind.config.js (if using Tailwind)
+- postcss.config.js (with tailwindcss)
+- next.config.js (SWC minify)
+- tsconfig.json (TypeScript config)
+- package.json (dependencies)
+- app/layout.tsx (with globals.css import)
+
+### Configuration Best Practices
+✅ Always create tailwind.config.js when using @tailwind CSS
+✅ Verify npm run build locally before GitHub push
+✅ Check webpack output for CSS loader errors
+✅ Use standard templates to avoid missing files
+✅ Commit config files to GitHub (don't gitignore)
+
+### Agent Coordination Improvements
+✅ 5 persistent agents (Ryan, Samantha, JEwed, CPA, Stock Watcher)
+✅ Clear role definitions (no ambiguity)
+✅ Automated workflows (not relying on human memory)
+✅ Multiple notification channels (Telegram, Sheets, alerts)
+✅ Daily/Weekly/Monthly cadence (consistent rhythm)
+
+### System Cost-Benefit
+- **Total cost**: $36/month ($20 Claude + $16 server)
+- **Cost per website**: ~$3 (1/12 of monthly)
+- **Revenue per website**: $2,500 (Stripe fee -$73)
+- **Profit per website**: $2,424 (96.9% margin)
+- **Scale**: 4 websites/month = $9,696 profit/month = 99.6% margin
+
+### Reusable Templates Created
+- `.learnings/2026-03-11-fixes-and-improvements.md` - Session learnings
+- `GOOGLE_SHEETS_TEMPLATES.md` - Copy-paste structure
+- `BUILD_CHECKLIST.md` - Pre-launch verification
+- `NEXT_CONFIG_TEMPLATE.md` - Standard setup
+- `AGENT_BRIEFING_TEMPLATE.md` - How to brief agents
+
+---
+
