@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 const services = [
   {
@@ -14,9 +15,9 @@ const services = [
     description: 'Lighthouse 95+ score. Lightning-fast load times. Optimized for mobile and desktop.'
   },
   {
-    image: 'https://images.pexels.com/photos/3944387/pexels-photo-3944387.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Accessibility First',
-    description: 'WCAG AA compliant. Your site works for everyone, everywhere.'
+    description: 'WCAG AA compliant.'
   },
   {
     image: 'https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=600',
@@ -60,17 +61,21 @@ export default function Services() {
           {services.map((service, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 20, rotate: index % 2 === 0 ? -1 : 1 }}
+              whileInView={{ opacity: 1, y: 0, rotate: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-              whileHover={{ y: -5 }}
-              className="p-8 border border-gray-700 hover:border-yellow-400 hover:shadow-lg hover:shadow-yellow-400/20 transition-all bg-gray-900"
+              whileHover={{ y: -5, boxShadow: '0 10px 25px rgba(250, 204, 21, 0.2)' }}
+              className="p-8 border border-gray-700 hover:border-yellow-400 transition-all bg-gray-900"
             >
-              <img 
-                src={service.image} 
+              <Image
+                src={service.image}
                 alt={service.title}
-                className="w-full h-32 object-cover mb-6 border border-gray-600"
+                width={400}
+                height={224}
+                loading="lazy"
+                priority={index < 3}
+                className="w-full h-56 object-cover mb-6 border border-gray-600"
               />
               <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
               <p className="text-gray-400 leading-relaxed">{service.description}</p>

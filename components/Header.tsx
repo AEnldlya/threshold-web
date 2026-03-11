@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 export default function Header() {
   return (
@@ -12,13 +13,15 @@ export default function Header() {
           transition={{ duration: 0.5 }}
           className="text-2xl font-bold"
         >
-          <span className="text-yellow-400">Threshold</span> Web
+          <Link href="/" className="hover:text-yellow-400 transition">
+            <span className="text-yellow-400">Threshold</span> Web
+          </Link>
         </motion.div>
         <nav className="hidden md:flex space-x-8">
-          <a href="#services" className="hover:text-yellow-400 transition">Services</a>
-          <a href="#portfolio" className="hover:text-yellow-400 transition">Portfolio</a>
-          <a href="#about" className="hover:text-yellow-400 transition">About</a>
-          <a href="#contact" className="hover:text-yellow-400 transition">Contact</a>
+          <Link href="/services" className="hover:text-yellow-400 transition">Services</Link>
+          <Link href="/portfolio" className="hover:text-yellow-400 transition">Portfolio</Link>
+          <Link href="/about" className="hover:text-yellow-400 transition">About</Link>
+          <Link href="/contact" className="hover:text-yellow-400 transition">Contact</Link>
         </nav>
       </div>
     </header>

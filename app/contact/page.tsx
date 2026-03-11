@@ -1,15 +1,15 @@
 'use client'
 
 import Header from '@/components/Header'
-import Hero from '@/components/Hero'
+import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 
-export default function Home() {
+export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-black">
+    <>
       <Header />
-      <Hero />
+      <Contact />
       <Footer />
-    </main>
+    </>
   )
 }

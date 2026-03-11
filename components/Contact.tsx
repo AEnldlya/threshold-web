@@ -16,12 +16,24 @@ export default function Contact() {
   const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>()
   const [submitted, setSubmitted] = useState(false)
 
-  const onSubmit = (data: FormData) => {
-    // In production, this would send to your backend
-    console.log('Form submitted:', data)
-    setSubmitted(true)
-    reset()
-    setTimeout(() => setSubmitted(false), 5000)
+  const onSubmit = async (data: FormData) => {
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      })
+      
+      if (response.ok) {
+        setSubmitted(true)
+        reset()
+        setTimeout(() => setSubmitted(false), 5000)
+      } else {
+        console.error('Form submission failed')
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error)
+    }
   }
 
   return (
