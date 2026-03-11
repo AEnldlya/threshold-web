@@ -4,32 +4,32 @@ import { motion } from 'framer-motion'
 
 const services = [
   {
-    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=Design',
+    icon: '🎨',
     title: 'Custom Design',
     description: 'Bespoke design tailored to your business. Professional, modern, and conversion-focused.'
   },
   {
-    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=Performance',
+    icon: '⚡',
     title: 'High Performance',
     description: 'Lighthouse 95+ score. Lightning-fast load times. Optimized for mobile and desktop.'
   },
   {
-    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=Accessibility',
+    icon: '♿',
     title: 'Accessibility First',
     description: 'WCAG AA compliant. Your site works for everyone, everywhere.'
   },
   {
-    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=Responsive',
+    icon: '📱',
     title: 'Fully Responsive',
     description: 'Perfect on mobile, tablet, and desktop. Built mobile-first from the ground up.'
   },
   {
-    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=SEO+Optimized',
+    icon: '🔍',
     title: 'SEO Optimized',
     description: 'Structured data, meta tags, and semantic HTML. Built to rank.'
   },
   {
-    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=Fast+Delivery',
+    icon: '🚀',
     title: 'Fast Delivery',
     description: '10-day timeline from kickoff to launch. No lengthy projects.'
   }
@@ -67,11 +67,7 @@ export default function Services() {
               whileHover={{ y: -5 }}
               className="p-8 border border-gray-700 rounded-lg hover:border-yellow-400 hover:shadow-lg hover:shadow-yellow-400/20 transition-all bg-gray-900"
             >
-              <img 
-                src={service.icon} 
-                alt={service.title}
-                className="w-24 h-24 object-cover rounded-lg mb-4"
-              />
+              <div className="text-6xl mb-4">{service.icon}</div>
               <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
               <p className="text-gray-400 leading-relaxed">{service.description}</p>
             </motion.div>
