@@ -14,7 +14,7 @@ const services = [
     description: 'Lighthouse 95+ score. Lightning-fast load times. Optimized for mobile and desktop.'
   },
   {
-    image: 'https://images.pexels.com/photos/3570129/pexels-photo-3570129.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://images.pexels.com/photos/3944387/pexels-photo-3944387.jpeg?auto=compress&cs=tinysrgb&w=600',
     title: 'Accessibility First',
     description: 'WCAG AA compliant. Your site works for everyone, everywhere.'
   },
