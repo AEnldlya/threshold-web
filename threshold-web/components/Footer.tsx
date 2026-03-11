@@ -6,7 +6,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-navy text-white py-16 px-6">
+    <footer className="bg-black text-white py-16 px-6 border-t border-gray-800">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
           <motion.div
@@ -16,7 +16,7 @@ export default function Footer() {
             viewport={{ once: true }}
           >
             <div className="text-2xl font-bold mb-4">
-              <span className="text-amber-500">Threshold</span> Web
+              <span className="text-yellow-400">Threshold</span> Web
             </div>
             <p className="text-gray-300">
               Professional websites built for local businesses.
@@ -29,12 +29,12 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            <h4 className="font-bold mb-4">Quick Links</h4>
+            <h4 className="font-bold mb-4 text-yellow-400">Quick Links</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#services" className="hover:text-amber-500 transition-colors">Services</a></li>
-              <li><a href="#portfolio" className="hover:text-amber-500 transition-colors">Portfolio</a></li>
-              <li><a href="#about" className="hover:text-amber-500 transition-colors">About</a></li>
-              <li><a href="#contact" className="hover:text-amber-500 transition-colors">Contact</a></li>
+              <li><a href="#services" className="hover:text-yellow-400 transition-colors">Services</a></li>
+              <li><a href="#portfolio" className="hover:text-yellow-400 transition-colors">Portfolio</a></li>
+              <li><a href="#about" className="hover:text-yellow-400 transition-colors">About</a></li>
+              <li><a href="#contact" className="hover:text-yellow-400 transition-colors">Contact</a></li>
             </ul>
           </motion.div>
 
@@ -44,12 +44,12 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h4 className="font-bold mb-4">Services</h4>
+            <h4 className="font-bold mb-4 text-yellow-400">Services</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#services" className="hover:text-amber-500 transition-colors">Web Design</a></li>
-              <li><a href="#services" className="hover:text-amber-500 transition-colors">Development</a></li>
-              <li><a href="#services" className="hover:text-amber-500 transition-colors">SEO Optimization</a></li>
-              <li><a href="#services" className="hover:text-amber-500 transition-colors">Accessibility</a></li>
+              <li><a href="#services" className="hover:text-yellow-400 transition-colors">Web Design</a></li>
+              <li><a href="#services" className="hover:text-yellow-400 transition-colors">Development</a></li>
+              <li><a href="#services" className="hover:text-yellow-400 transition-colors">SEO Optimization</a></li>
+              <li><a href="#services" className="hover:text-yellow-400 transition-colors">Accessibility</a></li>
             </ul>
           </motion.div>
 
@@ -59,11 +59,11 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <h4 className="font-bold mb-4">Contact</h4>
+            <h4 className="font-bold mb-4 text-yellow-400">Contact</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="tel:6033067508" className="hover:text-amber-500 transition-colors">603-306-7508</a></li>
+              <li><a href="tel:6033067508" className="hover:text-yellow-400 transition-colors">603-306-7508</a></li>
               <li className="text-sm">
-                <span className="text-amber-500">Email</span><br />
+                <span className="text-yellow-400">Email</span><br />
                 hello@thresholdweb.com
               </li>
             </ul>
