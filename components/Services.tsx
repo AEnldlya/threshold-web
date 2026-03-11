@@ -14,7 +14,7 @@ const services = [
     description: 'Lighthouse 95+ score. Lightning-fast load times. Optimized for mobile and desktop.'
   },
   {
-    icon: 'https://images.unsplash.com/photo-1576495169270-343f28b8cb41?w=500&h=500&fit=crop',
+    icon: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=500&fit=crop',
     title: 'Accessibility First',
     description: 'WCAG AA compliant. Your site works for everyone, everywhere.'
   },
@@ -29,7 +29,7 @@ const services = [
     description: 'Structured data, meta tags, and semantic HTML. Built to rank.'
   },
   {
-    icon: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=500&fit=crop',
+    icon: 'https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=500&h=500&fit=crop',
     title: 'Fast Delivery',
     description: '10-day timeline from kickoff to launch. No lengthy projects.'
   }
