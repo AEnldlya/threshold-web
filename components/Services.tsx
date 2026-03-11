@@ -24,7 +24,7 @@ const services = [
     description: 'Perfect on mobile, tablet, and desktop. Built mobile-first from the ground up.'
   },
   {
-    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=SEO',
+    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=SEO+Optimized',
     title: 'SEO Optimized',
     description: 'Structured data, meta tags, and semantic HTML. Built to rank.'
   },
