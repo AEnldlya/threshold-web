@@ -4,32 +4,32 @@ import { motion } from 'framer-motion'
 
 const services = [
   {
-    icon: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&h=500&fit=crop',
+    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=Design',
     title: 'Custom Design',
     description: 'Bespoke design tailored to your business. Professional, modern, and conversion-focused.'
   },
   {
-    icon: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=500&fit=crop',
+    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=Performance',
     title: 'High Performance',
     description: 'Lighthouse 95+ score. Lightning-fast load times. Optimized for mobile and desktop.'
   },
   {
-    icon: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=500&fit=crop',
+    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=Accessibility',
     title: 'Accessibility First',
     description: 'WCAG AA compliant. Your site works for everyone, everywhere.'
   },
   {
-    icon: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=500&fit=crop',
+    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=Responsive',
     title: 'Fully Responsive',
     description: 'Perfect on mobile, tablet, and desktop. Built mobile-first from the ground up.'
   },
   {
-    icon: 'https://images.unsplash.com/photo-1579403849066-db86b482c04f?w=500&h=500&fit=crop',
+    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=SEO',
     title: 'SEO Optimized',
     description: 'Structured data, meta tags, and semantic HTML. Built to rank.'
   },
   {
-    icon: 'https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=500&h=500&fit=crop',
+    icon: 'https://via.placeholder.com/500x500/1a1a1a/fbbf24?text=Fast+Delivery',
     title: 'Fast Delivery',
     description: '10-day timeline from kickoff to launch. No lengthy projects.'
   }
