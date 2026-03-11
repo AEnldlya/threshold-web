@@ -59,7 +59,7 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
-            className="bg-gray-900 rounded-lg p-8 text-white border border-gray-700"
+            className="bg-gray-900 p-8 text-white border border-gray-700"
           >
             <h3 className="text-2xl font-bold mb-6 text-yellow-400">Our Approach</h3>
             <div className="space-y-6">

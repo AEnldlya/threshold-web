@@ -60,7 +60,7 @@ export default function Portfolio() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-gray-900 rounded-lg overflow-hidden border border-gray-700 hover:shadow-xl hover:shadow-yellow-400/20 transition-shadow"
+              className="bg-gray-900 overflow-hidden border border-gray-700 hover:shadow-xl hover:shadow-yellow-400/20 transition-shadow"
             >
               <div className="h-48 bg-gradient-to-br from-yellow-400 to-yellow-600 flex items-center justify-center">
                 <div className="text-center text-black">

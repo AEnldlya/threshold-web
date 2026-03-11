@@ -57,7 +57,7 @@ export default function Contact() {
           transition={{ duration: 0.8, delay: 0.2 }}
           viewport={{ once: true }}
           onSubmit={handleSubmit(onSubmit)}
-          className="bg-gray-900 rounded-lg border border-gray-700 p-8 space-y-6"
+          className="bg-gray-900 border border-gray-700 p-8 space-y-6"
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
@@ -65,7 +65,7 @@ export default function Contact() {
               <input
                 {...register('name', { required: 'Name is required' })}
                 type="text"
-                className="w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/20"
+                className="w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/20"
                 placeholder="Your name"
               />
               {errors.name && <span className="text-red-400 text-sm mt-1">{errors.name.message}</span>}
@@ -79,7 +79,7 @@ export default function Contact() {
                   pattern: { value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i, message: 'Invalid email' }
                 })}
                 type="email"
-                className="w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/20"
+                className="w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/20"
                 placeholder="your@email.com"
               />
               {errors.email && <span className="text-red-400 text-sm mt-1">{errors.email.message}</span>}
@@ -92,7 +92,7 @@ export default function Contact() {
               <input
                 {...register('phone', { required: 'Phone is required' })}
                 type="tel"
-                className="w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/20"
+                className="w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/20"
                 placeholder="(123) 456-7890"
               />
               {errors.phone && <span className="text-red-400 text-sm mt-1">{errors.phone.message}</span>}
@@ -103,7 +103,7 @@ export default function Contact() {
               <input
                 {...register('business', { required: 'Business name is required' })}
                 type="text"
-                className="w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/20"
+                className="w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/20"
                 placeholder="Your business"
               />
               {errors.business && <span className="text-red-400 text-sm mt-1">{errors.business.message}</span>}
@@ -114,7 +114,7 @@ export default function Contact() {
             <label className="block text-sm font-semibold text-yellow-400 mb-2">Message</label>
             <textarea
               {...register('message', { required: 'Message is required' })}
-              className="w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/20 resize-none"
+              className="w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white focus:outline-none focus:border-yellow-400 focus:ring-2 focus:ring-yellow-400/20 resize-none"
               rows={5}
               placeholder="Tell us about your project..."
             />
@@ -125,7 +125,7 @@ export default function Contact() {
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
             type="submit"
-            className="w-full bg-yellow-400 text-black font-bold rounded-lg py-4 text-lg hover:bg-yellow-500 transition-colors"
+            className="w-full bg-yellow-400 text-black font-bold py-4 text-lg hover:bg-yellow-500 transition-colors"
           >
             {submitted ? '✓ Message Sent!' : 'Send Message'}
           </motion.button>
