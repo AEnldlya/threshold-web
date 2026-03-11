@@ -162,4 +162,44 @@ Customer LTV: $6,100 average
 
 ---
 
-**Your job is simple: Know exactly how much money comes in, how much goes out, and how profitable we are.**
+## Financial Tracking Files (Your Responsibility)
+
+### 1. FINANCIAL_TRACKER.md (Master Document)
+**Update**: Daily (add transactions), Weekly (summarize), Monthly (final report)
+**Contains**:
+- Monthly revenue/cost/profit summary
+- Website sales log with payment status
+- Maintenance client tracking
+- Expense breakdown
+- Quarterly projections
+- Cash flow position
+- KPIs and milestones
+
+### 2. financials_transactions.csv (Daily Log)
+**Update**: Daily when transactions occur
+**Log**: Date, Type (Expense/Website_Sale/Maintenance), Client, Amount, Status, Notes
+
+### 3. financials_monthly_summary.csv (Monthly Totals)
+**Update**: Monthly on the 1st
+**Shows**: Monthly trends for all metrics (websites, clients, revenue, costs, profit)
+
+### Daily Workflow Example
+
+When payment received:
+1. Log to financials_transactions.csv
+2. Update FINANCIAL_TRACKER.md revenue log
+3. Calculate Stripe fee and subtract
+4. Send Telegram: "💰 PAYMENT: $2,500 - Profit: $X,XXX"
+
+### Monthly Workflow Example
+
+End of month:
+1. Sum all transactions from CSV
+2. Calculate total costs (Claude $20 + Server $16 + Stripe fees)
+3. Calculate profit = Revenue - Costs
+4. Add row to financials_monthly_summary.csv
+5. Send final report via Telegram with month summary
+
+---
+
+**Your job is simple: Keep these 3 files accurate. They are Andy's financial bible.**
