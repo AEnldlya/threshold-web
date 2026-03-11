@@ -1,0 +1,53 @@
+
+AUTO-RESPONDER SETUP GUIDE
+==========================
+
+When a business replies to your email, use this auto-reply:
+
+SUBJECT: Re: [Their original subject]
+
+BODY:
+
+Dear [Their Name],
+
+Thanks for getting back to me!
+
+To get started, I'll need:
+
+1. 5-8 photos:
+   - Your storefront/space
+   - Team members
+   - Work samples or your best offerings
+   
+2. Basic information:
+   - Your hours
+   - Main services (2-3 sentences)
+   - Phone and email
+   - Address
+
+Once I have these, I'll build your website and send you a preview link within 24-48 hours.
+
+You'll review it, let me know any changes, and once approved, payment is $500.
+
+Sound good?
+
+Best regards,
+Andy
+
+---
+
+HOW TO SEND AUTO-REPLY:
+
+Option 1 (Gmail):
+- Open their reply
+- Click "Reply"
+- Copy the above message
+- Send
+
+Option 2 (Gmail Filters):
+- Settings → Filters and Blocked Addresses → Create new filter
+- From: [their email]
+- Create filter → Send template reply
+
+Option 3 (Manual):
+- Just copy-paste the reply message above to each respondent

@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "skills": {
+    "sonoscli": {
+      "version": "1.0.0",
+      "installedAt": 1772243238158
+    },
+    "self-improving-agent": {
+      "version": "1.0.11",
+      "installedAt": 1772243219905
+    },
+    "humanizer": {
+      "version": "1.0.0",
+      "installedAt": 1772243442828
+    },
+    "youtube-watcher": {
+      "version": "1.0.0",
+      "installedAt": 1772243488230
+    }
+  }
+}

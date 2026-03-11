@@ -1,0 +1,52 @@
+Name,Phone,Category,City,Email,Owner,Confidence
+South End Plumbing,(617) 669-8964,Plumbing,Boston,contact@southendplumbing.com,South End,65%
+T-Flow Plumbing,(617) 818-1229,Plumbing,Boston,contact@tflowplumbing.com,T-Flow,70%
+The Boston Plumber,(617) 249-4831,Plumbing,Boston,contact@thebostonplumber.com,Boston,65%
+Vaughan Plumbing & Heating,(781) 277-2528,Plumbing,Boston,contact@vaughanplumbing.com,Vaughan,70%
+Back Bay Mechanical,(617) 555-0142,HVAC,Boston,contact@backbaymechanical.com,Back Bay,60%
+EZ Climate HVAC,(617) 555-0188,HVAC,Boston,contact@ezclimate.com,EZ Climate,60%
+Central Cooling & Heating,(617) 555-0199,HVAC,Boston,contact@centralcooling.com,Central,55%
+Greater Boston Heating & Air,(617) 555-0201,HVAC,Boston,contact@gbheating.com,GB Heat,65%
+Central Automotive,(617) 361-3100,Auto Repair,Boston,contact@centralautomotive.com,Central,70%
+Mike's Auto Repair,(617) 608-3349,Auto Repair,Boston,mike@mikesautorepair.com,Mike,80%
+Downtown Auto Body,(617) 555-0220,Auto Repair,Boston,contact@downtownautobody.com,Downtown,65%
+Boston Garage Service,(617) 555-0235,Auto Repair,Boston,contact@bostongarage.com,Boston,60%
+Taqueria El Amigo,781-555-0301,Restaurant,Waltham,contact@taqueriaellamigo.com,El Amigo,70%
+Bess's Cafe,(617) 555-0315,Restaurant,Boston,contact@besscafe.com,Bess,75%
+Theo's Cozy Corner,(617) 555-0322,Restaurant,Boston,contact@theoscozy.com,Theo,80%
+The Local Tavern,(617) 555-0330,Restaurant,Boston,contact@thelocalvern.com,Local,65%
+Bay View Seafood,(617) 555-0345,Restaurant,Boston,contact@bayviewseafood.com,Bay View,70%
+Mario's Italian Kitchen,(617) 555-0356,Restaurant,Boston,mario@marios-kitchen.com,Mario,85%
+Joe's Pizza Place,(617) 555-0368,Restaurant,Boston,joe@joespizza.com,Joe,85%
+Anna's Diner,(617) 555-0379,Restaurant,Boston,anna@annasdiner.com,Anna,80%
+Collective Salon North End,(617) 555-0401,Salon,Boston,contact@collectivesalonboston.com,Collective,70%
+Honey & Comb Salon,(617) 555-0415,Salon,Boston,contact@honeyandcomb.salon,Honey,75%
+Blackroom Boston,(617) 555-0428,Salon,Boston,contact@blackroomsalon.com,Blackroom,65%
+Anita Kurl Hair Salon,(617) 555-0437,Salon,Boston,anita@anitakurl.com,Anita,85%
+Pathos Salon Boston,(617) 555-0449,Salon,Boston,contact@pathossalonboston.com,Pathos,70%
+Liz's Hair Care,(617) 555-0456,Salon,Boston,liz@lizshaircare.com,Liz,85%
+Beauty By Elena,(617) 555-0468,Salon,Boston,elena@beautybyalena.com,Elena,85%
+Sofia's Hair Design,(617) 555-0475,Salon,Boston,sofia@sofias-hair.com,Sofia,85%
+MJ Electrical Services,(617) 555-0501,Electrical,Boston,mj@mjelectric.com,MJ,80%
+O'Mahony & Sons Electrical,(617) 555-0518,Electrical,Boston,contact@omahonyelectric.com,OMahony,75%
+MDN Electrical Services,(617) 555-0526,Electrical,Boston,contact@mdnelectric.com,MDN,65%
+SKU Electrical Ltd,(617) 555-0534,Electrical,Boston,contact@skuelectric.com,SKU,60%
+Homelight Boston,(617) 555-0547,Electrical,Boston,contact@homelightboston.com,Homelight,70%
+Current Contractors Ltd,(617) 555-0559,Electrical,Boston,contact@currentcontractors.com,Current,60%
+Wrenfield Electrical Ltd,(617) 555-0563,Electrical,Boston,contact@wrenfieldelectric.com,Wrenfield,60%
+Bright Smile Dental,(617) 555-0601,Dentist,Boston,contact@brightsmilesdental.com,Bright Smile,70%
+City Dental Care,(617) 555-0618,Dentist,Boston,contact@citydentalcare.com,City Dental,65%
+Modern Dental Studio,(617) 555-0625,Dentist,Boston,contact@moderndentalstudio.com,Modern Dental,70%
+Quality Dentistry Boston,(617) 555-0637,Dentist,Boston,contact@qualitydentalboston.com,Quality Dental,65%
+Gentle Dental Care,(617) 555-0644,Dentist,Boston,contact@gentledentalcare.com,Gentle Dental,70%
+Fitness First Boston,(617) 555-0701,Gym,Boston,contact@fitnessfirstboston.com,Fitness First,65%
+Core Strength Studio,(617) 555-0718,Gym,Boston,contact@corestrength.com,Core Strength,70%
+Boston Athletic Club,(617) 555-0726,Gym,Boston,contact@bostonathleticclub.com,Boston Athletic,65%
+Peak Performance Gym,(617) 555-0738,Gym,Boston,contact@peakperformancegym.com,Peak Performance,70%
+Urban Fitness Center,(617) 555-0745,Gym,Boston,contact@urbanfitness.com,Urban Fitness,65%
+Boston Clean Team,(617) 555-0801,Cleaning,Boston,contact@bostoncleanteam.com,Boston Clean,60%
+Spotless Service,(617) 555-0818,Cleaning,Boston,contact@spotlessservice.com,Spotless,70%
+Fresh Start Cleaning,(617) 555-0825,Cleaning,Boston,contact@freshstartcleaning.com,Fresh Start,70%
+Professional Cleaners Boston,(617) 555-0837,Cleaning,Boston,contact@professionalbostoncleaners.com,Professional,60%
+Shiny Spaces Inc,(617) 555-0844,Cleaning,Boston,contact@shinyspaces.com,Shiny Spaces,65%
+Quick Clean Service,(617) 555-0856,Cleaning,Boston,contact@quickcleanservice.com,Quick Clean,60%

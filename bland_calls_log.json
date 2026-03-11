@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-03-02T16:37:54.478606",
+    "business": "McNally Plumbing & Heating",
+    "phone": "6173581200",
+    "status": "success",
+    "call_id": "83f990d4-bea2-4559-80c2-c2d780fabd52",
+    "response": {
+      "status": "success",
+      "message": "Call successfully queued.",
+      "call_id": "83f990d4-bea2-4559-80c2-c2d780fabd52",
+      "batch_id": null
+    }
+  }
+]
