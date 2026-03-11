@@ -120,6 +120,39 @@ Build and sell professional websites to local businesses without web presence.
 - **Days 8-9**: Staging deployment + client review + revisions
 - **Day 10**: Final QA + production launch + Google Business integration
 
+## 🆕 TEAM EXPANSION (March 11, 2026)
+
+**Two new persistent agents created to scale operations:**
+
+### Samantha (Website Builder)
+- **Role**: Build professional Next.js 14 websites
+- **Model**: anthropic/claude-haiku-4-5
+- **Briefing**: SAMANTHA_BRIEFING.md
+- **Tech Stack**: Next.js 14 + TypeScript + Tailwind CSS + Framer Motion
+- **Quality Standards**: Lighthouse 95+, WCAG AA, responsive, fast
+- **10-Day Workflow**: Discovery → Design → Development → Refinement → Deploy
+- **Pricing**: $2,500 per build + $100/month maintenance
+- **Session Key**: agent:main:subagent:c88f4560-b15c-4b1d-b9ce-afcfbab5f661
+
+### JEwed (Prospect Finder)
+- **Role**: Find phone numbers/emails of Boston businesses WITHOUT websites
+- **Model**: anthropic/claude-haiku-4-5
+- **Briefing**: JEWED_BRIEFING.md
+- **Verification**: 6-point checklist (Google search, GBP, Facebook, Instagram, direct domain, Yelp)
+- **Daily Target**: 15 verified prospects/day (7 AM ET reports)
+- **Data Quality**: 100% verification rate (zero false positives)
+- **Session Key**: agent:main:subagent:6a3081ea-aa89-4975-8d91-c452492a7368
+
+**Workflow**:
+1. JEwed finds prospects (7 AM daily batch) → phone numbers + emails
+2. Andy calls 15/day with sales script → collects YES responses
+3. Samantha builds sites → 10-day delivery → $2,500 close
+4. Repeat daily → 4-6 closes/week → $10K-15K/week revenue
+
+**Coordination**: All three agents (Ryan, Samantha, JEwed) work on same workspace with shared knowledge, documentation, and context.
+
+---
+
 ### Learning Sprint Completed (57K+ Words)
 ✅ Mastered professional web development through intensive learning:
 - **PROFESSIONAL_WEBDEV_LEARNING.md** (13.5K): Next.js 14, TypeScript, Tailwind CSS fundamentals
