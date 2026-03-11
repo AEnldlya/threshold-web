@@ -8,3 +8,5 @@ node_modules
 dist
 build
 out
+.gmail_credentials.json
+youtube_no_pkce.py
