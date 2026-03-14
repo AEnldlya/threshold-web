@@ -2158,11 +2158,14 @@ This is the master design brief for ALL future website builds. Ensures consisten
 - USE: Direct statements, benefits-focused, action-oriented
 - Example: "Professional plumbing services in Boston" NOT "We are passionate about providing the best plumbing services"
 
-**Animations**:
-- Subtle ONLY: fade-ins, smooth transitions (0.3s ease)
-- NO flashy effects, NO excessive motion
-- Purposeful: guide attention, not distract
-- Respect prefers-reduced-motion
+**Animations** (70+ Total):
+- **Button Effects**: Magnetic, liquid fill, neon glow, 3D flip, ripple, border draw, text scramble, scale bounce, gradient shift, arrow slide
+- **Card Effects**: 3D tilt, spotlight hover, border glow, image zoom, content reveal, glass morphism, shadow lift, rotate entrance, stagger fade, flip card
+- **Text Effects**: Typewriter, wave text, glitch effect, gradient text, underline draw, letter spacing, blur reveal, split text, count up, text mask
+- **Section Effects**: Parallax scroll, pin section, horizontal scroll, reveal up, clip path, blur fade, scale reveal, rotate in, slide overlap, morphing background
+- **Micro-interactions**: Skeleton screens, shimmer, progress bars, spinners, success checks, error shake, notifications, badge pulse, heart beat, save bookmark
+- **Advanced**: Particle burst, smoke effect, fireworks, confetti, cursor trail, distortion, RGB split, noise texture, scan lines, vignette pulse, lens flare, hologram, neon flicker, glitch transition, morphing SVG, draw SVG, liquid button, elastic, spring physics, inertia scroll
+- **Rules**: Subtle by default, purposeful motion, 60fps minimum, respect prefers-reduced-motion
 
 **Technical Standards**:
 - Responsive: mobile-first, breakpoints at 640px, 768px, 1024px
