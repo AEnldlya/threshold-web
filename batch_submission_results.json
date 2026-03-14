@@ -1,0 +1,26 @@
+[
+  {
+    "restaurant": "Mike & Patty's",
+    "status": "FORM_NOT_FOUND"
+  },
+  {
+    "restaurant": "Brunch House",
+    "status": "FORM_NOT_FOUND"
+  },
+  {
+    "restaurant": "Giacomo's Ristorante",
+    "status": "ERROR"
+  },
+  {
+    "restaurant": "Island Creek Oyster Bar",
+    "status": "FORM_NOT_FOUND"
+  },
+  {
+    "restaurant": "Neptune Oyster",
+    "status": "FORM_NOT_FOUND"
+  },
+  {
+    "restaurant": "Barking Crab",
+    "status": "FORM_NOT_FOUND"
+  }
+]

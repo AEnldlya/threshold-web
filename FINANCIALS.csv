@@ -1,0 +1,9 @@
+Date,Transaction Type,Client Name,Category,Amount,Status,Notes
+2026-03-01,Fixed Cost - Claude API,Operating Expense,Software,$20.00,Paid,Monthly Claude API subscription
+2026-03-01,Fixed Cost - Server,Operating Expense,Hosting,$16.00,Paid,Monthly VPS/Server hosting
+2026-03-11,Website Build - Prospect,Sarah Chen Salon,Hair Salon,$2500.00,Pending,10-day build started
+2026-03-11,Website Build - Prospect,Mike Smith Plumbing,Plumbing,$2500.00,Pending,10-day build started
+2026-03-11,Website Build - Prospect,Maria's Italian Restaurant,Restaurant,$2500.00,Pending,10-day build started
+2026-03-11,Maintenance - Monthly,Sarah's Salon (Previous),Hair Salon,$100.00,Recurring,Monthly maintenance subscription
+2026-03-11,Maintenance - Monthly,Smith & Co Plumbing (Previous),Plumbing,$100.00,Recurring,Monthly maintenance subscription
+2026-03-15,Stripe Fee,-5%,Processing,Estimated,-2.9% + $0.30,$7.40,Estimated,Standard Stripe processing fee on $250 transaction

@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Webcraft | Professional Website Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-bg: #fafafa;
+            --color-surface: #ffffff;
+            --color-text: #0f172a;
+            --color-text-muted: #64748b;
+            --color-accent: #3b82f6;
+            --color-accent-dark: #1d4ed8;
+            --color-border: #e2e8f0;
+            --font-display: 'Plus Jakarta Sans', sans-serif;
+            --font-body: 'DM Sans', sans-serif;
+            --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: var(--font-body);
+            background: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        nav {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            padding: 1.25rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--color-text);
+            letter-spacing: -0.02em;
+        }
+        .logo span { color: var(--color-accent); }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+        }
+        .nav-links a {
+            color: var(--color-text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: var(--transition-smooth);
+        }
+        .nav-links a:hover { color: var(--color-accent); }
+
+        .nav-cta {
+            padding: 0.75rem 1.5rem;
+            background: var(--color-accent);
+            color: white;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border-radius: 6px;
+            transition: var(--transition-smooth);
+        }
+        .nav-cta:hover {
+            background: var(--color-accent-dark);
+            transform: translateY(-2px);
+        }
+
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 8rem 5% 5rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -20%; right: -10%;
+            width: 60%; height: 80%;
+            background: radial-gradient(ellipse, rgba(59, 130, 246, 0.08) 0%, transparent 60%);
+            pointer-events: none;
+        }
+
+        .hero-container {
+            max-width: 1300px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5rem;
+            align-items: center;
+            width: 100%;
+        }
+
+        .hero-content { animation: fadeInUp 0.8s ease-out; }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: rgba(59, 130, 246, 0.1);
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--color-accent);
+            margin-bottom: 1.5rem;
+        }
+        .hero-badge::before {
+            content: '';
+            width: 8px; height: 8px;
+            background: var(--color-accent);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(2.8rem, 5vw, 4rem);
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            color: var(--color-text);
+            letter-spacing: -0.03em;
+        }
+        .hero-title em {
+            font-style: normal;
+            color: var(--color-accent);
+            position: relative;
+        }
+        .hero-title em::after {
+            content: '';
+            position: absolute;
+            bottom: 0; left: 0;
+            width: 100%; height: 8px;
+            background: rgba(59, 130, 246, 0.2);
+            z-index: -1;
+        }
+
+        .hero-description {
+            font-size: 1.15rem;
+            color: var(--color-text-muted);
+            max-width: 500px;
+            margin-bottom: 2.5rem;
+            line-height: 1.7;
+        }
+
+        .hero-buttons { display: flex; gap: 1rem; flex-wrap: wrap; }
+
+        .btn-primary {
+            padding: 1rem 2rem;
+            background: var(--color-accent);
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: var(--transition-smooth);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .btn-primary:hover {
+            background: var(--color-accent-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+        }
+
+        .btn-secondary {
+            padding: 1rem 2rem;
+            background: transparent;
+            color: var(--color-text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-radius: 8px;
+            border: 2px solid var(--color-border);
+            transition: var(--transition-smooth);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .btn-secondary:hover {
+            border-color: var(--color-accent);
+            color: var(--color-accent);
+        }
+
+        .hero-visual {
+            position: relative;
+            animation: fadeInRight 0.8s ease-out 0.2s both;
+        }
+        .hero-mockup {
+            background: var(--color-surface);
+            border-radius: 16px;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 1px solid var(--color-border);
+        }
+        .mockup-header {
+            padding: 1rem 1.5rem;
+            background: var(--color-bg);
+            border-bottom: 1px solid var(--color-border);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .mockup-dot {
+            width: 10px; height: 10px;
+            border-radius: 50%;
+        }
+        .mockup-dot.red { background: #ef4444; }
+        .mockup-dot.yellow { background: #f59e0b; }
+        .mockup-dot.green { background: #10b981; }
+        .mockup-content {
+            padding: 2rem;
+            min-height: 300px;
+        }
+        .mockup-website {
+            text-align: center;
+            padding: 3rem 2rem;
+        }
+        .mockup-logo {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--color-text);
+            margin-bottom: 1rem;
+        }
+        .mockup-headline {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--color-text);
+            margin-bottom: 0.75rem;
+        }
+        .mockup-subtext {
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+        .mockup-button {
+            display: inline-block;
+            padding: 0.75rem 1.5rem;
+            background: var(--color-accent);
+            color: white;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .stats-bar {
+            padding: 3rem 5%;
+            background: var(--color-surface);
+            border-top: 1px solid var(--color-border);
+            border-bottom: 1px solid var(--color-border);
+        }
+        .stats-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            text-align: center;
+        }
+        .stat-item h3 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--color-accent);
+            margin-bottom: 0.5rem;
+        }
+        .stat-item p {
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+            font-weight: 500;
+        }
+
+        .services { padding: 7rem 5%; background: var(--color-bg); }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .section-header {
+            text-align: center;
+            max-width: 650px;
+            margin: 0 auto 4rem;
+        }
+        .section-label {
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--color-accent);
+            margin-bottom: 1rem;
+        }
+        .section-title {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }
+        .section-subtitle {
+            color: var(--color-text-muted);
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+        .service-card {
+            background: var(--color-surface);
+            padding: 2.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--color-border);
+            transition: var(--transition-smooth);
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+            border-color: var(--color-accent);
+        }
+        .service-icon {
+            width: 60px; height: 60px;
+            background: rgba(59, 130, 246, 0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.75rem;
+            margin-bottom: 1.5rem;
+            transition: var(--transition-smooth);
+        }
+        .service-card:hover .service-icon {
+            background: var(--color-accent);
+            transform: scale(1.1);
+        }
+        .service-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: var(--color-text);
+        }
+        .service-card p {
+            color: var(--color-text-muted);
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        .process { padding: 7rem 5%; background: var(--color-surface); }
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .process-step {
+            text-align: center;
+            position: relative;
+        }
+        .process-step:not(:last-child)::after {
+            content: '→';
+            position: absolute;
+            top: 25px; right: -1.5rem;
+            color: var(--color-border);
+            font-size: 1.5rem;
+        }
+        .step-number {
+            width: 60px; height: 60px;
+            background: var(--color-accent);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin: 0 auto 1.5rem;
+        }
+        .process-step h3 {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .process-step p {
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+        }
+
+        .portfolio { padding: 7rem 5%; background: var(--color-bg); }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .portfolio-item {
+            background: var(--color-surface);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--color-border);
+            transition: var(--transition-smooth);
+        }
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+        }
+        .portfolio-image {
+            height: 220px;
+            background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .portfolio-info { padding: 1.5rem; }
+        .portfolio-tag {
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--color-accent);
+            margin-bottom: 0.5rem;
+        }
+        .portfolio-info h3 {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--color-text);
+        }
+
+        .pricing { padding: 7rem 5%; background: var(--color-surface); }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .pricing-card {
+            background: var(--color-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            border: 2px solid var(--color-border);
+            text-align: center;
+            transition: var(--transition-smooth);
+        }
+        .pricing-card.featured {
+            border-color: var(--color-accent);
+            background: var(--color-surface);
+            position: relative;
+        }
+        .pricing-card.featured::before {
+            content: 'Most Popular';
+            position: absolute;
+            top: -12px; left: 50%;
+            transform: translateX(-50%);
+            background: var(--color-accent);
+            color: white;
+            padding: 0.4rem 1rem;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+        .pricing-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.08);
+        }
+        .pricing-name {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        .pricing-desc {
+            color: var(--color-text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+        .pricing-price {
+            font-family: var(--font-display);
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--color-text);
+            margin-bottom: 0.25rem;
+        }
+        .pricing-price span {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--color-text-muted);
+        }
+        .pricing-features {
+            list-style: none;
+            margin: 2rem 0;
+            text-align: left;
+        }
+        .pricing-features li {
+            padding: 0.75rem 0;
+            border-bottom: 1px solid var(--color-border);
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .pricing-features li::before {
+            content: '✓';
+            color: var(--color-accent);
+            font-weight: 700;
+        }
+        .btn-pricing {
+            width: 100%;
+            padding: 1rem;
+            background: var(--color-accent);
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-radius: 8px;
+            display: inline-block;
+            transition: var(--transition-smooth);
+            border: none;
+            cursor: pointer;
+        }
+        .btn-pricing:hover { background: var(--color-accent-dark); }
+        .pricing-card.featured .btn-pricing { background: var(--color-text); }
+        .pricing-card.featured .btn-pricing:hover { background: var(--color-accent); }
+
+        .cta-section {
+            padding: 6rem 5%;
+            background: var(--color-text);
+            color: white;
+            text-align: center;
+        }
+        .cta-section h2 {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+        }
+        .cta-section p {
+            color: rgba(255,255,255,0.7);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn-cta {
+            padding: 1.1rem 2.5rem;
+            background: var(--color-accent);
+            color: white;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: 8px;
+            display: inline-block;
+            transition: var(--transition-smooth);
+        }
+        .btn-cta:hover {
+            background: #2563eb;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
+        }
+
+        footer {
+            padding: 3rem 5%;
+            background: #0f172a;
+            color: rgba(255,255,255,0.6);
+            text-align: center;
+        }
+        .footer-logo {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 0.75rem;
+        }
+        .footer-logo span { color: var(--color-accent); }
+        .footer-text { font-size: 0.9rem; }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes fadeInRight {
+            from { opacity: 0; transform: translateX(30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        @media (max-width: 968px) {
+            .hero-container { grid-template-columns: 1fr; text-align: center; }
+            .hero-description { margin-left: auto; margin-right: auto; }
+            .hero-buttons { justify-content: center; }
+            .hero-visual { order: -1; }
+            .stats-container { grid-template-columns: repeat(2, 1fr); }
+            .services-grid, .pricing-grid { grid-template-columns: 1fr; }
+            .process-grid { grid-template-columns: repeat(2, 1fr); }
+            .process-step:not(:last-child)::after { display: none; }
+            .portfolio-grid { grid-template-columns: 1fr; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Studio<span>Webcraft</span></div>
+        <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+        </ul>
+        <a href="#contact" class="nav-cta">Get Started</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">Available for Projects</span>
+                <h1 class="hero-title">Websites That <em>Convert</em> Visitors Into Customers</h1>
+                <p class="hero-description">Professional website design for local businesses. Clean code, fast loading, and built to drive results. No templates. No shortcuts.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">Start Your Project →</a>
+                    <a href="#work" class="btn-secondary">View Our Work</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-mockup">
+                    <div class="mockup-header">
+                        <div class="mockup-dot red"></div>
+                        <div class="mockup-dot yellow"></div>
+                        <div class="mockup-dot green"></div>
+                    </div>
+                    <div class="mockup-content">
+                        <div class="mockup-website">
+                            <div class="mockup-logo">Your Business</div>
+                            <div class="mockup-headline">Professional Service</div>
+                            <div class="mockup-subtext">Quality you can trust</div>
+                            <div class="mockup-button">Get Started</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-bar">
+        <div class="stats-container">
+            <div class="stat-item">
+                <h3>50+</h3>
+                <p>Websites Built</p>
+            </div>
+            <div class="stat-item">
+                <h3>100%</h3>
+                <p>Client Satisfaction</p>
+            </div>
+            <div class="stat-item">
+                <h3>10 Days</h3>
+                <p>Average Delivery</p>
+            </div>
+            <div class="stat-item">
+                <h3>95+</h3>
+                <p>Lighthouse Score</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">What We Do</p>
+                <h2 class="section-title">Services Built for Results</h2>
+                <p class="section-subtitle">Every website is crafted with purpose—designed to load fast, rank high, and convert visitors.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Custom Design</h3>
+                    <p>Unique designs tailored to your brand. No templates. No generic layouts. Your business deserves better.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Performance First</h3>
+                    <p>Lightning-fast load times and perfect Lighthouse scores. Speed impacts rankings and conversions.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Mobile Optimized</h3>
+                    <p>Every site looks and works flawlessly on phones, tablets, and desktops. Mobile traffic is essential.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">How It Works</p>
+                <h2 class="section-title">Simple Process, Great Results</h2>
+            </div>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Discovery</h3>
+                    <p>We learn about your business, goals, and audience.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Design</h3>
+                    <p>You approve the design before we build anything.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Development</h3>
+                    <p>Clean code, fast performance, rigorous testing.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Launch</h3>
+                    <p>We deploy, optimize, and hand over the keys.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="work">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Recent Work</p>
+                <h2 class="section-title">Websites We've Built</h2>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">☕</div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-tag">Coffee Shop</p>
+                        <h3>Artisan Coffee Co.</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">💇</div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-tag">Hair Salon</p>
+                        <h3>Studio Elle</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🔧</div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-tag">Plumbing Services</p>
+                        <h3>Metro Plumbing</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🏋️</div>
+                    <div class="portfolio-info">
+                        <p class="portfolio-tag">Fitness Studio</p>
+                        <h3>Core Fitness</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-label">Investment</p>
+                <h2 class="section-title">Transparent Pricing</h2>
+                <p class="section-subtitle">No hidden fees. No surprises. Just professional websites at fair prices.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-name">Starter</div>
+                    <p class="pricing-desc">Perfect for small businesses</p>
+                    <div class="pricing-price">$1,500<span>/one-time</span></div>
+                    <ul class="pricing-features">
+                        <li>5-page website</li>
+                        <li>Mobile responsive</li>
+                        <li>Contact form</li>
+                        <li>Basic SEO setup</li>
+                        <li>2 revision rounds</li>
+                    </ul>
+                    <a href="#contact" class="btn-pricing">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-name">Professional</div>
+                    <p class="pricing-desc">Most popular choice</p>
+                    <div class="pricing-price">$2,500<span>/one-time</span></div>
+                    <ul class="pricing-features">
+                        <li>10-page website</li>
+                        <li>Custom animations</li>
+                        <li>Advanced SEO</li>
+                        <li>Google Analytics</li>
+                        <li>5 revision rounds</li>
+                        <li>2 weeks support</li>
+                    </ul>
+                    <a href="#contact" class="btn-pricing">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-name">Enterprise</div>
+                    <p class="pricing-desc">For growing businesses</p>
+                    <div class="pricing-price">$4,000<span>/one-time</span></div>
+                    <ul class="pricing-features">
+                        <li>Unlimited pages</li>
+                        <li>E-commerce ready</li>
+                        <li>Custom features</li>
+                        <li>Priority support</li>
+                        <li>Unlimited revisions</li>
+                    </ul>
+                    <a href="#contact" class="btn-pricing">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+        <h2>Ready to Build Something Great?</h2>
+        <p>Let's discuss your project. No pressure, no obligation—just a conversation about what you need.</p>
+        <a href="mailto:hello@studiowebcraft.com" class="btn-cta">Get in Touch</a>
+    </section>
+
+    <footer>
+        <div class="footer-logo">Studio<span>Webcraft</span></div>
+        <p class="footer-text">© 2026 Studio Webcraft. All rights reserved.</p>
+    </footer>
+</body>
+</html>

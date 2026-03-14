@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Us - HapLink</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .donation-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+            margin: 48px 0;
+        }
+        
+        .donation-card {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.08) 0%, rgba(0, 212, 255, 0.02) 100%);
+            border: 1px solid #2A3142;
+            padding: 32px;
+            text-align: center;
+            transition: all 0.4s ease;
+            cursor: pointer;
+        }
+        
+        .donation-card:hover {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.15) 0%, rgba(0, 212, 255, 0.05) 100%);
+            border-color: #00D4FF;
+            transform: translateY(-8px);
+            box-shadow: 0 16px 40px rgba(0, 212, 255, 0.15);
+        }
+        
+        .donation-card h3 {
+            font-size: 36px;
+            color: #00D4FF;
+            font-weight: 700;
+            margin: 0 0 12px 0;
+            letter-spacing: 0.5px;
+        }
+        
+        .donation-card p {
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        
+        .donation-card .btn {
+            width: 100%;
+        }
+        
+        .impact-list {
+            background: linear-gradient(135deg, rgba(0, 212, 255, 0.08) 0%, rgba(0, 212, 255, 0.02) 100%);
+            border-left: 3px solid #00D4FF;
+            border: 1px solid #2A3142;
+            border-left: 3px solid #00D4FF;
+            padding: 32px;
+            margin: 40px 0;
+        }
+        
+        .impact-list h4 {
+            color: #00D4FF;
+            margin-top: 0;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .impact-list ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .impact-list li {
+            padding: 12px 0;
+            padding-left: 28px;
+            position: relative;
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        .impact-list li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #00D4FF;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">HapLink</div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="team.html" class="nav-link">Our Team</a></li>
+            <li><a href="robot.html" class="nav-link">Robot Design</a></li>
+            <li><a href="2023-fll.html" class="nav-link">2023 FLL</a></li>
+            <li><a href="2024-worlds.html" class="nav-link">2024 Worlds</a></li>
+            <li><a href="2024-highlights.html" class="nav-link">2024 Highlights</a></li>
+            <li><a href="2025.html" class="nav-link">2025</a></li>
+            <li><a href="donate.html" class="nav-link active donate-btn">Donate</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" style="background-image: url('https://haplink.net/wp-content/uploads/2024/01/IMG_5890-edited.jpg');">
+    <div class="hero-overlay"></div>
+    <div class="hero-content slide-in-left">
+        <h1>Support Our Mission</h1>
+        <p>Help Team 26532 Excel</p>
+        <p class="subtitle">Your support enables innovation and excellence</p>
+    </div>
+</section>
+
+<!-- Content Section -->
+<section class="container section-padding">
+    <h2 class="section-title fade-in">Why Support HapLink?</h2>
+    
+    <div class="about-grid">
+        <div class="about-card slide-in-left">
+            <h3>Innovation in Action</h3>
+            <p>Your donation directly supports our development of cutting-edge haptic technology. HapLink represents the future of immersive entertainment and accessibility.</p>
+        </div>
+        
+        <div class="about-card slide-in-right">
+            <h3>Education & Development</h3>
+            <p>We invest in STEM education, mentoring young engineers, and fostering the next generation of roboticists and innovators in our community.</p>
+        </div>
+        
+        <div class="about-card slide-in-left">
+            <h3>Competition Excellence</h3>
+            <p>Robotics competitions require significant resources for equipment, travel, and technical development. Your support helps us compete at the highest levels.</p>
+        </div>
+    </div>
+
+    <h2 class="section-title fade-in" style="margin-top: 60px;">Make Your Impact</h2>
+    
+    <div class="donation-grid">
+        <div class="donation-card scale-in">
+            <h3>$25</h3>
+            <p>Parts & Components</p>
+            <p style="font-size: 13px; color: #666;">Funds essential motor and sensor components</p>
+            <button class="btn btn-primary" onclick="alert('Donation link would be here')">Donate</button>
+        </div>
+        
+        <div class="donation-card scale-in">
+            <h3>$50</h3>
+            <p>Travel Support</p>
+            <p style="font-size: 13px; color: #666;">Contributes to team travel for competitions</p>
+            <button class="btn btn-primary" onclick="alert('Donation link would be here')">Donate</button>
+        </div>
+        
+        <div class="donation-card scale-in">
+            <h3>$100</h3>
+            <p>Equipment & Tools</p>
+            <p style="font-size: 13px; color: #666;">Supports robotics lab equipment and tools</p>
+            <button class="btn btn-primary" onclick="alert('Donation link would be here')">Donate</button>
+        </div>
+        
+        <div class="donation-card scale-in">
+            <h3>$250</h3>
+            <p>Innovation Fund</p>
+            <p style="font-size: 13px; color: #666;">Direct support for HapLink innovation project</p>
+            <button class="btn btn-primary" onclick="alert('Donation link would be here')">Donate</button>
+        </div>
+        
+        <div class="donation-card scale-in">
+            <h3>$500</h3>
+            <p>Championship Prep</p>
+            <p style="font-size: 13px; color: #666;">Funds our path to regional and world championships</p>
+            <button class="btn btn-primary" onclick="alert('Donation link would be here')">Donate</button>
+        </div>
+        
+        <div class="donation-card scale-in">
+            <h3>Custom</h3>
+            <p>Your Amount</p>
+            <p style="font-size: 13px; color: #666;">Support us with any amount that fits your budget</p>
+            <button class="btn btn-primary" onclick="alert('Donation link would be here')">Donate</button>
+        </div>
+    </div>
+
+    <h2 class="section-title fade-in" style="margin-top: 60px;">Where Your Money Goes</h2>
+    
+    <div class="impact-list">
+        <h4>Robot Development & Maintenance</h4>
+        <ul>
+            <li>Motors, sensors, and mechanical components</li>
+            <li>Control systems and electronics</li>
+            <li>Testing and competition prep</li>
+        </ul>
+    </div>
+    
+    <div class="impact-list">
+        <h4>HapLink Innovation Project</h4>
+        <ul>
+            <li>Haptic sensor development</li>
+            <li>Wearable technology research</li>
+            <li>Software and algorithm development</li>
+        </ul>
+    </div>
+    
+    <div class="impact-list">
+        <h4>Team & Community</h4>
+        <ul>
+            <li>Travel to regional and world championships</li>
+            <li>STEM outreach and education programs</li>
+            <li>Team development and mentorship</li>
+        </ul>
+    </div>
+
+    <div class="value-prop fade-in" style="margin-top: 60px;">
+        <h3>Join Our Supporters</h3>
+        <p>Every donation, no matter the size, helps us push the boundaries of what's possible in robotics and haptic technology. Your support isn't just about funding a team—it's about investing in innovation, education, and the future leaders of technology. Thank you for believing in our mission.</p>
+    </div>
+
+    <div style="text-align: center; margin-top: 50px;">
+        <h3>Questions about donations?</h3>
+        <p style="color: #999; margin-bottom: 20px;">Contact us at team26532@haplink.robotics or through our social media channels</p>
+        <a href="index.html" class="btn btn-secondary">Back to Home</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; 2026 Happy Haptic Doctors - Team 26532. All rights reserved.</p>
+        <p>First Tech Challenge Robotics</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

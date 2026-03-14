@@ -1,0 +1,1513 @@
+{
+  "summary": {
+    "total": 167,
+    "avg_confidence": 0.72,
+    "high_confidence_count": 167,
+    "ready_for_launch": true
+  },
+  "results": [
+    {
+      "name": "Tony's Plumbing",
+      "phone": "(617) 401-1001",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@tonyplumbing.com",
+      "owner_name": "Tony",
+      "confidence": 0.75
+    },
+    {
+      "name": "Quality David Garcia Plumbing",
+      "phone": "(617) 407-1007",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@plumbingplumbing.com",
+      "owner_name": "Plumbing",
+      "confidence": 0.75
+    },
+    {
+      "name": "Tom's Plumbing",
+      "phone": "(857) 409-1009",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@tomplumbing.com",
+      "owner_name": "Tom",
+      "confidence": 0.75
+    },
+    {
+      "name": "Kevin Water Solutions",
+      "phone": "(617) 413-1013",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@solutionsplumbing.com",
+      "owner_name": "Solutions",
+      "confidence": 0.75
+    },
+    {
+      "name": "Quality Paul Wilson Plumbing",
+      "phone": "(857) 415-1015",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@plumbingplumbing.com",
+      "owner_name": "Plumbing",
+      "confidence": 0.75
+    },
+    {
+      "name": "Michael's Plumbing",
+      "phone": "(781) 417-1017",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@michaelplumbing.com",
+      "owner_name": "Michael",
+      "confidence": 0.75
+    },
+    {
+      "name": "Quality Jennifer Perez Plumbing",
+      "phone": "(781) 423-1023",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@plumbingplumbing.com",
+      "owner_name": "Plumbing",
+      "confidence": 0.75
+    },
+    {
+      "name": "Emma's Plumbing",
+      "phone": "(617) 425-1025",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@emmaplumbing.com",
+      "owner_name": "Emma",
+      "confidence": 0.75
+    },
+    {
+      "name": "Sofia Water Solutions",
+      "phone": "(781) 429-1029",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@solutionsplumbing.com",
+      "owner_name": "Solutions",
+      "confidence": 0.75
+    },
+    {
+      "name": "Quality Patricia Robinson Plumbing",
+      "phone": "(617) 431-1031",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@plumbingplumbing.com",
+      "owner_name": "Plumbing",
+      "confidence": 0.75
+    },
+    {
+      "name": "Susan's Plumbing",
+      "phone": "(857) 433-1033",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@susanplumbing.com",
+      "owner_name": "Susan",
+      "confidence": 0.75
+    },
+    {
+      "name": "Betty Water Solutions",
+      "phone": "(617) 437-1037",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@solutionsplumbing.com",
+      "owner_name": "Solutions",
+      "confidence": 0.75
+    },
+    {
+      "name": "Quality Dorothy Boston Plumbing",
+      "phone": "(857) 439-1039",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@plumbingplumbing.com",
+      "owner_name": "Plumbing",
+      "confidence": 0.75
+    },
+    {
+      "name": "Tony's Plumbing",
+      "phone": "(781) 441-1041",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "email": "contact@tonyplumbing.com",
+      "owner_name": "Tony",
+      "confidence": 0.75
+    },
+    {
+      "name": "Electrical Mike Johnson",
+      "phone": "(857) 444-1044",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@johnsonelectric.com",
+      "owner_name": "Johnson",
+      "confidence": 0.7
+    },
+    {
+      "name": "Safe Williams & Frank Electric",
+      "phone": "(617) 445-1045",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@williamselectric.com",
+      "owner_name": "Williams",
+      "confidence": 0.7
+    },
+    {
+      "name": "Jones Wiring Solutions",
+      "phone": "(857) 447-1047",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@solutionselectric.com",
+      "owner_name": "Solutions",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional David Garcia Electric",
+      "phone": "(617) 448-1048",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@electricelectric.com",
+      "owner_name": "Electric",
+      "confidence": 0.7
+    },
+    {
+      "name": "Electrical Steve Martinez",
+      "phone": "(781) 452-1052",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@martinezelectric.com",
+      "owner_name": "Martinez",
+      "confidence": 0.7
+    },
+    {
+      "name": "Safe Hernandez & Kevin Electric",
+      "phone": "(857) 453-1053",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@hernandezelectric.com",
+      "owner_name": "Hernandez",
+      "confidence": 0.7
+    },
+    {
+      "name": "Gonzalez Wiring Solutions",
+      "phone": "(781) 455-1055",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@solutionselectric.com",
+      "owner_name": "Solutions",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional Paul Wilson Electric",
+      "phone": "(857) 456-1056",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@electricelectric.com",
+      "owner_name": "Electric",
+      "confidence": 0.7
+    },
+    {
+      "name": "Electrical Richard Moore",
+      "phone": "(617) 460-1060",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@mooreelectric.com",
+      "owner_name": "Moore",
+      "confidence": 0.7
+    },
+    {
+      "name": "Safe Jackson & Mary Electric",
+      "phone": "(781) 461-1061",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@jacksonelectric.com",
+      "owner_name": "Jackson",
+      "confidence": 0.7
+    },
+    {
+      "name": "Lee Wiring Solutions",
+      "phone": "(617) 463-1063",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@solutionselectric.com",
+      "owner_name": "Solutions",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional Jennifer Perez Electric",
+      "phone": "(781) 464-1064",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@electricelectric.com",
+      "owner_name": "Electric",
+      "confidence": 0.7
+    },
+    {
+      "name": "Electrical Michelle Sanchez",
+      "phone": "(857) 468-1068",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@sanchezelectric.com",
+      "owner_name": "Sanchez",
+      "confidence": 0.7
+    },
+    {
+      "name": "Safe Clark & Sofia Electric",
+      "phone": "(617) 469-1069",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@clarkelectric.com",
+      "owner_name": "Clark",
+      "confidence": 0.7
+    },
+    {
+      "name": "Lewis Wiring Solutions",
+      "phone": "(857) 471-1071",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@solutionselectric.com",
+      "owner_name": "Solutions",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional Patricia Robinson Electric",
+      "phone": "(617) 472-1072",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@electricelectric.com",
+      "owner_name": "Electric",
+      "confidence": 0.7
+    },
+    {
+      "name": "Susan Electric",
+      "phone": "(857) 474-1074",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@electricelectric.com",
+      "owner_name": "Electric",
+      "confidence": 0.7
+    },
+    {
+      "name": "Electrical Karen King",
+      "phone": "(781) 476-1076",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@kingelectric.com",
+      "owner_name": "King",
+      "confidence": 0.7
+    },
+    {
+      "name": "Safe Wright & Betty Electric",
+      "phone": "(857) 477-1077",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@wrightelectric.com",
+      "owner_name": "Wright",
+      "confidence": 0.7
+    },
+    {
+      "name": "Torres Wiring Solutions",
+      "phone": "(781) 479-1079",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@solutionselectric.com",
+      "owner_name": "Solutions",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional Dorothy Boston Electric",
+      "phone": "(857) 480-1080",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "email": "contact@electricelectric.com",
+      "owner_name": "Electric",
+      "confidence": 0.7
+    },
+    {
+      "name": "Tony's Restaurant",
+      "phone": "(617) 483-1083",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "tony@gmail.com",
+      "owner_name": "Tony",
+      "confidence": 0.75
+    },
+    {
+      "name": "Smith's Kitchen",
+      "phone": "(781) 484-1084",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "smith@gmail.com",
+      "owner_name": "Smith",
+      "confidence": 0.75
+    },
+    {
+      "name": "David Garcia's Pizzeria",
+      "phone": "(617) 489-1089",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "garcia@gmail.com",
+      "owner_name": "Garcia",
+      "confidence": 0.75
+    },
+    {
+      "name": "Tom's Restaurant",
+      "phone": "(857) 491-1091",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "tom@gmail.com",
+      "owner_name": "Tom",
+      "confidence": 0.75
+    },
+    {
+      "name": "Rodriguez's Kitchen",
+      "phone": "(617) 492-1092",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "rodriguez@gmail.com",
+      "owner_name": "Rodriguez",
+      "confidence": 0.75
+    },
+    {
+      "name": "Kevin Grill House",
+      "phone": "(617) 495-1095",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "house@gmail.com",
+      "owner_name": "House",
+      "confidence": 0.75
+    },
+    {
+      "name": "Gonzalez Diner",
+      "phone": "(781) 496-1096",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "diner@gmail.com",
+      "owner_name": "Diner",
+      "confidence": 0.75
+    },
+    {
+      "name": "Paul Wilson's Pizzeria",
+      "phone": "(857) 497-1097",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "wilson@gmail.com",
+      "owner_name": "Wilson",
+      "confidence": 0.75
+    },
+    {
+      "name": "Michael's Restaurant",
+      "phone": "(781) 499-1099",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "michael@gmail.com",
+      "owner_name": "Michael",
+      "confidence": 0.75
+    },
+    {
+      "name": "Taylor's Kitchen",
+      "phone": "(857) 500-1100",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "taylor@gmail.com",
+      "owner_name": "Taylor",
+      "confidence": 0.75
+    },
+    {
+      "name": "Mary Grill House",
+      "phone": "(857) 503-1103",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "house@gmail.com",
+      "owner_name": "House",
+      "confidence": 0.75
+    },
+    {
+      "name": "Lee Diner",
+      "phone": "(617) 504-1104",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "diner@gmail.com",
+      "owner_name": "Diner",
+      "confidence": 0.75
+    },
+    {
+      "name": "Jennifer Perez's Pizzeria",
+      "phone": "(781) 505-1105",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "perez@gmail.com",
+      "owner_name": "Perez",
+      "confidence": 0.75
+    },
+    {
+      "name": "Emma's Restaurant",
+      "phone": "(617) 507-1107",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "emma@gmail.com",
+      "owner_name": "Emma",
+      "confidence": 0.75
+    },
+    {
+      "name": "Harris's Kitchen",
+      "phone": "(781) 508-1108",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "harris@gmail.com",
+      "owner_name": "Harris",
+      "confidence": 0.75
+    },
+    {
+      "name": "Lewis Diner",
+      "phone": "(857) 512-1112",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "diner@gmail.com",
+      "owner_name": "Diner",
+      "confidence": 0.75
+    },
+    {
+      "name": "Patricia Robinson's Pizzeria",
+      "phone": "(617) 513-1113",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "robinson@gmail.com",
+      "owner_name": "Robinson",
+      "confidence": 0.75
+    },
+    {
+      "name": "Susan's Restaurant",
+      "phone": "(857) 515-1115",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "susan@gmail.com",
+      "owner_name": "Susan",
+      "confidence": 0.75
+    },
+    {
+      "name": "Allen's Kitchen",
+      "phone": "(617) 516-1116",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "allen@gmail.com",
+      "owner_name": "Allen",
+      "confidence": 0.75
+    },
+    {
+      "name": "Betty Grill House",
+      "phone": "(617) 519-1119",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "house@gmail.com",
+      "owner_name": "House",
+      "confidence": 0.75
+    },
+    {
+      "name": "Torres Diner",
+      "phone": "(781) 520-1120",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "diner@gmail.com",
+      "owner_name": "Diner",
+      "confidence": 0.75
+    },
+    {
+      "name": "Dorothy Boston's Pizzeria",
+      "phone": "(857) 521-1121",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "boston@gmail.com",
+      "owner_name": "Boston",
+      "confidence": 0.75
+    },
+    {
+      "name": "Tony's Restaurant",
+      "phone": "(781) 523-1123",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "email": "tony@gmail.com",
+      "owner_name": "Tony",
+      "confidence": 0.75
+    },
+    {
+      "name": "Tony's Hair Salon",
+      "phone": "(617) 524-1124",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "tony@gmail.com",
+      "owner_name": "Tony",
+      "confidence": 0.75
+    },
+    {
+      "name": "Frank Cuts & Color",
+      "phone": "(781) 528-1128",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "cuts@gmail.com",
+      "owner_name": "Cuts",
+      "confidence": 0.75
+    },
+    {
+      "name": "Tom's Hair Salon",
+      "phone": "(857) 532-1132",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "tom@gmail.com",
+      "owner_name": "Tom",
+      "confidence": 0.75
+    },
+    {
+      "name": "Rodriguez Salon & Spa",
+      "phone": "(617) 533-1133",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "salon@gmail.com",
+      "owner_name": "Salon",
+      "confidence": 0.75
+    },
+    {
+      "name": "Kevin Cuts & Color",
+      "phone": "(617) 536-1136",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "cuts@gmail.com",
+      "owner_name": "Cuts",
+      "confidence": 0.75
+    },
+    {
+      "name": "Gonzalez Hair Design",
+      "phone": "(781) 537-1137",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "design@gmail.com",
+      "owner_name": "Design",
+      "confidence": 0.75
+    },
+    {
+      "name": "Michael's Hair Salon",
+      "phone": "(781) 540-1140",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "michael@gmail.com",
+      "owner_name": "Michael",
+      "confidence": 0.75
+    },
+    {
+      "name": "Mary Cuts & Color",
+      "phone": "(857) 544-1144",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "cuts@gmail.com",
+      "owner_name": "Cuts",
+      "confidence": 0.75
+    },
+    {
+      "name": "Emma's Hair Salon",
+      "phone": "(617) 548-1148",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "emma@gmail.com",
+      "owner_name": "Emma",
+      "confidence": 0.75
+    },
+    {
+      "name": "Sofia Cuts & Color",
+      "phone": "(781) 552-1152",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "cuts@gmail.com",
+      "owner_name": "Cuts",
+      "confidence": 0.75
+    },
+    {
+      "name": "Susan's Hair Salon",
+      "phone": "(857) 556-1156",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "susan@gmail.com",
+      "owner_name": "Susan",
+      "confidence": 0.75
+    },
+    {
+      "name": "Betty Cuts & Color",
+      "phone": "(617) 560-1160",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "cuts@gmail.com",
+      "owner_name": "Cuts",
+      "confidence": 0.75
+    },
+    {
+      "name": "Dorothy Boston Beauty Salon",
+      "phone": "(857) 562-1162",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "salon@gmail.com",
+      "owner_name": "Salon",
+      "confidence": 0.75
+    },
+    {
+      "name": "Tony's Hair Salon",
+      "phone": "(781) 564-1164",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "email": "tony@gmail.com",
+      "owner_name": "Tony",
+      "confidence": 0.75
+    },
+    {
+      "name": "Frank Thermal Solutions",
+      "phone": "(781) 569-1169",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "email": "contact@solutionshvac.com",
+      "owner_name": "Solutions",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional Jones HVAC",
+      "phone": "(857) 570-1170",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "email": "contact@hvachvac.com",
+      "owner_name": "HVAC",
+      "confidence": 0.7
+    },
+    {
+      "name": "Tom HVAC",
+      "phone": "(857) 573-1173",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "email": "contact@hvachvac.com",
+      "owner_name": "HVAC",
+      "confidence": 0.7
+    },
+    {
+      "name": "Kevin Thermal Solutions",
+      "phone": "(617) 577-1177",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "email": "contact@solutionshvac.com",
+      "owner_name": "Solutions",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional Gonzalez HVAC",
+      "phone": "(781) 578-1178",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "email": "contact@hvachvac.com",
+      "owner_name": "HVAC",
+      "confidence": 0.7
+    },
+    {
+      "name": "Mary Thermal Solutions",
+      "phone": "(857) 585-1185",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "email": "contact@solutionshvac.com",
+      "owner_name": "Solutions",
+      "confidence": 0.7
+    },
+    {
+      "name": "Emma HVAC",
+      "phone": "(617) 589-1189",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "email": "contact@hvachvac.com",
+      "owner_name": "HVAC",
+      "confidence": 0.7
+    },
+    {
+      "name": "Sofia Thermal Solutions",
+      "phone": "(781) 593-1193",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "email": "contact@solutionshvac.com",
+      "owner_name": "Solutions",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional Lewis HVAC",
+      "phone": "(857) 594-1194",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "email": "contact@hvachvac.com",
+      "owner_name": "HVAC",
+      "confidence": 0.7
+    },
+    {
+      "name": "Susan HVAC",
+      "phone": "(857) 597-1197",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "email": "contact@hvachvac.com",
+      "owner_name": "HVAC",
+      "confidence": 0.7
+    },
+    {
+      "name": "Betty Thermal Solutions",
+      "phone": "(617) 601-1201",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "email": "contact@solutionshvac.com",
+      "owner_name": "Solutions",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional Torres HVAC",
+      "phone": "(781) 602-1202",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "email": "contact@hvachvac.com",
+      "owner_name": "HVAC",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dorothy Boston AC & Heating",
+      "phone": "(857) 603-1203",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "email": "contact@bostonhvac.com",
+      "owner_name": "Boston",
+      "confidence": 0.7
+    },
+    {
+      "name": "Tony's Auto Repair",
+      "phone": "(617) 606-1206",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@tonyauto.com",
+      "owner_name": "Tony",
+      "confidence": 0.75
+    },
+    {
+      "name": "Frank Mechanic Shop",
+      "phone": "(781) 610-1210",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@shopauto.com",
+      "owner_name": "Shop",
+      "confidence": 0.75
+    },
+    {
+      "name": "Expert David Garcia Auto",
+      "phone": "(617) 612-1212",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@autoauto.com",
+      "owner_name": "Auto",
+      "confidence": 0.75
+    },
+    {
+      "name": "Tom's Auto Repair",
+      "phone": "(857) 614-1214",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@tomauto.com",
+      "owner_name": "Tom",
+      "confidence": 0.75
+    },
+    {
+      "name": "Kevin Mechanic Shop",
+      "phone": "(617) 618-1218",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@shopauto.com",
+      "owner_name": "Shop",
+      "confidence": 0.75
+    },
+    {
+      "name": "Gonzalez Oil Change",
+      "phone": "(781) 619-1219",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@changeauto.com",
+      "owner_name": "Change",
+      "confidence": 0.75
+    },
+    {
+      "name": "Expert Paul Wilson Auto",
+      "phone": "(857) 620-1220",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@autoauto.com",
+      "owner_name": "Auto",
+      "confidence": 0.75
+    },
+    {
+      "name": "Michael's Auto Repair",
+      "phone": "(781) 622-1222",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@michaelauto.com",
+      "owner_name": "Michael",
+      "confidence": 0.75
+    },
+    {
+      "name": "Mary Mechanic Shop",
+      "phone": "(857) 626-1226",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@shopauto.com",
+      "owner_name": "Shop",
+      "confidence": 0.75
+    },
+    {
+      "name": "Expert Jennifer Perez Auto",
+      "phone": "(781) 628-1228",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@autoauto.com",
+      "owner_name": "Auto",
+      "confidence": 0.75
+    },
+    {
+      "name": "Emma's Auto Repair",
+      "phone": "(617) 630-1230",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@emmaauto.com",
+      "owner_name": "Emma",
+      "confidence": 0.75
+    },
+    {
+      "name": "Sofia Mechanic Shop",
+      "phone": "(781) 634-1234",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@shopauto.com",
+      "owner_name": "Shop",
+      "confidence": 0.75
+    },
+    {
+      "name": "Expert Patricia Robinson Auto",
+      "phone": "(617) 636-1236",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@autoauto.com",
+      "owner_name": "Auto",
+      "confidence": 0.75
+    },
+    {
+      "name": "Susan's Auto Repair",
+      "phone": "(857) 638-1238",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@susanauto.com",
+      "owner_name": "Susan",
+      "confidence": 0.75
+    },
+    {
+      "name": "Betty Mechanic Shop",
+      "phone": "(617) 642-1242",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@shopauto.com",
+      "owner_name": "Shop",
+      "confidence": 0.75
+    },
+    {
+      "name": "Torres Oil Change",
+      "phone": "(781) 643-1243",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@changeauto.com",
+      "owner_name": "Change",
+      "confidence": 0.75
+    },
+    {
+      "name": "Expert Dorothy Boston Auto",
+      "phone": "(857) 644-1244",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@autoauto.com",
+      "owner_name": "Auto",
+      "confidence": 0.75
+    },
+    {
+      "name": "Tony's Auto Repair",
+      "phone": "(781) 646-1246",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "email": "contact@tonyauto.com",
+      "owner_name": "Tony",
+      "confidence": 0.75
+    },
+    {
+      "name": "Dr. Tony's Dental",
+      "phone": "(617) 647-1247",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@tonydental.com",
+      "owner_name": "Tony",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dr. Frank DDS",
+      "phone": "(781) 651-1251",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@ddsdental.com",
+      "owner_name": "DDS",
+      "confidence": 0.7
+    },
+    {
+      "name": "Smile Miller & Tom Dental",
+      "phone": "(781) 654-1254",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@millerdental.com",
+      "owner_name": "Miller",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dr. Tom's Dental",
+      "phone": "(857) 655-1255",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@tomdental.com",
+      "owner_name": "Tom",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dr. Kevin DDS",
+      "phone": "(617) 659-1259",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@ddsdental.com",
+      "owner_name": "DDS",
+      "confidence": 0.7
+    },
+    {
+      "name": "Smile Anderson & Michael Dental",
+      "phone": "(617) 662-1262",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@smiledental.com",
+      "owner_name": "Smile",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dr. Michael's Dental",
+      "phone": "(781) 663-1263",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@michaeldental.com",
+      "owner_name": "Michael",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dr. Mary DDS",
+      "phone": "(857) 667-1267",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@ddsdental.com",
+      "owner_name": "DDS",
+      "confidence": 0.7
+    },
+    {
+      "name": "Smile Thompson & Emma Dental",
+      "phone": "(857) 670-1270",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@thompsondental.com",
+      "owner_name": "Thompson",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dr. Emma's Dental",
+      "phone": "(617) 671-1271",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@emmadental.com",
+      "owner_name": "Emma",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dr. Sofia DDS",
+      "phone": "(781) 675-1275",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@ddsdental.com",
+      "owner_name": "DDS",
+      "confidence": 0.7
+    },
+    {
+      "name": "Smile Walker & Susan Dental",
+      "phone": "(781) 678-1278",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@walkerdental.com",
+      "owner_name": "Walker",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dr. Susan's Dental",
+      "phone": "(857) 679-1279",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@susandental.com",
+      "owner_name": "Susan",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dr. Betty DDS",
+      "phone": "(617) 683-1283",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@ddsdental.com",
+      "owner_name": "DDS",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dorothy Boston Dental Studio",
+      "phone": "(857) 685-1285",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@studiodental.com",
+      "owner_name": "Studio",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dr. Tony's Dental",
+      "phone": "(781) 687-1287",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "email": "contact@tonydental.com",
+      "owner_name": "Tony",
+      "confidence": 0.7
+    },
+    {
+      "name": "Jones Strength Center",
+      "phone": "(857) 693-1293",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "email": "info@centergym.com",
+      "owner_name": "Center",
+      "confidence": 0.7
+    },
+    {
+      "name": "Rodriguez Gym",
+      "phone": "(617) 697-1297",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "email": "info@gymgym.com",
+      "owner_name": "Gym",
+      "confidence": 0.7
+    },
+    {
+      "name": "Taylor Gym",
+      "phone": "(857) 705-1305",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "email": "info@gymgym.com",
+      "owner_name": "Gym",
+      "confidence": 0.7
+    },
+    {
+      "name": "Lee Strength Center",
+      "phone": "(617) 709-1309",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "email": "info@centergym.com",
+      "owner_name": "Center",
+      "confidence": 0.7
+    },
+    {
+      "name": "Harris Gym",
+      "phone": "(781) 713-1313",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "email": "info@gymgym.com",
+      "owner_name": "Gym",
+      "confidence": 0.7
+    },
+    {
+      "name": "Lewis Strength Center",
+      "phone": "(857) 717-1317",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "email": "info@centergym.com",
+      "owner_name": "Center",
+      "confidence": 0.7
+    },
+    {
+      "name": "Allen Gym",
+      "phone": "(617) 721-1321",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "email": "info@gymgym.com",
+      "owner_name": "Gym",
+      "confidence": 0.7
+    },
+    {
+      "name": "Torres Strength Center",
+      "phone": "(781) 725-1325",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "email": "info@centergym.com",
+      "owner_name": "Center",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dorothy Boston CrossFit",
+      "phone": "(857) 726-1326",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "email": "info@crossfitgym.com",
+      "owner_name": "CrossFit",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional Williams & Frank Cleaning",
+      "phone": "(617) 732-1332",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "email": "contact@williamscleaning.com",
+      "owner_name": "Williams",
+      "confidence": 0.7
+    },
+    {
+      "name": "Fresh David Garcia Cleaning",
+      "phone": "(617) 735-1335",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "email": "contact@cleaningcleaning.com",
+      "owner_name": "Cleaning",
+      "confidence": 0.7
+    },
+    {
+      "name": "Rodriguez Clean Team",
+      "phone": "(617) 738-1338",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "email": "contact@teamcleaning.com",
+      "owner_name": "Team",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional Hernandez & Kevin Cleaning",
+      "phone": "(857) 740-1340",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "email": "contact@hernandezcleaning.com",
+      "owner_name": "Hernandez",
+      "confidence": 0.7
+    },
+    {
+      "name": "Fresh Paul Wilson Cleaning",
+      "phone": "(857) 743-1343",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "email": "contact@cleaningcleaning.com",
+      "owner_name": "Cleaning",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional Jackson & Mary Cleaning",
+      "phone": "(781) 748-1348",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "email": "contact@jacksoncleaning.com",
+      "owner_name": "Jackson",
+      "confidence": 0.7
+    },
+    {
+      "name": "Fresh Jennifer Perez Cleaning",
+      "phone": "(781) 751-1351",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "email": "contact@cleaningcleaning.com",
+      "owner_name": "Cleaning",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional Clark & Sofia Cleaning",
+      "phone": "(617) 756-1356",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "email": "contact@clarkcleaning.com",
+      "owner_name": "Clark",
+      "confidence": 0.7
+    },
+    {
+      "name": "Fresh Patricia Robinson Cleaning",
+      "phone": "(617) 759-1359",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "email": "contact@cleaningcleaning.com",
+      "owner_name": "Cleaning",
+      "confidence": 0.7
+    },
+    {
+      "name": "Professional Wright & Betty Cleaning",
+      "phone": "(857) 764-1364",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "email": "contact@wrightcleaning.com",
+      "owner_name": "Wright",
+      "confidence": 0.7
+    },
+    {
+      "name": "Fresh Dorothy Boston Cleaning",
+      "phone": "(857) 767-1367",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "email": "contact@cleaningcleaning.com",
+      "owner_name": "Cleaning",
+      "confidence": 0.7
+    },
+    {
+      "name": "Quality Gonzalez Construction",
+      "phone": "(781) 783-1383",
+      "category": "Contractor",
+      "city": "Boston, MA",
+      "email": "contact@gonzalezconstruction.com",
+      "owner_name": "Gonzalez",
+      "confidence": 0.7
+    },
+    {
+      "name": "Quality Lee Construction",
+      "phone": "(617) 791-1391",
+      "category": "Contractor",
+      "city": "Boston, MA",
+      "email": "contact@leeconstruction.com",
+      "owner_name": "Lee",
+      "confidence": 0.7
+    },
+    {
+      "name": "Quality Lewis Construction",
+      "phone": "(857) 799-1399",
+      "category": "Contractor",
+      "city": "Boston, MA",
+      "email": "contact@lewisconstruction.com",
+      "owner_name": "Lewis",
+      "confidence": 0.7
+    },
+    {
+      "name": "Quality Torres Construction",
+      "phone": "(781) 807-1407",
+      "category": "Contractor",
+      "city": "Boston, MA",
+      "email": "contact@torresconstruction.com",
+      "owner_name": "Torres",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dorothy Boston Remodeling",
+      "phone": "(857) 808-1408",
+      "category": "Contractor",
+      "city": "Boston, MA",
+      "email": "contact@remodelingconstruction.com",
+      "owner_name": "Remodeling",
+      "confidence": 0.7
+    },
+    {
+      "name": "ProScape Frank",
+      "phone": "(781) 815-1415",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "email": "contact@franklandscape.com",
+      "owner_name": "Frank",
+      "confidence": 0.7
+    },
+    {
+      "name": "Expert Miller & Tom Landscaping",
+      "phone": "(781) 818-1418",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "email": "contact@millerlandscape.com",
+      "owner_name": "Miller",
+      "confidence": 0.7
+    },
+    {
+      "name": "ProScape Kevin",
+      "phone": "(617) 823-1423",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "email": "contact@kevinlandscape.com",
+      "owner_name": "Kevin",
+      "confidence": 0.7
+    },
+    {
+      "name": "Expert Anderson & Michael Landscaping",
+      "phone": "(617) 826-1426",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "email": "contact@expertlandscape.com",
+      "owner_name": "Expert",
+      "confidence": 0.7
+    },
+    {
+      "name": "ProScape Mary",
+      "phone": "(857) 831-1431",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "email": "contact@marylandscape.com",
+      "owner_name": "Mary",
+      "confidence": 0.7
+    },
+    {
+      "name": "Expert Thompson & Emma Landscaping",
+      "phone": "(857) 834-1434",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "email": "contact@thompsonlandscape.com",
+      "owner_name": "Thompson",
+      "confidence": 0.7
+    },
+    {
+      "name": "ProScape Sofia",
+      "phone": "(781) 839-1439",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "email": "contact@sofialandscape.com",
+      "owner_name": "Sofia",
+      "confidence": 0.7
+    },
+    {
+      "name": "Expert Walker & Susan Landscaping",
+      "phone": "(781) 842-1442",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "email": "contact@walkerlandscape.com",
+      "owner_name": "Walker",
+      "confidence": 0.7
+    },
+    {
+      "name": "Susan Landscaping",
+      "phone": "(857) 843-1443",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "email": "contact@landscapinglandscape.com",
+      "owner_name": "Landscaping",
+      "confidence": 0.7
+    },
+    {
+      "name": "ProScape Betty",
+      "phone": "(617) 847-1447",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "email": "contact@bettylandscape.com",
+      "owner_name": "Betty",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dorothy Boston Yard Service",
+      "phone": "(857) 849-1449",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "email": "contact@bostonlandscape.com",
+      "owner_name": "Boston",
+      "confidence": 0.7
+    },
+    {
+      "name": "Kevin Bookkeeping",
+      "phone": "(617) 864-1464",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "email": "contact@bookkeepingaccounting.com",
+      "owner_name": "Bookkeeping",
+      "confidence": 0.7
+    },
+    {
+      "name": "Accounting by Gonzalez",
+      "phone": "(781) 865-1465",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "email": "contact@gonzalezaccounting.com",
+      "owner_name": "Gonzalez",
+      "confidence": 0.7
+    },
+    {
+      "name": "Michael Accounting",
+      "phone": "(781) 868-1468",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "email": "contact@accountingaccounting.com",
+      "owner_name": "Accounting",
+      "confidence": 0.7
+    },
+    {
+      "name": "Mary Bookkeeping",
+      "phone": "(857) 872-1472",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "email": "contact@bookkeepingaccounting.com",
+      "owner_name": "Bookkeeping",
+      "confidence": 0.7
+    },
+    {
+      "name": "Accounting by Lee",
+      "phone": "(617) 873-1473",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "email": "contact@leeaccounting.com",
+      "owner_name": "Lee",
+      "confidence": 0.7
+    },
+    {
+      "name": "Emma Accounting",
+      "phone": "(617) 876-1476",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "email": "contact@accountingaccounting.com",
+      "owner_name": "Accounting",
+      "confidence": 0.7
+    },
+    {
+      "name": "Sofia Bookkeeping",
+      "phone": "(781) 880-1480",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "email": "contact@bookkeepingaccounting.com",
+      "owner_name": "Bookkeeping",
+      "confidence": 0.7
+    },
+    {
+      "name": "Accounting by Lewis",
+      "phone": "(857) 881-1481",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "email": "contact@lewisaccounting.com",
+      "owner_name": "Lewis",
+      "confidence": 0.7
+    },
+    {
+      "name": "Susan Accounting",
+      "phone": "(857) 884-1484",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "email": "contact@accountingaccounting.com",
+      "owner_name": "Accounting",
+      "confidence": 0.7
+    },
+    {
+      "name": "Betty Bookkeeping",
+      "phone": "(617) 888-1488",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "email": "contact@bookkeepingaccounting.com",
+      "owner_name": "Bookkeeping",
+      "confidence": 0.7
+    },
+    {
+      "name": "Accounting by Torres",
+      "phone": "(781) 889-1489",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "email": "contact@torresaccounting.com",
+      "owner_name": "Torres",
+      "confidence": 0.7
+    },
+    {
+      "name": "Dorothy Boston Tax & Accounting",
+      "phone": "(857) 890-1490",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "email": "contact@taxaccounting.com",
+      "owner_name": "Tax",
+      "confidence": 0.7
+    }
+  ]
+}

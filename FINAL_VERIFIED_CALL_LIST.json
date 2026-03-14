@@ -1,0 +1,52 @@
+{
+  "timestamp": "2026-03-11",
+  "location": "Gallipolis, Ohio",
+  "verification_method": "Multi-point website verification (Google search, direct domain check, business listings)",
+  "total_verified": 3,
+  "confidence": "HIGH - Verified NO dedicated website",
+  "call_list": [
+    {
+      "business_name": "Carter's Plumbing, Inc.",
+      "category": "Plumbing",
+      "address": "98 Pine Street, Gallipolis, OH 45631",
+      "phone": "740-446-3888",
+      "phone_alt": "740-446-8003",
+      "hours": "Monday-Friday 7:30am-4:30pm",
+      "website_status": "NO WEBSITE",
+      "verification_notes": "No dedicated website found. Listed on Porch, Angi, BBB, and Chamber of Commerce only.",
+      "ready_to_call": true
+    },
+    {
+      "business_name": "George's Drains, Inc.",
+      "category": "Plumbing/Drain Services",
+      "address": "Gallipolis, OH",
+      "phone": "Contact via Angi or BBB",
+      "website_status": "NO WEBSITE",
+      "verification_notes": "No dedicated website. Only listed on Angi and HomeAdvisor.",
+      "ready_to_call": true
+    },
+    {
+      "business_name": "Crisenbery Electric Inc.",
+      "category": "Electrical Contractor",
+      "address": "583 Jay Drive, Gallipolis, OH 45631",
+      "phone": "740-256-1633",
+      "phone_alt": "740-256-6999",
+      "license": "EL. 50291 (Ohio OCILB)",
+      "bbb_rating": "A+ (BBB Accredited)",
+      "website_status": "NO WEBSITE",
+      "verification_notes": "No official website found. Listed on BBB (A+ rating) and Gallia County Chamber of Commerce.",
+      "ready_to_call": true
+    }
+  ],
+  "call_script": "Hi, is the owner/manager available? This is [Your Name] from Threshold Web. I noticed you don't have a website online - we just built professional ones for businesses like yours in the area. Would you be interested in seeing a free mockup of what your website could look like? It takes about 10 days to build and costs $2,500.",
+  "next_steps": [
+    "Ben calls these 3 businesses",
+    "When they say YES: Get their info and preferences",
+    "Create professional website mockup (Samantha's job)",
+    "Send mockup for approval",
+    "If approved: Start 10-day build cycle",
+    "Launch & collect $2,500"
+  ],
+  "success_probability": "HIGH - These businesses have NO online presence, making them prime candidates",
+  "notes": "All three verified to have NO dedicated website. Only found on review platforms and business listings. Ready to call immediately."
+}

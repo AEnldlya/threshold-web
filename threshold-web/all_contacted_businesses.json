@@ -1,0 +1,66 @@
+{
+  "version": "1.0",
+  "description": "MASTER TRACKING FILE - ALL BUSINESSES EVER CONTACTED. NEVER SEND DUPLICATE EMAILS.",
+  "critical_note": "This file is the source of truth. Every business in this file has been contacted at least once. Check this BEFORE sending ANY emails.",
+  "last_updated": "2026-03-02T00:00:00Z",
+  "total_contacted": 0,
+  "contacts": {
+    "__instructions__": [
+      "Email address is the PRIMARY KEY - it must be unique",
+      "Each entry tracks complete contact history",
+      "Never contact same email twice - this destroys credibility",
+      "Before sending any batch, check ALL emails against this file",
+      "Update immediately after each send batch"
+    ]
+  },
+  "statistics": {
+    "total_ever_contacted": 0,
+    "total_responded": 0,
+    "total_interested": 0,
+    "total_closed": 0,
+    "total_revenue": 0,
+    "by_city": {}
+  },
+  "examples": {
+    "example_entry_1": {
+      "email": "tony@tonypizza.com",
+      "business_name": "Tony's Pizzeria",
+      "city": "Boston",
+      "state": "MA",
+      "category": "Restaurant",
+      "first_contact_date": "2026-03-02T10:45:00Z",
+      "contact_count": 1,
+      "status": "Sent",
+      "responses": [
+        {
+          "date": "2026-03-02T14:30:00Z",
+          "message": "Interested in demo",
+          "action_needed": "Schedule call"
+        }
+      ],
+      "follow_ups": [
+        {
+          "date": "2026-03-03T09:00:00Z",
+          "type": "Reply to inquiry",
+          "message": "Thanks for interest! Can you send business photos?"
+        }
+      ],
+      "conversion_status": "Interested",
+      "notes": "High confidence prospect. Quick responder."
+    },
+    "example_entry_2": {
+      "email": "sarah@salon-elegance.com",
+      "business_name": "Salon Elegance",
+      "city": "Boston",
+      "state": "MA",
+      "category": "Salon",
+      "first_contact_date": "2026-03-02T11:30:00Z",
+      "contact_count": 1,
+      "status": "Sent",
+      "responses": [],
+      "follow_ups": [],
+      "conversion_status": "No Response Yet",
+      "notes": "72% confidence. Will follow up in 3 days."
+    }
+  }
+}

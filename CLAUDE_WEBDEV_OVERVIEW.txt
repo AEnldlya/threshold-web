@@ -1,0 +1,258 @@
+================================================================================
+CLAUDE WEBDEV SKILL - COMPREHENSIVE PROMPT CREATED
+================================================================================
+
+FILE: /home/clawdbot/.openclaw/workspace/CLAUDE_WEBDEV_SKILL_PROMPT.md
+SIZE: 16.6 KB
+STATUS: Ready for Implementation
+
+================================================================================
+WHAT THIS SKILL DOES
+================================================================================
+
+✅ BUILD WEBSITES WITH AI
+
+1. Generate complete websites from business descriptions
+2. Integrate design patterns from DESIGN_REFERENCES.md (Instagram reels)
+3. Optimize for Lighthouse 95+ automatically
+4. Deploy to Vercel with one command
+5. Create GitHub repos automatically
+6. Build multiple websites in parallel
+
+================================================================================
+KEY FEATURES
+================================================================================
+
+🎨 DESIGN INTEGRATION
+  • Auto-apply fade-in animations
+  • Use glassmorphism effects
+  • Include micro-interactions
+  • Apply color schemes from reels
+
+⚡ CODE GENERATION
+  • Claude generates Next.js 14 code
+  • TypeScript components
+  • Tailwind CSS styling
+  • Framer Motion animations
+  • Responsive mobile-first
+
+🚀 DEPLOYMENT
+  • Push to GitHub automatically
+  • Deploy to Vercel instantly
+  • Auto-deploy on every GitHub push
+  • Custom domain support
+  • SSL certificates
+
+✅ QUALITY ASSURANCE
+  • Lighthouse 95+ scoring
+  • WCAG AA accessibility
+  • Core Web Vitals optimized
+  • SEO structured data
+  • Security best practices
+
+================================================================================
+7 CORE COMMANDS
+================================================================================
+
+1. generate_website()
+   Generate complete website from business description
+
+2. generate_from_design_references()
+   Build website using Instagram reel patterns
+
+3. generate_pages()
+   Generate specific pages (services, gallery, etc.)
+
+4. add_features()
+   Add features (booking, testimonials, payments)
+
+5. optimize_lighthouse()
+   Optimize to 95+ Lighthouse score
+
+6. deploy_website()
+   Deploy to Vercel with custom domain
+
+7. batch_build_websites()
+   Build multiple websites in parallel
+
+================================================================================
+TECHNOLOGY STACK
+================================================================================
+
+Generated Websites:
+  • Next.js 14 (full-stack React)
+  • TypeScript (type safety)
+  • Tailwind CSS (styling)
+  • Framer Motion (animations)
+  • Vercel (deployment)
+
+Skill Implementation:
+  • Python 3.8+
+  • Claude API (code generation)
+  • Playwright (browser automation)
+  • GitHub API (repo management)
+  • Vercel API (deployment)
+
+================================================================================
+USE CASES
+================================================================================
+
+1. MASS WEBSITE CREATION
+   - Build 5+ websites per day
+   - Automated from descriptions
+   - Deploy instantly
+   - Revenue: $2,500 per website
+
+2. DESIGN PATTERN APPLICATION
+   - Auto-use Instagram trends
+   - Keep designs fresh
+   - Professional quality
+   - Competitive advantage
+
+3. BATCH PROCESSING
+   - Build 3-5 sites in parallel
+   - Completion in 30 minutes total
+   - Scalable to 50+ sites/month
+   - Minimal human intervention
+
+4. QUALITY AT SCALE
+   - Every site: 95+ Lighthouse
+   - Every site: WCAG AA compliant
+   - Every site: Mobile responsive
+   - Every site: Production-ready
+
+================================================================================
+INTEGRATION WITH YOUR TEAM
+================================================================================
+
+With JEwed (Prospect Finder):
+  • JEwed finds 15 prospects/day
+  • Auto-build website immediately
+  • Deploy and demo to prospect
+  • Increase closure rate dramatically
+
+With Instagram Reels Skill:
+  • Extract design patterns from reels
+  • Auto-apply to new websites
+  • Keep designs on-trend
+  • Competitive advantage
+
+With Stock Watcher:
+  • Generate website to celebrate wins
+  • Create portfolio site
+  • Document success stories
+
+With CPA Agent:
+  • Log creation time (automated = 0 cost)
+  • Track revenue ($2,500/site)
+  • Calculate profit (99%+ margin)
+  • Celebrate milestones
+
+================================================================================
+EXAMPLE WORKFLOW
+================================================================================
+
+1. JEwed finds: "Summer Street Hair Studio - no website"
+2. You call: "Want a free website demo?"
+3. They say: "Yes!"
+4. You trigger: generate_website(name="Summer Street Hair", type="Salon")
+5. Skill generates: Complete website in 2-5 minutes
+6. Deployed: summer-street-hair.vercel.app
+7. You show: "Here's your new website"
+8. They buy: "$2,500"
+9. CPA logs: +$2,500 revenue
+10. Repeat: 4-6 times per day
+
+================================================================================
+SUCCESS METRICS
+================================================================================
+
+Quality Targets (All websites):
+  ✅ Lighthouse: 95+ (avg 96+)
+  ✅ WCAG Compliance: AA
+  ✅ LCP: <2.5 seconds
+  ✅ Mobile Responsive: 100%
+  ✅ SEO Score: 95+
+
+Productivity Targets:
+  ✅ Single website: 2-5 minutes
+  ✅ Batch of 3: 10-15 minutes
+  ✅ Daily capacity: 10-20 sites
+  ✅ Monthly capacity: 200-400 sites
+
+Business Targets:
+  ✅ Revenue per site: $2,500
+  ✅ Time to revenue: <5 minutes
+  ✅ Profit per site: $2,497 (99.9%)
+  ✅ Monthly revenue: $500K+ (200 sites × $2,500)
+
+================================================================================
+FILES TO BE CREATED
+================================================================================
+
+Main Application:
+  • claude_webdev.py (15 KB) - Main CLI
+
+Core Modules (8):
+  • claude_prompts.py (15 KB) - Prompt engineering
+  • project_scaffolder.py (12 KB) - Setup Next.js
+  • code_generator.py (16 KB) - Generate code with Claude
+  • design_integrator.py (12 KB) - Apply design patterns
+  • lighthouse_optimizer.py (14 KB) - Optimize for 95+
+  • github_manager.py (10 KB) - GitHub integration
+  • vercel_deployer.py (11 KB) - Deploy to Vercel
+  • batch_builder.py (13 KB) - Parallel building
+
+Documentation (4):
+  • README.md
+  • SKILL.md
+  • Implementation guide
+  • API reference
+
+Examples (3):
+  • Single website example
+  • Batch build example
+  • Design patterns example
+
+Testing (1):
+  • 30+ unit tests
+
+Total: 23 files, ~150 KB, 3000+ lines of code
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+Option 1: BUILD NOW
+  - Say "yes" and I'll spawn a coding agent
+  - Agent builds complete skill in 2-3 hours
+  - Fully tested and documented
+  - Ready to use immediately
+
+Option 2: BUILD LATER
+  - Keep the prompt for reference
+  - Build when you have time
+  - Share with team if needed
+
+Option 3: UNDERSTAND FIRST
+  - Ask questions about any part
+  - Discuss implementation approach
+  - Review architecture decisions
+
+================================================================================
+ESTIMATED BUILD TIME
+================================================================================
+
+If built by coding agent: 2-3 hours
+If built manually: 6-10 hours
+Setup & testing: 30 minutes
+Total to production: 2.5-3 hours (with agent)
+
+================================================================================
+
+Ready to build? Say "yes" and I'll spawn a coding agent to create the
+complete claude-webdev skill with all features, documentation, and tests.
+
+Or ask questions about the implementation approach!
+
+================================================================================

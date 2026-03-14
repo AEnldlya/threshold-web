@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "skills": {
+    "vercel": {
+      "version": "1.0.1",
+      "installedAt": 1773513086668
+    },
+    "domain-dns-ops": {
+      "version": "1.0.0",
+      "installedAt": 1773513093304
+    },
+    "stripe": {
+      "version": "2.3.4",
+      "installedAt": 1773513097166
+    },
+    "frontend-design-3": {
+      "version": "0.1.0",
+      "installedAt": 1773513099044
+    },
+    "brave-search": {
+      "version": "1.0.1",
+      "installedAt": 1773513103813
+    },
+    "download-tools": {
+      "version": "1.0.0",
+      "installedAt": 1773513106280
+    },
+    "skill-doctorbot-ci-validator": {
+      "version": "0.1.0",
+      "installedAt": 1773513108396
+    },
+    "agent-browser": {
+      "version": "0.2.0",
+      "installedAt": 1773513339627
+    },
+    "agent-autonomy-primitives": {
+      "version": "1.0.0",
+      "installedAt": 1773513343455
+    },
+    "agent-orchestration": {
+      "version": "1.0.0",
+      "installedAt": 1773513350257
+    },
+    "airadar": {
+      "version": "1.0.0",
+      "installedAt": 1773513353593
+    },
+    "openai-whisper": {
+      "version": "1.0.0",
+      "installedAt": 1773513355741
+    },
+    "playwright": {
+      "version": "1.0.3",
+      "installedAt": 1773513360002
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1773513363724
+    },
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1773513368929
+    },
+    "api-gateway": {
+      "version": "1.0.69",
+      "installedAt": 1773513380385
+    }
+  }
+}

@@ -1,0 +1,13 @@
+[build]
+  command = "echo 'Site ready for deployment'"
+  publish = "."
+
+[dev]
+  framework = "#static"
+  port = 8000
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    X-Frame-Options = "ALLOW"

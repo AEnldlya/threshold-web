@@ -1,0 +1,228 @@
+{
+  "summary": {
+    "total": 88,
+    "with_website": 80,
+    "without_website": 8,
+    "timestamp": "2026-02-28 01:18:34"
+  },
+  "no_website_businesses": [
+    {
+      "name": "Tony's Plumbing & Heating",
+      "phone": "(617) 555-0101",
+      "category": "Plumbing",
+      "city": "Boston",
+      "has_website": false
+    },
+    {
+      "name": "Joe's Plumbing Co",
+      "phone": "(617) 555-0106",
+      "category": "Plumbing",
+      "city": "Boston",
+      "has_website": false
+    },
+    {
+      "name": "Mike's Electrical Service",
+      "phone": "(617) 555-0206",
+      "category": "Electrical",
+      "city": "Boston",
+      "has_website": false
+    },
+    {
+      "name": "Luigi's Italian Kitchen",
+      "phone": "(617) 555-0301",
+      "category": "Restaurant",
+      "city": "Boston",
+      "has_website": false
+    },
+    {
+      "name": "Sofia's Hair Design",
+      "phone": "(617) 555-0406",
+      "category": "Salon",
+      "city": "Boston",
+      "has_website": false
+    },
+    {
+      "name": "Bob's Auto Repair",
+      "phone": "(617) 555-0601",
+      "category": "Auto Repair",
+      "city": "Boston",
+      "has_website": false
+    },
+    {
+      "name": "Mike's Automotive",
+      "phone": "(617) 555-0608",
+      "category": "Auto Repair",
+      "city": "Boston",
+      "has_website": false
+    },
+    {
+      "name": "Green Landscape Boston",
+      "phone": "(617) 555-1101",
+      "category": "Landscaping",
+      "city": "Boston",
+      "has_website": false
+    }
+  ],
+  "with_website_businesses": [
+    {
+      "name": "Emergency Plumbing Boston",
+      "phone": "(617) 555-0102",
+      "category": "Plumbing",
+      "city": "Boston",
+      "domain": "emergencyplumbingboston.com",
+      "has_website": true
+    },
+    {
+      "name": "Local Pipe Works",
+      "phone": "(617) 555-0103",
+      "category": "Plumbing",
+      "city": "Boston",
+      "domain": "local.com",
+      "has_website": true
+    },
+    {
+      "name": "Quick Drain Service",
+      "phone": "(617) 555-0104",
+      "category": "Plumbing",
+      "city": "Boston",
+      "domain": "quick.com",
+      "has_website": true
+    },
+    {
+      "name": "Boston Water Solutions",
+      "phone": "(617) 555-0105",
+      "category": "Plumbing",
+      "city": "Boston",
+      "domain": "boston.com",
+      "has_website": true
+    },
+    {
+      "name": "Reliable Plumbers Boston",
+      "phone": "(617) 555-0107",
+      "category": "Plumbing",
+      "city": "Boston",
+      "domain": "reliable.com",
+      "has_website": true
+    },
+    {
+      "name": "Downtown Plumbing Service",
+      "phone": "(617) 555-0108",
+      "category": "Plumbing",
+      "city": "Boston",
+      "domain": "downtown-plumbing.com",
+      "has_website": true
+    },
+    {
+      "name": "Lightning Electric Co",
+      "phone": "(617) 555-0201",
+      "category": "Electrical",
+      "city": "Boston",
+      "domain": "lightningelectric.net",
+      "has_website": true
+    },
+    {
+      "name": "Safe Power Electricians",
+      "phone": "(617) 555-0202",
+      "category": "Electrical",
+      "city": "Boston",
+      "domain": "safe.com",
+      "has_website": true
+    },
+    {
+      "name": "Bright Spark Electric",
+      "phone": "(617) 555-0203",
+      "category": "Electrical",
+      "city": "Boston",
+      "domain": "brightsparkelectric.com",
+      "has_website": true
+    },
+    {
+      "name": "City Electric Service",
+      "phone": "(617) 555-0204",
+      "category": "Electrical",
+      "city": "Boston",
+      "domain": "cityelectric.com",
+      "has_website": true
+    },
+    {
+      "name": "Wired Solutions Boston",
+      "phone": "(617) 555-0205",
+      "category": "Electrical",
+      "city": "Boston",
+      "domain": "wired.com",
+      "has_website": true
+    },
+    {
+      "name": "Professional Electric Contractors",
+      "phone": "(617) 555-0207",
+      "category": "Electrical",
+      "city": "Boston",
+      "domain": "professional.com",
+      "has_website": true
+    },
+    {
+      "name": "Quality Electrical Works",
+      "phone": "(617) 555-0208",
+      "category": "Electrical",
+      "city": "Boston",
+      "domain": "quality.com",
+      "has_website": true
+    },
+    {
+      "name": "Main Street Cafe",
+      "phone": "(617) 555-0302",
+      "category": "Restaurant",
+      "city": "Boston",
+      "domain": "mainstreetcafe.com",
+      "has_website": true
+    },
+    {
+      "name": "The Local Tavern",
+      "phone": "(617) 555-0303",
+      "category": "Restaurant",
+      "city": "Boston",
+      "domain": "thelocaltavern.com",
+      "has_website": true
+    },
+    {
+      "name": "Bay View Seafood",
+      "phone": "(617) 555-0304",
+      "category": "Restaurant",
+      "city": "Boston",
+      "domain": "bay.com",
+      "has_website": true
+    },
+    {
+      "name": "Quick Bite Deli",
+      "phone": "(617) 555-0305",
+      "category": "Restaurant",
+      "city": "Boston",
+      "domain": "quick.com",
+      "has_website": true
+    },
+    {
+      "name": "Harbor Restaurant & Bar",
+      "phone": "(617) 555-0306",
+      "category": "Restaurant",
+      "city": "Boston",
+      "domain": "harbor.com",
+      "has_website": true
+    },
+    {
+      "name": "Family Pizza Place",
+      "phone": "(617) 555-0307",
+      "category": "Restaurant",
+      "city": "Boston",
+      "domain": "family.com",
+      "has_website": true
+    },
+    {
+      "name": "New England Grill House",
+      "phone": "(617) 555-0308",
+      "category": "Restaurant",
+      "city": "Boston",
+      "domain": "new.com",
+      "has_website": true
+    }
+  ]
+}

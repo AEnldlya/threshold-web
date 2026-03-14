@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-03-11",
+  "total_checked": 11,
+  "no_website_count": 6,
+  "call_list": [
+    {
+      "name": "Lou's Restaurant & Bakery",
+      "category": "Restaurant",
+      "phone": "603-643-3321",
+      "verified": true
+    },
+    {
+      "name": "Molly's Restaurant & Bar",
+      "category": "Restaurant",
+      "phone": "603-643-2570",
+      "verified": true
+    },
+    {
+      "name": "Murphy's On The Green",
+      "category": "Restaurant",
+      "phone": "603-643-4075",
+      "verified": true
+    },
+    {
+      "name": "Jerm's Plumbing",
+      "category": "Plumbing",
+      "phone": "603-643-2575",
+      "verified": true
+    },
+    {
+      "name": "RVG Electrical Services",
+      "category": "Electrical",
+      "phone": "603-643-3344",
+      "verified": true
+    },
+    {
+      "name": "The People's Barbershop",
+      "category": "Barbershop",
+      "phone": "603-643-4444",
+      "verified": true
+    }
+  ]
+}

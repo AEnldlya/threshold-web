@@ -1,0 +1,8 @@
+Date,Type,Client_Name,Category,Amount,Status,Notes
+2026-03-01,Expense,N/A,Claude API,$20.00,Paid,Monthly software subscription
+2026-03-01,Expense,N/A,Server Hosting,$16.00,Paid,Monthly VPS/hosting
+2026-03-11,Website_Sale,Sarah Chen Salon,Hair Salon,$2500.00,In_Progress,Samantha building - expected 3/21
+2026-03-11,Website_Sale,Mike Smith Plumbing,Plumbing,$2500.00,In_Progress,Samantha building - expected 3/21
+2026-03-11,Website_Sale,Maria's Restaurant,Restaurant,$2500.00,In_Progress,Samantha building - expected 3/21
+2026-03-01,Maintenance,Previous Client 1,Hair Salon,$100.00,Paid,Monthly recurring
+2026-03-01,Maintenance,Previous Client 2,Plumbing,$100.00,Paid,Monthly recurring

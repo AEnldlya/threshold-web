@@ -1,0 +1,12 @@
+[
+  {
+    "restaurant": "Oleana",
+    "status": "SUBMITTED",
+    "email_sent": "Andy.li.zhang2010@gmail.com"
+  },
+  {
+    "restaurant": "Island Creek Oyster Bar",
+    "status": "FAILED",
+    "error": "Message: \nStacktrace:\n#0 0x63944435eb6a <unknown>\n#1 0x639443d71a32 <unknown>\n#2 0x639443dc6d66 <unk"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Bess's Cafe",
+    "address": "99 Charles St, Boston, MA",
+    "phone": "(617) 523-1789",
+    "notes": "Chinese dumpling house"
+  },
+  {
+    "name": "Boston Chowda Co",
+    "address": "100 Hanover St, Boston, MA",
+    "phone": "(617) 723-7153",
+    "notes": "Clam chowder"
+  }
+]

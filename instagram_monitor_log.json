@@ -1,0 +1,25 @@
+{
+  "last_checked": "2026-03-14T18:04:31.840143",
+  "accounts": {
+    "design_inspiration": {
+      "username": "design_inspiration",
+      "description": "UI/UX design patterns and animations",
+      "last_checked": null,
+      "new_content": []
+    },
+    "webdesign_trends": {
+      "username": "webdesign_trends",
+      "description": "Web design trends and best practices",
+      "last_checked": null,
+      "new_content": []
+    },
+    "framer_official": {
+      "username": "framer",
+      "description": "Framer animation library examples",
+      "last_checked": null,
+      "new_content": []
+    }
+  },
+  "alerts": [],
+  "last_check_status": "ready_for_manual_review"
+}

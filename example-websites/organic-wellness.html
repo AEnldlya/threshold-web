@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildroot Wellness | Holistic Health Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-cream: #faf8f5;
+            --color-sage: #8b9a7d;
+            --color-terracotta: #c17f59;
+            --color-charcoal: #3d3d3d;
+            --color-stone: #e8e4df;
+            --font-display: 'Playfair Display', serif;
+            --font-body: 'Lato', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--color-cream);
+            color: var(--color-charcoal);
+            line-height: 1.7;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 1.5rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            background: rgba(250,248,245,0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-size: 1.6rem;
+            font-weight: 500;
+            color: var(--color-sage);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--color-charcoal);
+            text-decoration: none;
+            font-size: 0.85rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-weight: 400;
+            position: relative;
+            padding-bottom: 0.25rem;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 1px;
+            background: var(--color-sage);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            padding: 8rem 5% 4rem;
+            gap: 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 80%;
+            height: 150%;
+            background: radial-gradient(ellipse, rgba(139,154,125,0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            max-width: 600px;
+            animation: fadeInLeft 1s ease-out;
+        }
+
+        .hero-tag {
+            display: inline-block;
+            padding: 0.5rem 1.25rem;
+            background: rgba(139,154,125,0.15);
+            color: var(--color-sage);
+            font-size: 0.75rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-bottom: 2rem;
+            border-radius: 2px;
+        }
+
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 400;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            color: var(--color-charcoal);
+        }
+
+        .hero-title em {
+            font-style: italic;
+            color: var(--color-terracotta);
+        }
+
+        .hero-description {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 2.5rem;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            padding: 1rem 2.5rem;
+            background: var(--color-sage);
+            color: white;
+            text-decoration: none;
+            font-size: 0.8rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+            border: 2px solid var(--color-sage);
+        }
+
+        .btn-primary:hover {
+            background: transparent;
+            color: var(--color-sage);
+        }
+
+        .btn-secondary {
+            padding: 1rem 2.5rem;
+            background: transparent;
+            color: var(--color-charcoal);
+            text-decoration: none;
+            font-size: 0.8rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            border-radius: 3px;
+            border: 2px solid var(--color-stone);
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--color-terracotta);
+            color: var(--color-terracotta);
+        }
+
+        .hero-visual {
+            position: relative;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: fadeInRight 1s ease-out 0.3s both;
+        }
+
+        .hero-image-placeholder {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, var(--color-stone) 0%, #d4cfc7 100%);
+            border-radius: 200px 200px 100px 100px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-image-placeholder::before {
+            content: '🌿';
+            font-size: 8rem;
+            opacity: 0.3;
+        }
+
+        .floating-card {
+            position: absolute;
+            background: white;
+            padding: 1.5rem 2rem;
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .floating-card.card-1 {
+            top: 10%;
+            right: -20px;
+            animation-delay: 0s;
+        }
+
+        .floating-card.card-2 {
+            bottom: 15%;
+            left: -30px;
+            animation-delay: 1s;
+        }
+
+        .floating-card h4 {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            margin-bottom: 0.25rem;
+            color: var(--color-sage);
+        }
+
+        .floating-card p {
+            font-size: 0.8rem;
+            color: #888;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 8rem 5%;
+            background: white;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 5rem;
+        }
+
+        .section-tag {
+            font-size: 0.75rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--color-terracotta);
+            margin-bottom: 1rem;
+        }
+
+        .section-title {
+            font-family: var(--font-display);
+            font-size: 2.8rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            color: #777;
+            font-size: 1.05rem;
+            font-weight: 300;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .service-card {
+            text-align: center;
+            padding: 3rem 2rem;
+            background: var(--color-cream);
+            border-radius: 12px;
+            transition: all 0.4s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 60px rgba(139,154,125,0.15);
+        }
+
+        .service-icon {
+            width: 70px;
+            height: 70px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            font-size: 1.8rem;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+
+        .service-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.4rem;
+            margin-bottom: 1rem;
+            color: var(--color-charcoal);
+        }
+
+        .service-card p {
+            color: #777;
+            font-size: 0.95rem;
+            line-height: 1.7;
+        }
+
+        /* Testimonial Section */
+        .testimonial {
+            padding: 8rem 5%;
+            background: linear-gradient(to bottom, white, var(--color-cream));
+            text-align: center;
+        }
+
+        .testimonial-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .quote-mark {
+            font-family: var(--font-display);
+            font-size: 8rem;
+            color: var(--color-sage);
+            opacity: 0.2;
+            line-height: 0.5;
+            margin-bottom: 2rem;
+        }
+
+        .testimonial-text {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            font-style: italic;
+            line-height: 1.6;
+            color: var(--color-charcoal);
+            margin-bottom: 2rem;
+        }
+
+        .testimonial-author {
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: var(--color-terracotta);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 6rem 5%;
+            background: var(--color-sage);
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        .cta-section p {
+            color: rgba(255,255,255,0.85);
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        .btn-white {
+            padding: 1rem 2.5rem;
+            background: white;
+            color: var(--color-sage);
+            text-decoration: none;
+            font-size: 0.8rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            border-radius: 3px;
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .btn-white:hover {
+            background: var(--color-charcoal);
+            color: white;
+        }
+
+        /* Footer */
+        footer {
+            padding: 4rem 5%;
+            background: var(--color-charcoal);
+            color: rgba(255,255,255,0.6);
+            text-align: center;
+        }
+
+        .footer-logo {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            color: var(--color-sage);
+            margin-bottom: 1rem;
+        }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes fadeInRight {
+            from {
+                opacity: 0;
+                transform: translateX(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+
+        @media (max-width: 968px) {
+            .hero {
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding-top: 6rem;
+            }
+
+            .hero-content {
+                max-width: 100%;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .hero-visual {
+                height: 400px;
+                order: -1;
+            }
+
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .floating-card {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">Wildroot</div>
+        <ul class="nav-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#classes">Classes</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <span class="hero-tag">Holistic Wellness Studio</span>
+            <h1 class="hero-title">Nurture Your <em>Natural</em> Balance</h1>
+            <p class="hero-description">Discover a sanctuary where ancient wisdom meets modern wellness. Our holistic approach integrates yoga, meditation, and natural therapies to restore harmony to your mind, body, and spirit.</p>
+            <div class="hero-buttons">
+                <a href="#book" class="btn-primary">Book a Session</a>
+                <a href="#services" class="btn-secondary">Explore Services</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="hero-image-placeholder"></div>
+            <div class="floating-card card-1">
+                <h4>Yoga Classes</h4>
+                <p>Daily sessions for all levels</p>
+            </div>
+            <div class="floating-card card-2">
+                <h4>Expert Practitioners</h4>
+                <p>15+ years experience</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="section-header">
+            <p class="section-tag">What We Offer</p>
+            <h2 class="section-title">Paths to Wellness</h2>
+            <p class="section-subtitle">Personalized treatments designed to meet you where you are on your journey.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🧘</div>
+                <h3>Yoga & Movement</h3>
+                <p>From gentle restorative practices to dynamic vinyasa flows, find the style that speaks to your body.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🌸</div>
+                <h3>Massage Therapy</h3>
+                <p>Therapeutic touch that releases tension, improves circulation, and promotes deep relaxation.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🍃</div>
+                <h3>Herbal Consultation</h3>
+                <p>Custom botanical remedies crafted to support your unique constitution and wellness goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <div class="testimonial-content">
+            <div class="quote-mark">"</div>
+            <p class="testimonial-text">Wildroot transformed my relationship with wellness. The practitioners truly listen and create personalized experiences that honor both tradition and individual needs.</p>
+            <p class="testimonial-author">— Sarah Mitchell, Member since 2024</p>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <h2>Begin Your Journey Today</h2>
+        <p>Your first consultation is complimentary. Let's discover what balance looks like for you.</p>
+        <a href="#book" class="btn-white">Schedule Free Consultation</a>
+    </section>
+
+    <footer>
+        <div class="footer-logo">Wildroot Wellness</div>
+        <p>© 2026 Wildroot Wellness Studio. All rights reserved.</p>
+    </footer>
+</body>
+</html>

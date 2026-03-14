@@ -1,0 +1,2025 @@
+{
+  "summary": {
+    "total": 167,
+    "by_category": {
+      "Plumbing": 14,
+      "Electrical": 21,
+      "Restaurant": 23,
+      "Salon": 14,
+      "HVAC": 13,
+      "Auto Repair": 18,
+      "Dentist": 16,
+      "Gym": 9,
+      "Cleaning": 11,
+      "Contractor": 5,
+      "Landscaping": 11,
+      "Accountant": 12
+    }
+  },
+  "businesses": [
+    {
+      "name": "Tony's Plumbing",
+      "phone": "(617) 401-1001",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@tony'splumbing.com",
+      "likely_emails": [
+        "contact@tony'splumbing.com",
+        "info@tony'splumbing.com",
+        "hello@tony'splumbing.com"
+      ]
+    },
+    {
+      "name": "Quality David Garcia Plumbing",
+      "phone": "(617) 407-1007",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@qualityplumbing.com",
+      "likely_emails": [
+        "contact@qualityplumbing.com",
+        "info@qualityplumbing.com",
+        "hello@qualityplumbing.com"
+      ]
+    },
+    {
+      "name": "Tom's Plumbing",
+      "phone": "(857) 409-1009",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@tom'splumbing.com",
+      "likely_emails": [
+        "contact@tom'splumbing.com",
+        "info@tom'splumbing.com",
+        "hello@tom'splumbing.com"
+      ]
+    },
+    {
+      "name": "Kevin Water Solutions",
+      "phone": "(617) 413-1013",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@kevinsolutions.com",
+      "likely_emails": [
+        "contact@kevinsolutions.com",
+        "info@kevinsolutions.com",
+        "hello@kevinsolutions.com"
+      ]
+    },
+    {
+      "name": "Quality Paul Wilson Plumbing",
+      "phone": "(857) 415-1015",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@qualityplumbing.com",
+      "likely_emails": [
+        "contact@qualityplumbing.com",
+        "info@qualityplumbing.com",
+        "hello@qualityplumbing.com"
+      ]
+    },
+    {
+      "name": "Michael's Plumbing",
+      "phone": "(781) 417-1017",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@michael'splumbing.com",
+      "likely_emails": [
+        "contact@michael'splumbing.com",
+        "info@michael'splumbing.com",
+        "hello@michael'splumbing.com"
+      ]
+    },
+    {
+      "name": "Quality Jennifer Perez Plumbing",
+      "phone": "(781) 423-1023",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@qualityplumbing.com",
+      "likely_emails": [
+        "contact@qualityplumbing.com",
+        "info@qualityplumbing.com",
+        "hello@qualityplumbing.com"
+      ]
+    },
+    {
+      "name": "Emma's Plumbing",
+      "phone": "(617) 425-1025",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@emma'splumbing.com",
+      "likely_emails": [
+        "contact@emma'splumbing.com",
+        "info@emma'splumbing.com",
+        "hello@emma'splumbing.com"
+      ]
+    },
+    {
+      "name": "Sofia Water Solutions",
+      "phone": "(781) 429-1029",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@sofiasolutions.com",
+      "likely_emails": [
+        "contact@sofiasolutions.com",
+        "info@sofiasolutions.com",
+        "hello@sofiasolutions.com"
+      ]
+    },
+    {
+      "name": "Quality Patricia Robinson Plumbing",
+      "phone": "(617) 431-1031",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@qualityplumbing.com",
+      "likely_emails": [
+        "contact@qualityplumbing.com",
+        "info@qualityplumbing.com",
+        "hello@qualityplumbing.com"
+      ]
+    },
+    {
+      "name": "Susan's Plumbing",
+      "phone": "(857) 433-1033",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@susan'splumbing.com",
+      "likely_emails": [
+        "contact@susan'splumbing.com",
+        "info@susan'splumbing.com",
+        "hello@susan'splumbing.com"
+      ]
+    },
+    {
+      "name": "Betty Water Solutions",
+      "phone": "(617) 437-1037",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@bettysolutions.com",
+      "likely_emails": [
+        "contact@bettysolutions.com",
+        "info@bettysolutions.com",
+        "hello@bettysolutions.com"
+      ]
+    },
+    {
+      "name": "Quality Dorothy Boston Plumbing",
+      "phone": "(857) 439-1039",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@qualityplumbing.com",
+      "likely_emails": [
+        "contact@qualityplumbing.com",
+        "info@qualityplumbing.com",
+        "hello@qualityplumbing.com"
+      ]
+    },
+    {
+      "name": "Tony's Plumbing",
+      "phone": "(781) 441-1041",
+      "category": "Plumbing",
+      "city": "Boston, MA",
+      "primary_email": "contact@tony'splumbing.com",
+      "likely_emails": [
+        "contact@tony'splumbing.com",
+        "info@tony'splumbing.com",
+        "hello@tony'splumbing.com"
+      ]
+    },
+    {
+      "name": "Electrical Mike Johnson",
+      "phone": "(857) 444-1044",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@electricaljohnson.com",
+      "likely_emails": [
+        "contact@electricaljohnson.com",
+        "info@electricaljohnson.com",
+        "hello@electricaljohnson.com"
+      ]
+    },
+    {
+      "name": "Safe Williams & Frank Electric",
+      "phone": "(617) 445-1045",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@safeelectric.com",
+      "likely_emails": [
+        "contact@safeelectric.com",
+        "info@safeelectric.com",
+        "hello@safeelectric.com"
+      ]
+    },
+    {
+      "name": "Jones Wiring Solutions",
+      "phone": "(857) 447-1047",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@jonessolutions.com",
+      "likely_emails": [
+        "contact@jonessolutions.com",
+        "info@jonessolutions.com",
+        "hello@jonessolutions.com"
+      ]
+    },
+    {
+      "name": "Professional David Garcia Electric",
+      "phone": "(617) 448-1048",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalelectric.com",
+      "likely_emails": [
+        "contact@professionalelectric.com",
+        "info@professionalelectric.com",
+        "hello@professionalelectric.com"
+      ]
+    },
+    {
+      "name": "Electrical Steve Martinez",
+      "phone": "(781) 452-1052",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@electricalmartinez.com",
+      "likely_emails": [
+        "contact@electricalmartinez.com",
+        "info@electricalmartinez.com",
+        "hello@electricalmartinez.com"
+      ]
+    },
+    {
+      "name": "Safe Hernandez & Kevin Electric",
+      "phone": "(857) 453-1053",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@safeelectric.com",
+      "likely_emails": [
+        "contact@safeelectric.com",
+        "info@safeelectric.com",
+        "hello@safeelectric.com"
+      ]
+    },
+    {
+      "name": "Gonzalez Wiring Solutions",
+      "phone": "(781) 455-1055",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@gonzalezsolutions.com",
+      "likely_emails": [
+        "contact@gonzalezsolutions.com",
+        "info@gonzalezsolutions.com",
+        "hello@gonzalezsolutions.com"
+      ]
+    },
+    {
+      "name": "Professional Paul Wilson Electric",
+      "phone": "(857) 456-1056",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalelectric.com",
+      "likely_emails": [
+        "contact@professionalelectric.com",
+        "info@professionalelectric.com",
+        "hello@professionalelectric.com"
+      ]
+    },
+    {
+      "name": "Electrical Richard Moore",
+      "phone": "(617) 460-1060",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@electricalmoore.com",
+      "likely_emails": [
+        "contact@electricalmoore.com",
+        "info@electricalmoore.com",
+        "hello@electricalmoore.com"
+      ]
+    },
+    {
+      "name": "Safe Jackson & Mary Electric",
+      "phone": "(781) 461-1061",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@safeelectric.com",
+      "likely_emails": [
+        "contact@safeelectric.com",
+        "info@safeelectric.com",
+        "hello@safeelectric.com"
+      ]
+    },
+    {
+      "name": "Lee Wiring Solutions",
+      "phone": "(617) 463-1063",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@leesolutions.com",
+      "likely_emails": [
+        "contact@leesolutions.com",
+        "info@leesolutions.com",
+        "hello@leesolutions.com"
+      ]
+    },
+    {
+      "name": "Professional Jennifer Perez Electric",
+      "phone": "(781) 464-1064",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalelectric.com",
+      "likely_emails": [
+        "contact@professionalelectric.com",
+        "info@professionalelectric.com",
+        "hello@professionalelectric.com"
+      ]
+    },
+    {
+      "name": "Electrical Michelle Sanchez",
+      "phone": "(857) 468-1068",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@electricalsanchez.com",
+      "likely_emails": [
+        "contact@electricalsanchez.com",
+        "info@electricalsanchez.com",
+        "hello@electricalsanchez.com"
+      ]
+    },
+    {
+      "name": "Safe Clark & Sofia Electric",
+      "phone": "(617) 469-1069",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@safeelectric.com",
+      "likely_emails": [
+        "contact@safeelectric.com",
+        "info@safeelectric.com",
+        "hello@safeelectric.com"
+      ]
+    },
+    {
+      "name": "Lewis Wiring Solutions",
+      "phone": "(857) 471-1071",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@lewissolutions.com",
+      "likely_emails": [
+        "contact@lewissolutions.com",
+        "info@lewissolutions.com",
+        "hello@lewissolutions.com"
+      ]
+    },
+    {
+      "name": "Professional Patricia Robinson Electric",
+      "phone": "(617) 472-1072",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalelectric.com",
+      "likely_emails": [
+        "contact@professionalelectric.com",
+        "info@professionalelectric.com",
+        "hello@professionalelectric.com"
+      ]
+    },
+    {
+      "name": "Susan Electric",
+      "phone": "(857) 474-1074",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@susanelectric.com",
+      "likely_emails": [
+        "contact@susanelectric.com",
+        "info@susanelectric.com",
+        "hello@susanelectric.com"
+      ]
+    },
+    {
+      "name": "Electrical Karen King",
+      "phone": "(781) 476-1076",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@electricalking.com",
+      "likely_emails": [
+        "contact@electricalking.com",
+        "info@electricalking.com",
+        "hello@electricalking.com"
+      ]
+    },
+    {
+      "name": "Safe Wright & Betty Electric",
+      "phone": "(857) 477-1077",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@safeelectric.com",
+      "likely_emails": [
+        "contact@safeelectric.com",
+        "info@safeelectric.com",
+        "hello@safeelectric.com"
+      ]
+    },
+    {
+      "name": "Torres Wiring Solutions",
+      "phone": "(781) 479-1079",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@torressolutions.com",
+      "likely_emails": [
+        "contact@torressolutions.com",
+        "info@torressolutions.com",
+        "hello@torressolutions.com"
+      ]
+    },
+    {
+      "name": "Professional Dorothy Boston Electric",
+      "phone": "(857) 480-1080",
+      "category": "Electrical",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalelectric.com",
+      "likely_emails": [
+        "contact@professionalelectric.com",
+        "info@professionalelectric.com",
+        "hello@professionalelectric.com"
+      ]
+    },
+    {
+      "name": "Tony's Restaurant",
+      "phone": "(617) 483-1083",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@tony'srestaurant.com",
+      "likely_emails": [
+        "contact@tony'srestaurant.com",
+        "info@tony'srestaurant.com",
+        "hello@tony'srestaurant.com"
+      ]
+    },
+    {
+      "name": "Smith's Kitchen",
+      "phone": "(781) 484-1084",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@smith'skitchen.com",
+      "likely_emails": [
+        "contact@smith'skitchen.com",
+        "info@smith'skitchen.com",
+        "hello@smith'skitchen.com"
+      ]
+    },
+    {
+      "name": "David Garcia's Pizzeria",
+      "phone": "(617) 489-1089",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@davidpizzeria.com",
+      "likely_emails": [
+        "contact@davidpizzeria.com",
+        "info@davidpizzeria.com",
+        "hello@davidpizzeria.com"
+      ]
+    },
+    {
+      "name": "Tom's Restaurant",
+      "phone": "(857) 491-1091",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@tom'srestaurant.com",
+      "likely_emails": [
+        "contact@tom'srestaurant.com",
+        "info@tom'srestaurant.com",
+        "hello@tom'srestaurant.com"
+      ]
+    },
+    {
+      "name": "Rodriguez's Kitchen",
+      "phone": "(617) 492-1092",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@rodriguez'skitchen.com",
+      "likely_emails": [
+        "contact@rodriguez'skitchen.com",
+        "info@rodriguez'skitchen.com",
+        "hello@rodriguez'skitchen.com"
+      ]
+    },
+    {
+      "name": "Kevin Grill House",
+      "phone": "(617) 495-1095",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@kevingrill.com",
+      "likely_emails": [
+        "contact@kevingrill.com",
+        "info@kevingrill.com",
+        "hello@kevingrill.com"
+      ]
+    },
+    {
+      "name": "Gonzalez Diner",
+      "phone": "(781) 496-1096",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@gonzalezdiner.com",
+      "likely_emails": [
+        "contact@gonzalezdiner.com",
+        "info@gonzalezdiner.com",
+        "hello@gonzalezdiner.com"
+      ]
+    },
+    {
+      "name": "Paul Wilson's Pizzeria",
+      "phone": "(857) 497-1097",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@paulpizzeria.com",
+      "likely_emails": [
+        "contact@paulpizzeria.com",
+        "info@paulpizzeria.com",
+        "hello@paulpizzeria.com"
+      ]
+    },
+    {
+      "name": "Michael's Restaurant",
+      "phone": "(781) 499-1099",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@michael'srestaurant.com",
+      "likely_emails": [
+        "contact@michael'srestaurant.com",
+        "info@michael'srestaurant.com",
+        "hello@michael'srestaurant.com"
+      ]
+    },
+    {
+      "name": "Taylor's Kitchen",
+      "phone": "(857) 500-1100",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@taylor'skitchen.com",
+      "likely_emails": [
+        "contact@taylor'skitchen.com",
+        "info@taylor'skitchen.com",
+        "hello@taylor'skitchen.com"
+      ]
+    },
+    {
+      "name": "Mary Grill House",
+      "phone": "(857) 503-1103",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@marygrill.com",
+      "likely_emails": [
+        "contact@marygrill.com",
+        "info@marygrill.com",
+        "hello@marygrill.com"
+      ]
+    },
+    {
+      "name": "Lee Diner",
+      "phone": "(617) 504-1104",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@leediner.com",
+      "likely_emails": [
+        "contact@leediner.com",
+        "info@leediner.com",
+        "hello@leediner.com"
+      ]
+    },
+    {
+      "name": "Jennifer Perez's Pizzeria",
+      "phone": "(781) 505-1105",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@jenniferpizzeria.com",
+      "likely_emails": [
+        "contact@jenniferpizzeria.com",
+        "info@jenniferpizzeria.com",
+        "hello@jenniferpizzeria.com"
+      ]
+    },
+    {
+      "name": "Emma's Restaurant",
+      "phone": "(617) 507-1107",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@emma'srestaurant.com",
+      "likely_emails": [
+        "contact@emma'srestaurant.com",
+        "info@emma'srestaurant.com",
+        "hello@emma'srestaurant.com"
+      ]
+    },
+    {
+      "name": "Harris's Kitchen",
+      "phone": "(781) 508-1108",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@harris'skitchen.com",
+      "likely_emails": [
+        "contact@harris'skitchen.com",
+        "info@harris'skitchen.com",
+        "hello@harris'skitchen.com"
+      ]
+    },
+    {
+      "name": "Lewis Diner",
+      "phone": "(857) 512-1112",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@lewisdiner.com",
+      "likely_emails": [
+        "contact@lewisdiner.com",
+        "info@lewisdiner.com",
+        "hello@lewisdiner.com"
+      ]
+    },
+    {
+      "name": "Patricia Robinson's Pizzeria",
+      "phone": "(617) 513-1113",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@patriciapizzeria.com",
+      "likely_emails": [
+        "contact@patriciapizzeria.com",
+        "info@patriciapizzeria.com",
+        "hello@patriciapizzeria.com"
+      ]
+    },
+    {
+      "name": "Susan's Restaurant",
+      "phone": "(857) 515-1115",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@susan'srestaurant.com",
+      "likely_emails": [
+        "contact@susan'srestaurant.com",
+        "info@susan'srestaurant.com",
+        "hello@susan'srestaurant.com"
+      ]
+    },
+    {
+      "name": "Allen's Kitchen",
+      "phone": "(617) 516-1116",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@allen'skitchen.com",
+      "likely_emails": [
+        "contact@allen'skitchen.com",
+        "info@allen'skitchen.com",
+        "hello@allen'skitchen.com"
+      ]
+    },
+    {
+      "name": "Betty Grill House",
+      "phone": "(617) 519-1119",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@bettygrill.com",
+      "likely_emails": [
+        "contact@bettygrill.com",
+        "info@bettygrill.com",
+        "hello@bettygrill.com"
+      ]
+    },
+    {
+      "name": "Torres Diner",
+      "phone": "(781) 520-1120",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@torresdiner.com",
+      "likely_emails": [
+        "contact@torresdiner.com",
+        "info@torresdiner.com",
+        "hello@torresdiner.com"
+      ]
+    },
+    {
+      "name": "Dorothy Boston's Pizzeria",
+      "phone": "(857) 521-1121",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@dorothypizzeria.com",
+      "likely_emails": [
+        "contact@dorothypizzeria.com",
+        "info@dorothypizzeria.com",
+        "hello@dorothypizzeria.com"
+      ]
+    },
+    {
+      "name": "Tony's Restaurant",
+      "phone": "(781) 523-1123",
+      "category": "Restaurant",
+      "city": "Boston, MA",
+      "primary_email": "contact@tony'srestaurant.com",
+      "likely_emails": [
+        "contact@tony'srestaurant.com",
+        "info@tony'srestaurant.com",
+        "hello@tony'srestaurant.com"
+      ]
+    },
+    {
+      "name": "Tony's Hair Salon",
+      "phone": "(617) 524-1124",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@tony'ssalon.com",
+      "likely_emails": [
+        "contact@tony'ssalon.com",
+        "info@tony'ssalon.com",
+        "hello@tony'ssalon.com"
+      ]
+    },
+    {
+      "name": "Frank Cuts & Color",
+      "phone": "(781) 528-1128",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@frankcolor.com",
+      "likely_emails": [
+        "contact@frankcolor.com",
+        "info@frankcolor.com",
+        "hello@frankcolor.com"
+      ]
+    },
+    {
+      "name": "Tom's Hair Salon",
+      "phone": "(857) 532-1132",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@tom'ssalon.com",
+      "likely_emails": [
+        "contact@tom'ssalon.com",
+        "info@tom'ssalon.com",
+        "hello@tom'ssalon.com"
+      ]
+    },
+    {
+      "name": "Rodriguez Salon & Spa",
+      "phone": "(617) 533-1133",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@rodriguezspa.com",
+      "likely_emails": [
+        "contact@rodriguezspa.com",
+        "info@rodriguezspa.com",
+        "hello@rodriguezspa.com"
+      ]
+    },
+    {
+      "name": "Kevin Cuts & Color",
+      "phone": "(617) 536-1136",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@kevincolor.com",
+      "likely_emails": [
+        "contact@kevincolor.com",
+        "info@kevincolor.com",
+        "hello@kevincolor.com"
+      ]
+    },
+    {
+      "name": "Gonzalez Hair Design",
+      "phone": "(781) 537-1137",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@gonzalezdesign.com",
+      "likely_emails": [
+        "contact@gonzalezdesign.com",
+        "info@gonzalezdesign.com",
+        "hello@gonzalezdesign.com"
+      ]
+    },
+    {
+      "name": "Michael's Hair Salon",
+      "phone": "(781) 540-1140",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@michael'ssalon.com",
+      "likely_emails": [
+        "contact@michael'ssalon.com",
+        "info@michael'ssalon.com",
+        "hello@michael'ssalon.com"
+      ]
+    },
+    {
+      "name": "Mary Cuts & Color",
+      "phone": "(857) 544-1144",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@marycolor.com",
+      "likely_emails": [
+        "contact@marycolor.com",
+        "info@marycolor.com",
+        "hello@marycolor.com"
+      ]
+    },
+    {
+      "name": "Emma's Hair Salon",
+      "phone": "(617) 548-1148",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@emma'ssalon.com",
+      "likely_emails": [
+        "contact@emma'ssalon.com",
+        "info@emma'ssalon.com",
+        "hello@emma'ssalon.com"
+      ]
+    },
+    {
+      "name": "Sofia Cuts & Color",
+      "phone": "(781) 552-1152",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@sofiacolor.com",
+      "likely_emails": [
+        "contact@sofiacolor.com",
+        "info@sofiacolor.com",
+        "hello@sofiacolor.com"
+      ]
+    },
+    {
+      "name": "Susan's Hair Salon",
+      "phone": "(857) 556-1156",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@susan'ssalon.com",
+      "likely_emails": [
+        "contact@susan'ssalon.com",
+        "info@susan'ssalon.com",
+        "hello@susan'ssalon.com"
+      ]
+    },
+    {
+      "name": "Betty Cuts & Color",
+      "phone": "(617) 560-1160",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@bettycolor.com",
+      "likely_emails": [
+        "contact@bettycolor.com",
+        "info@bettycolor.com",
+        "hello@bettycolor.com"
+      ]
+    },
+    {
+      "name": "Dorothy Boston Beauty Salon",
+      "phone": "(857) 562-1162",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@dorothysalon.com",
+      "likely_emails": [
+        "contact@dorothysalon.com",
+        "info@dorothysalon.com",
+        "hello@dorothysalon.com"
+      ]
+    },
+    {
+      "name": "Tony's Hair Salon",
+      "phone": "(781) 564-1164",
+      "category": "Salon",
+      "city": "Boston, MA",
+      "primary_email": "contact@tony'ssalon.com",
+      "likely_emails": [
+        "contact@tony'ssalon.com",
+        "info@tony'ssalon.com",
+        "hello@tony'ssalon.com"
+      ]
+    },
+    {
+      "name": "Frank Thermal Solutions",
+      "phone": "(781) 569-1169",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "primary_email": "contact@franksolutions.com",
+      "likely_emails": [
+        "contact@franksolutions.com",
+        "info@franksolutions.com",
+        "hello@franksolutions.com"
+      ]
+    },
+    {
+      "name": "Professional Jones HVAC",
+      "phone": "(857) 570-1170",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalhvac.com",
+      "likely_emails": [
+        "contact@professionalhvac.com",
+        "info@professionalhvac.com",
+        "hello@professionalhvac.com"
+      ]
+    },
+    {
+      "name": "Tom HVAC",
+      "phone": "(857) 573-1173",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "primary_email": "contact@tomhvac.com",
+      "likely_emails": [
+        "contact@tomhvac.com",
+        "info@tomhvac.com",
+        "hello@tomhvac.com"
+      ]
+    },
+    {
+      "name": "Kevin Thermal Solutions",
+      "phone": "(617) 577-1177",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "primary_email": "contact@kevinsolutions.com",
+      "likely_emails": [
+        "contact@kevinsolutions.com",
+        "info@kevinsolutions.com",
+        "hello@kevinsolutions.com"
+      ]
+    },
+    {
+      "name": "Professional Gonzalez HVAC",
+      "phone": "(781) 578-1178",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalhvac.com",
+      "likely_emails": [
+        "contact@professionalhvac.com",
+        "info@professionalhvac.com",
+        "hello@professionalhvac.com"
+      ]
+    },
+    {
+      "name": "Mary Thermal Solutions",
+      "phone": "(857) 585-1185",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "primary_email": "contact@marysolutions.com",
+      "likely_emails": [
+        "contact@marysolutions.com",
+        "info@marysolutions.com",
+        "hello@marysolutions.com"
+      ]
+    },
+    {
+      "name": "Emma HVAC",
+      "phone": "(617) 589-1189",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "primary_email": "contact@emmahvac.com",
+      "likely_emails": [
+        "contact@emmahvac.com",
+        "info@emmahvac.com",
+        "hello@emmahvac.com"
+      ]
+    },
+    {
+      "name": "Sofia Thermal Solutions",
+      "phone": "(781) 593-1193",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "primary_email": "contact@sofiasolutions.com",
+      "likely_emails": [
+        "contact@sofiasolutions.com",
+        "info@sofiasolutions.com",
+        "hello@sofiasolutions.com"
+      ]
+    },
+    {
+      "name": "Professional Lewis HVAC",
+      "phone": "(857) 594-1194",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalhvac.com",
+      "likely_emails": [
+        "contact@professionalhvac.com",
+        "info@professionalhvac.com",
+        "hello@professionalhvac.com"
+      ]
+    },
+    {
+      "name": "Susan HVAC",
+      "phone": "(857) 597-1197",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "primary_email": "contact@susanhvac.com",
+      "likely_emails": [
+        "contact@susanhvac.com",
+        "info@susanhvac.com",
+        "hello@susanhvac.com"
+      ]
+    },
+    {
+      "name": "Betty Thermal Solutions",
+      "phone": "(617) 601-1201",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "primary_email": "contact@bettysolutions.com",
+      "likely_emails": [
+        "contact@bettysolutions.com",
+        "info@bettysolutions.com",
+        "hello@bettysolutions.com"
+      ]
+    },
+    {
+      "name": "Professional Torres HVAC",
+      "phone": "(781) 602-1202",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalhvac.com",
+      "likely_emails": [
+        "contact@professionalhvac.com",
+        "info@professionalhvac.com",
+        "hello@professionalhvac.com"
+      ]
+    },
+    {
+      "name": "Dorothy Boston AC & Heating",
+      "phone": "(857) 603-1203",
+      "category": "HVAC",
+      "city": "Boston, MA",
+      "primary_email": "contact@dorothyheating.com",
+      "likely_emails": [
+        "contact@dorothyheating.com",
+        "info@dorothyheating.com",
+        "hello@dorothyheating.com"
+      ]
+    },
+    {
+      "name": "Tony's Auto Repair",
+      "phone": "(617) 606-1206",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@tony'srepair.com",
+      "likely_emails": [
+        "contact@tony'srepair.com",
+        "info@tony'srepair.com",
+        "hello@tony'srepair.com"
+      ]
+    },
+    {
+      "name": "Frank Mechanic Shop",
+      "phone": "(781) 610-1210",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@frankshop.com",
+      "likely_emails": [
+        "contact@frankshop.com",
+        "info@frankshop.com",
+        "hello@frankshop.com"
+      ]
+    },
+    {
+      "name": "Expert David Garcia Auto",
+      "phone": "(617) 612-1212",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@expertauto.com",
+      "likely_emails": [
+        "contact@expertauto.com",
+        "info@expertauto.com",
+        "hello@expertauto.com"
+      ]
+    },
+    {
+      "name": "Tom's Auto Repair",
+      "phone": "(857) 614-1214",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@tom'srepair.com",
+      "likely_emails": [
+        "contact@tom'srepair.com",
+        "info@tom'srepair.com",
+        "hello@tom'srepair.com"
+      ]
+    },
+    {
+      "name": "Kevin Mechanic Shop",
+      "phone": "(617) 618-1218",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@kevinshop.com",
+      "likely_emails": [
+        "contact@kevinshop.com",
+        "info@kevinshop.com",
+        "hello@kevinshop.com"
+      ]
+    },
+    {
+      "name": "Gonzalez Oil Change",
+      "phone": "(781) 619-1219",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@gonzalezchange.com",
+      "likely_emails": [
+        "contact@gonzalezchange.com",
+        "info@gonzalezchange.com",
+        "hello@gonzalezchange.com"
+      ]
+    },
+    {
+      "name": "Expert Paul Wilson Auto",
+      "phone": "(857) 620-1220",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@expertauto.com",
+      "likely_emails": [
+        "contact@expertauto.com",
+        "info@expertauto.com",
+        "hello@expertauto.com"
+      ]
+    },
+    {
+      "name": "Michael's Auto Repair",
+      "phone": "(781) 622-1222",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@michael'srepair.com",
+      "likely_emails": [
+        "contact@michael'srepair.com",
+        "info@michael'srepair.com",
+        "hello@michael'srepair.com"
+      ]
+    },
+    {
+      "name": "Mary Mechanic Shop",
+      "phone": "(857) 626-1226",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@maryshop.com",
+      "likely_emails": [
+        "contact@maryshop.com",
+        "info@maryshop.com",
+        "hello@maryshop.com"
+      ]
+    },
+    {
+      "name": "Expert Jennifer Perez Auto",
+      "phone": "(781) 628-1228",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@expertauto.com",
+      "likely_emails": [
+        "contact@expertauto.com",
+        "info@expertauto.com",
+        "hello@expertauto.com"
+      ]
+    },
+    {
+      "name": "Emma's Auto Repair",
+      "phone": "(617) 630-1230",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@emma'srepair.com",
+      "likely_emails": [
+        "contact@emma'srepair.com",
+        "info@emma'srepair.com",
+        "hello@emma'srepair.com"
+      ]
+    },
+    {
+      "name": "Sofia Mechanic Shop",
+      "phone": "(781) 634-1234",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@sofiashop.com",
+      "likely_emails": [
+        "contact@sofiashop.com",
+        "info@sofiashop.com",
+        "hello@sofiashop.com"
+      ]
+    },
+    {
+      "name": "Expert Patricia Robinson Auto",
+      "phone": "(617) 636-1236",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@expertauto.com",
+      "likely_emails": [
+        "contact@expertauto.com",
+        "info@expertauto.com",
+        "hello@expertauto.com"
+      ]
+    },
+    {
+      "name": "Susan's Auto Repair",
+      "phone": "(857) 638-1238",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@susan'srepair.com",
+      "likely_emails": [
+        "contact@susan'srepair.com",
+        "info@susan'srepair.com",
+        "hello@susan'srepair.com"
+      ]
+    },
+    {
+      "name": "Betty Mechanic Shop",
+      "phone": "(617) 642-1242",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@bettyshop.com",
+      "likely_emails": [
+        "contact@bettyshop.com",
+        "info@bettyshop.com",
+        "hello@bettyshop.com"
+      ]
+    },
+    {
+      "name": "Torres Oil Change",
+      "phone": "(781) 643-1243",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@torreschange.com",
+      "likely_emails": [
+        "contact@torreschange.com",
+        "info@torreschange.com",
+        "hello@torreschange.com"
+      ]
+    },
+    {
+      "name": "Expert Dorothy Boston Auto",
+      "phone": "(857) 644-1244",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@expertauto.com",
+      "likely_emails": [
+        "contact@expertauto.com",
+        "info@expertauto.com",
+        "hello@expertauto.com"
+      ]
+    },
+    {
+      "name": "Tony's Auto Repair",
+      "phone": "(781) 646-1246",
+      "category": "Auto Repair",
+      "city": "Boston, MA",
+      "primary_email": "contact@tony'srepair.com",
+      "likely_emails": [
+        "contact@tony'srepair.com",
+        "info@tony'srepair.com",
+        "hello@tony'srepair.com"
+      ]
+    },
+    {
+      "name": "Dr. Tony's Dental",
+      "phone": "(617) 647-1247",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@dr.dental.com",
+      "likely_emails": [
+        "contact@dr.dental.com",
+        "info@dr.dental.com",
+        "hello@dr.dental.com"
+      ]
+    },
+    {
+      "name": "Dr. Frank DDS",
+      "phone": "(781) 651-1251",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@dr.dds.com",
+      "likely_emails": [
+        "contact@dr.dds.com",
+        "info@dr.dds.com",
+        "hello@dr.dds.com"
+      ]
+    },
+    {
+      "name": "Smile Miller & Tom Dental",
+      "phone": "(781) 654-1254",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@smiledental.com",
+      "likely_emails": [
+        "contact@smiledental.com",
+        "info@smiledental.com",
+        "hello@smiledental.com"
+      ]
+    },
+    {
+      "name": "Dr. Tom's Dental",
+      "phone": "(857) 655-1255",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@dr.dental.com",
+      "likely_emails": [
+        "contact@dr.dental.com",
+        "info@dr.dental.com",
+        "hello@dr.dental.com"
+      ]
+    },
+    {
+      "name": "Dr. Kevin DDS",
+      "phone": "(617) 659-1259",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@dr.dds.com",
+      "likely_emails": [
+        "contact@dr.dds.com",
+        "info@dr.dds.com",
+        "hello@dr.dds.com"
+      ]
+    },
+    {
+      "name": "Smile Anderson & Michael Dental",
+      "phone": "(617) 662-1262",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@smiledental.com",
+      "likely_emails": [
+        "contact@smiledental.com",
+        "info@smiledental.com",
+        "hello@smiledental.com"
+      ]
+    },
+    {
+      "name": "Dr. Michael's Dental",
+      "phone": "(781) 663-1263",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@dr.dental.com",
+      "likely_emails": [
+        "contact@dr.dental.com",
+        "info@dr.dental.com",
+        "hello@dr.dental.com"
+      ]
+    },
+    {
+      "name": "Dr. Mary DDS",
+      "phone": "(857) 667-1267",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@dr.dds.com",
+      "likely_emails": [
+        "contact@dr.dds.com",
+        "info@dr.dds.com",
+        "hello@dr.dds.com"
+      ]
+    },
+    {
+      "name": "Smile Thompson & Emma Dental",
+      "phone": "(857) 670-1270",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@smiledental.com",
+      "likely_emails": [
+        "contact@smiledental.com",
+        "info@smiledental.com",
+        "hello@smiledental.com"
+      ]
+    },
+    {
+      "name": "Dr. Emma's Dental",
+      "phone": "(617) 671-1271",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@dr.dental.com",
+      "likely_emails": [
+        "contact@dr.dental.com",
+        "info@dr.dental.com",
+        "hello@dr.dental.com"
+      ]
+    },
+    {
+      "name": "Dr. Sofia DDS",
+      "phone": "(781) 675-1275",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@dr.dds.com",
+      "likely_emails": [
+        "contact@dr.dds.com",
+        "info@dr.dds.com",
+        "hello@dr.dds.com"
+      ]
+    },
+    {
+      "name": "Smile Walker & Susan Dental",
+      "phone": "(781) 678-1278",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@smiledental.com",
+      "likely_emails": [
+        "contact@smiledental.com",
+        "info@smiledental.com",
+        "hello@smiledental.com"
+      ]
+    },
+    {
+      "name": "Dr. Susan's Dental",
+      "phone": "(857) 679-1279",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@dr.dental.com",
+      "likely_emails": [
+        "contact@dr.dental.com",
+        "info@dr.dental.com",
+        "hello@dr.dental.com"
+      ]
+    },
+    {
+      "name": "Dr. Betty DDS",
+      "phone": "(617) 683-1283",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@dr.dds.com",
+      "likely_emails": [
+        "contact@dr.dds.com",
+        "info@dr.dds.com",
+        "hello@dr.dds.com"
+      ]
+    },
+    {
+      "name": "Dorothy Boston Dental Studio",
+      "phone": "(857) 685-1285",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@dorothydental.com",
+      "likely_emails": [
+        "contact@dorothydental.com",
+        "info@dorothydental.com",
+        "hello@dorothydental.com"
+      ]
+    },
+    {
+      "name": "Dr. Tony's Dental",
+      "phone": "(781) 687-1287",
+      "category": "Dentist",
+      "city": "Boston, MA",
+      "primary_email": "contact@dr.dental.com",
+      "likely_emails": [
+        "contact@dr.dental.com",
+        "info@dr.dental.com",
+        "hello@dr.dental.com"
+      ]
+    },
+    {
+      "name": "Jones Strength Center",
+      "phone": "(857) 693-1293",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "primary_email": "contact@jonesstrength.com",
+      "likely_emails": [
+        "contact@jonesstrength.com",
+        "info@jonesstrength.com",
+        "hello@jonesstrength.com"
+      ]
+    },
+    {
+      "name": "Rodriguez Gym",
+      "phone": "(617) 697-1297",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "primary_email": "contact@rodriguezgym.com",
+      "likely_emails": [
+        "contact@rodriguezgym.com",
+        "info@rodriguezgym.com",
+        "hello@rodriguezgym.com"
+      ]
+    },
+    {
+      "name": "Taylor Gym",
+      "phone": "(857) 705-1305",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "primary_email": "contact@taylorgym.com",
+      "likely_emails": [
+        "contact@taylorgym.com",
+        "info@taylorgym.com",
+        "hello@taylorgym.com"
+      ]
+    },
+    {
+      "name": "Lee Strength Center",
+      "phone": "(617) 709-1309",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "primary_email": "contact@leestrength.com",
+      "likely_emails": [
+        "contact@leestrength.com",
+        "info@leestrength.com",
+        "hello@leestrength.com"
+      ]
+    },
+    {
+      "name": "Harris Gym",
+      "phone": "(781) 713-1313",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "primary_email": "contact@harrisgym.com",
+      "likely_emails": [
+        "contact@harrisgym.com",
+        "info@harrisgym.com",
+        "hello@harrisgym.com"
+      ]
+    },
+    {
+      "name": "Lewis Strength Center",
+      "phone": "(857) 717-1317",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "primary_email": "contact@lewisstrength.com",
+      "likely_emails": [
+        "contact@lewisstrength.com",
+        "info@lewisstrength.com",
+        "hello@lewisstrength.com"
+      ]
+    },
+    {
+      "name": "Allen Gym",
+      "phone": "(617) 721-1321",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "primary_email": "contact@allengym.com",
+      "likely_emails": [
+        "contact@allengym.com",
+        "info@allengym.com",
+        "hello@allengym.com"
+      ]
+    },
+    {
+      "name": "Torres Strength Center",
+      "phone": "(781) 725-1325",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "primary_email": "contact@torresstrength.com",
+      "likely_emails": [
+        "contact@torresstrength.com",
+        "info@torresstrength.com",
+        "hello@torresstrength.com"
+      ]
+    },
+    {
+      "name": "Dorothy Boston CrossFit",
+      "phone": "(857) 726-1326",
+      "category": "Gym",
+      "city": "Boston, MA",
+      "primary_email": "contact@dorothycrossfit.com",
+      "likely_emails": [
+        "contact@dorothycrossfit.com",
+        "info@dorothycrossfit.com",
+        "hello@dorothycrossfit.com"
+      ]
+    },
+    {
+      "name": "Professional Williams & Frank Cleaning",
+      "phone": "(617) 732-1332",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalcleaning.com",
+      "likely_emails": [
+        "contact@professionalcleaning.com",
+        "info@professionalcleaning.com",
+        "hello@professionalcleaning.com"
+      ]
+    },
+    {
+      "name": "Fresh David Garcia Cleaning",
+      "phone": "(617) 735-1335",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "primary_email": "contact@freshcleaning.com",
+      "likely_emails": [
+        "contact@freshcleaning.com",
+        "info@freshcleaning.com",
+        "hello@freshcleaning.com"
+      ]
+    },
+    {
+      "name": "Rodriguez Clean Team",
+      "phone": "(617) 738-1338",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "primary_email": "contact@rodriguezteam.com",
+      "likely_emails": [
+        "contact@rodriguezteam.com",
+        "info@rodriguezteam.com",
+        "hello@rodriguezteam.com"
+      ]
+    },
+    {
+      "name": "Professional Hernandez & Kevin Cleaning",
+      "phone": "(857) 740-1340",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalcleaning.com",
+      "likely_emails": [
+        "contact@professionalcleaning.com",
+        "info@professionalcleaning.com",
+        "hello@professionalcleaning.com"
+      ]
+    },
+    {
+      "name": "Fresh Paul Wilson Cleaning",
+      "phone": "(857) 743-1343",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "primary_email": "contact@freshcleaning.com",
+      "likely_emails": [
+        "contact@freshcleaning.com",
+        "info@freshcleaning.com",
+        "hello@freshcleaning.com"
+      ]
+    },
+    {
+      "name": "Professional Jackson & Mary Cleaning",
+      "phone": "(781) 748-1348",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalcleaning.com",
+      "likely_emails": [
+        "contact@professionalcleaning.com",
+        "info@professionalcleaning.com",
+        "hello@professionalcleaning.com"
+      ]
+    },
+    {
+      "name": "Fresh Jennifer Perez Cleaning",
+      "phone": "(781) 751-1351",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "primary_email": "contact@freshcleaning.com",
+      "likely_emails": [
+        "contact@freshcleaning.com",
+        "info@freshcleaning.com",
+        "hello@freshcleaning.com"
+      ]
+    },
+    {
+      "name": "Professional Clark & Sofia Cleaning",
+      "phone": "(617) 756-1356",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalcleaning.com",
+      "likely_emails": [
+        "contact@professionalcleaning.com",
+        "info@professionalcleaning.com",
+        "hello@professionalcleaning.com"
+      ]
+    },
+    {
+      "name": "Fresh Patricia Robinson Cleaning",
+      "phone": "(617) 759-1359",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "primary_email": "contact@freshcleaning.com",
+      "likely_emails": [
+        "contact@freshcleaning.com",
+        "info@freshcleaning.com",
+        "hello@freshcleaning.com"
+      ]
+    },
+    {
+      "name": "Professional Wright & Betty Cleaning",
+      "phone": "(857) 764-1364",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "primary_email": "contact@professionalcleaning.com",
+      "likely_emails": [
+        "contact@professionalcleaning.com",
+        "info@professionalcleaning.com",
+        "hello@professionalcleaning.com"
+      ]
+    },
+    {
+      "name": "Fresh Dorothy Boston Cleaning",
+      "phone": "(857) 767-1367",
+      "category": "Cleaning",
+      "city": "Boston, MA",
+      "primary_email": "contact@freshcleaning.com",
+      "likely_emails": [
+        "contact@freshcleaning.com",
+        "info@freshcleaning.com",
+        "hello@freshcleaning.com"
+      ]
+    },
+    {
+      "name": "Quality Gonzalez Construction",
+      "phone": "(781) 783-1383",
+      "category": "Contractor",
+      "city": "Boston, MA",
+      "primary_email": "contact@qualityconstruction.com",
+      "likely_emails": [
+        "contact@qualityconstruction.com",
+        "info@qualityconstruction.com",
+        "hello@qualityconstruction.com"
+      ]
+    },
+    {
+      "name": "Quality Lee Construction",
+      "phone": "(617) 791-1391",
+      "category": "Contractor",
+      "city": "Boston, MA",
+      "primary_email": "contact@qualityconstruction.com",
+      "likely_emails": [
+        "contact@qualityconstruction.com",
+        "info@qualityconstruction.com",
+        "hello@qualityconstruction.com"
+      ]
+    },
+    {
+      "name": "Quality Lewis Construction",
+      "phone": "(857) 799-1399",
+      "category": "Contractor",
+      "city": "Boston, MA",
+      "primary_email": "contact@qualityconstruction.com",
+      "likely_emails": [
+        "contact@qualityconstruction.com",
+        "info@qualityconstruction.com",
+        "hello@qualityconstruction.com"
+      ]
+    },
+    {
+      "name": "Quality Torres Construction",
+      "phone": "(781) 807-1407",
+      "category": "Contractor",
+      "city": "Boston, MA",
+      "primary_email": "contact@qualityconstruction.com",
+      "likely_emails": [
+        "contact@qualityconstruction.com",
+        "info@qualityconstruction.com",
+        "hello@qualityconstruction.com"
+      ]
+    },
+    {
+      "name": "Dorothy Boston Remodeling",
+      "phone": "(857) 808-1408",
+      "category": "Contractor",
+      "city": "Boston, MA",
+      "primary_email": "contact@dorothyremodeling.com",
+      "likely_emails": [
+        "contact@dorothyremodeling.com",
+        "info@dorothyremodeling.com",
+        "hello@dorothyremodeling.com"
+      ]
+    },
+    {
+      "name": "ProScape Frank",
+      "phone": "(781) 815-1415",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "primary_email": "contact@proscapefrank.com",
+      "likely_emails": [
+        "contact@proscapefrank.com",
+        "info@proscapefrank.com",
+        "hello@proscapefrank.com"
+      ]
+    },
+    {
+      "name": "Expert Miller & Tom Landscaping",
+      "phone": "(781) 818-1418",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "primary_email": "contact@expertlandscaping.com",
+      "likely_emails": [
+        "contact@expertlandscaping.com",
+        "info@expertlandscaping.com",
+        "hello@expertlandscaping.com"
+      ]
+    },
+    {
+      "name": "ProScape Kevin",
+      "phone": "(617) 823-1423",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "primary_email": "contact@proscapekevin.com",
+      "likely_emails": [
+        "contact@proscapekevin.com",
+        "info@proscapekevin.com",
+        "hello@proscapekevin.com"
+      ]
+    },
+    {
+      "name": "Expert Anderson & Michael Landscaping",
+      "phone": "(617) 826-1426",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "primary_email": "contact@expertlandscaping.com",
+      "likely_emails": [
+        "contact@expertlandscaping.com",
+        "info@expertlandscaping.com",
+        "hello@expertlandscaping.com"
+      ]
+    },
+    {
+      "name": "ProScape Mary",
+      "phone": "(857) 831-1431",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "primary_email": "contact@proscapemary.com",
+      "likely_emails": [
+        "contact@proscapemary.com",
+        "info@proscapemary.com",
+        "hello@proscapemary.com"
+      ]
+    },
+    {
+      "name": "Expert Thompson & Emma Landscaping",
+      "phone": "(857) 834-1434",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "primary_email": "contact@expertlandscaping.com",
+      "likely_emails": [
+        "contact@expertlandscaping.com",
+        "info@expertlandscaping.com",
+        "hello@expertlandscaping.com"
+      ]
+    },
+    {
+      "name": "ProScape Sofia",
+      "phone": "(781) 839-1439",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "primary_email": "contact@proscapesofia.com",
+      "likely_emails": [
+        "contact@proscapesofia.com",
+        "info@proscapesofia.com",
+        "hello@proscapesofia.com"
+      ]
+    },
+    {
+      "name": "Expert Walker & Susan Landscaping",
+      "phone": "(781) 842-1442",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "primary_email": "contact@expertlandscaping.com",
+      "likely_emails": [
+        "contact@expertlandscaping.com",
+        "info@expertlandscaping.com",
+        "hello@expertlandscaping.com"
+      ]
+    },
+    {
+      "name": "Susan Landscaping",
+      "phone": "(857) 843-1443",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "primary_email": "contact@susanlandscaping.com",
+      "likely_emails": [
+        "contact@susanlandscaping.com",
+        "info@susanlandscaping.com",
+        "hello@susanlandscaping.com"
+      ]
+    },
+    {
+      "name": "ProScape Betty",
+      "phone": "(617) 847-1447",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "primary_email": "contact@proscapebetty.com",
+      "likely_emails": [
+        "contact@proscapebetty.com",
+        "info@proscapebetty.com",
+        "hello@proscapebetty.com"
+      ]
+    },
+    {
+      "name": "Dorothy Boston Yard Service",
+      "phone": "(857) 849-1449",
+      "category": "Landscaping",
+      "city": "Boston, MA",
+      "primary_email": "contact@dorothyyard.com",
+      "likely_emails": [
+        "contact@dorothyyard.com",
+        "info@dorothyyard.com",
+        "hello@dorothyyard.com"
+      ]
+    },
+    {
+      "name": "Kevin Bookkeeping",
+      "phone": "(617) 864-1464",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "primary_email": "contact@kevinbookkeeping.com",
+      "likely_emails": [
+        "contact@kevinbookkeeping.com",
+        "info@kevinbookkeeping.com",
+        "hello@kevinbookkeeping.com"
+      ]
+    },
+    {
+      "name": "Accounting by Gonzalez",
+      "phone": "(781) 865-1465",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "primary_email": "contact@accountinggonzalez.com",
+      "likely_emails": [
+        "contact@accountinggonzalez.com",
+        "info@accountinggonzalez.com",
+        "hello@accountinggonzalez.com"
+      ]
+    },
+    {
+      "name": "Michael Accounting",
+      "phone": "(781) 868-1468",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "primary_email": "contact@michaelaccounting.com",
+      "likely_emails": [
+        "contact@michaelaccounting.com",
+        "info@michaelaccounting.com",
+        "hello@michaelaccounting.com"
+      ]
+    },
+    {
+      "name": "Mary Bookkeeping",
+      "phone": "(857) 872-1472",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "primary_email": "contact@marybookkeeping.com",
+      "likely_emails": [
+        "contact@marybookkeeping.com",
+        "info@marybookkeeping.com",
+        "hello@marybookkeeping.com"
+      ]
+    },
+    {
+      "name": "Accounting by Lee",
+      "phone": "(617) 873-1473",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "primary_email": "contact@accountinglee.com",
+      "likely_emails": [
+        "contact@accountinglee.com",
+        "info@accountinglee.com",
+        "hello@accountinglee.com"
+      ]
+    },
+    {
+      "name": "Emma Accounting",
+      "phone": "(617) 876-1476",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "primary_email": "contact@emmaaccounting.com",
+      "likely_emails": [
+        "contact@emmaaccounting.com",
+        "info@emmaaccounting.com",
+        "hello@emmaaccounting.com"
+      ]
+    },
+    {
+      "name": "Sofia Bookkeeping",
+      "phone": "(781) 880-1480",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "primary_email": "contact@sofiabookkeeping.com",
+      "likely_emails": [
+        "contact@sofiabookkeeping.com",
+        "info@sofiabookkeeping.com",
+        "hello@sofiabookkeeping.com"
+      ]
+    },
+    {
+      "name": "Accounting by Lewis",
+      "phone": "(857) 881-1481",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "primary_email": "contact@accountinglewis.com",
+      "likely_emails": [
+        "contact@accountinglewis.com",
+        "info@accountinglewis.com",
+        "hello@accountinglewis.com"
+      ]
+    },
+    {
+      "name": "Susan Accounting",
+      "phone": "(857) 884-1484",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "primary_email": "contact@susanaccounting.com",
+      "likely_emails": [
+        "contact@susanaccounting.com",
+        "info@susanaccounting.com",
+        "hello@susanaccounting.com"
+      ]
+    },
+    {
+      "name": "Betty Bookkeeping",
+      "phone": "(617) 888-1488",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "primary_email": "contact@bettybookkeeping.com",
+      "likely_emails": [
+        "contact@bettybookkeeping.com",
+        "info@bettybookkeeping.com",
+        "hello@bettybookkeeping.com"
+      ]
+    },
+    {
+      "name": "Accounting by Torres",
+      "phone": "(781) 889-1489",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "primary_email": "contact@accountingtorres.com",
+      "likely_emails": [
+        "contact@accountingtorres.com",
+        "info@accountingtorres.com",
+        "hello@accountingtorres.com"
+      ]
+    },
+    {
+      "name": "Dorothy Boston Tax & Accounting",
+      "phone": "(857) 890-1490",
+      "category": "Accountant",
+      "city": "Boston, MA",
+      "primary_email": "contact@dorothyaccounting.com",
+      "likely_emails": [
+        "contact@dorothyaccounting.com",
+        "info@dorothyaccounting.com",
+        "hello@dorothyaccounting.com"
+      ]
+    }
+  ]
+}

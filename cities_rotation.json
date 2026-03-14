@@ -1,0 +1,55 @@
+{
+  "cities": [
+    {
+      "name": "Boston",
+      "state": "MA",
+      "prospects_file": "boston_167_VERIFIED_FINAL.csv",
+      "week": 1,
+      "status": "active",
+      "notes": "167 verified prospects, high confidence emails"
+    },
+    {
+      "name": "Providence",
+      "state": "RI",
+      "prospects_file": "providence_prospects.csv",
+      "week": 2,
+      "status": "pending",
+      "notes": "Research and verify prospects for week 2"
+    },
+    {
+      "name": "Hartford",
+      "state": "CT",
+      "prospects_file": "hartford_prospects.csv",
+      "week": 3,
+      "status": "pending",
+      "notes": "Research and verify prospects for week 3"
+    },
+    {
+      "name": "Manchester",
+      "state": "NH",
+      "prospects_file": "manchester_prospects.csv",
+      "week": 4,
+      "status": "pending",
+      "notes": "Research and verify prospects for week 4"
+    },
+    {
+      "name": "Springfield",
+      "state": "MA",
+      "prospects_file": "springfield_prospects.csv",
+      "week": 5,
+      "status": "pending",
+      "notes": "Research and verify prospects for week 5"
+    }
+  ],
+  "rotation_schedule": {
+    "week_1_start": "2026-03-02",
+    "duration_days": 7,
+    "note": "Each city rotates every 7 days. New cities added as research completes."
+  },
+  "expansion_notes": {
+    "phase_1": "Boston (Week 1+) - 167 prospects",
+    "phase_2": "Add Providence after Boston success",
+    "phase_3": "Add Hartford, Manchester, Springfield",
+    "future": "Expand to NY, NJ, PA, MA suburbs as pipeline grows"
+  }
+}

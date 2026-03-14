@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-03-11",
+  "total_candidates": 12,
+  "businesses_to_research": [
+    {
+      "name": "Jerm's Plumbing, Heating & Air",
+      "category": "Plumbing",
+      "phone": "603-643-2575"
+    },
+    {
+      "name": "RVG Electrical Services",
+      "category": "Electrical",
+      "phone": "603-643-3344"
+    },
+    {
+      "name": "Certified Emergency Plumber",
+      "category": "Plumbing",
+      "phone": "Unknown"
+    },
+    {
+      "name": "Water Heater Repair LLC",
+      "category": "Plumbing",
+      "phone": "Unknown"
+    },
+    {
+      "name": "Hanover Consumer Co-op",
+      "category": "Grocery",
+      "phone": "603-643-2667"
+    },
+    {
+      "name": "Dartmouth Co-Op",
+      "category": "Retail",
+      "phone": "603-643-3331"
+    },
+    {
+      "name": "Lemon Tree Gifts",
+      "category": "Gifts",
+      "phone": "603-643-4500"
+    },
+    {
+      "name": "Still North Books & Bar",
+      "category": "Books/Bar",
+      "phone": "603-643-2500"
+    },
+    {
+      "name": "Von Bargen's Jewelry",
+      "category": "Jewelry",
+      "phone": "603-643-2500"
+    },
+    {
+      "name": "Hanover Drive-In",
+      "category": "Movie Theater",
+      "phone": "603-643-2500"
+    },
+    {
+      "name": "Paramount Theatre",
+      "category": "Movie Theater",
+      "phone": "603-643-4800"
+    },
+    {
+      "name": "Grey Bruce School of Dance",
+      "category": "Dance",
+      "phone": "603-643-4444"
+    }
+  ],
+  "instructions": {
+    "step_1": "Google search '[Business Name] hanover nh website'",
+    "step_2": "Check Google Business Profile (Google Maps)",
+    "step_3": "Check Facebook.com for business page + website link",
+    "step_4": "Check Instagram bio for website link",
+    "step_5": "Check Yelp.com listing for website link",
+    "step_6": "If NO website found in any of above \u2192 Business qualifies"
+  }
+}

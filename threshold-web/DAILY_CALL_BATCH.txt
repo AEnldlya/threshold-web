@@ -1,0 +1,60 @@
+================================================================================
+CALL LIST - MARCH 10, 2026 (MONDAY)
+================================================================================
+
+Call these 15 businesses. Get owner/manager on the phone.
+
+PITCH: "Hi, is the owner or manager available? This is Andy. I noticed you 
+don't have a website and we just built one for [similar business]. Interested 
+in seeing a quick example? Takes 2 minutes."
+
+================================================================================
+
+PLUMBING (3)
+ 1. Lower Roxbury Plumbing                   617-203-6199
+ 2. Callahan Plumbing                        617-404-3689
+ 3. Possick Plumbing, Heating & Cooling      617-243-9999
+
+ELECTRICAL (2)
+ 4. Dice Licensed Electricians               617-702-2888
+ 5. Licensed Electricians Jamaica Plain      888-512-6801
+
+RESTAURANTS (3)
+ 6. Dirty Water Dough Company                617-262-0090
+ 7. Parish Café                              617-247-4777
+ 8. Yvonne's Restaurant                      617-267-0047
+
+BARBERS/SALONS (4)
+ 9. Summer Street Barber Shop                617-345-9300
+10. Skips Barbershop South Boston            617-269-2227
+11. Junior's iCuts                           617-250-8915
+12. AGOSTINO SALON                           617-262-2029
+
+CLEANERS (1)
+13. Lapels Cleaners South End                617-236-0098
+
+PET GROOMING (2)
+14. Alpha Dogs Boston                        617-514-6745
+15. LaChic Professional Pet Grooming         617-242-0300
+
+================================================================================
+TRACKING
+
+After calling, report back:
+- Business name
+- Did they say YES? (Y/N)
+- If YES: get their email address
+
+Example response:
+"Called 15 today. 
+YES: Parish Café (617-247-4777) - contact@parishcafe.com
+YES: Alpha Dogs Boston (617-514-6745) - owner@alphadogs.com
+NO: 13 others not interested"
+
+Then I'll send them example websites and you follow up in 24 hours to close.
+
+================================================================================
+NEXT BATCH: March 11 will have the remaining 3 + repeats
+
+You've got this. Go call!
+================================================================================

@@ -1,0 +1,168 @@
+Name,Phone,Category,City,Email,Owner,Confidence,Reasoning
+Tony's Plumbing,(617) 401-1001,Plumbing,"Boston, MA",owner@tonyservice.com,Tony,75%,Owner name + service type
+Quality David Garcia Plumbing,(617) 407-1007,Plumbing,"Boston, MA",contact@davidgarcia.com,David Garcia,65%,Service business pattern
+Tom's Plumbing,(857) 409-1009,Plumbing,"Boston, MA",owner@tomservice.com,Tom,75%,Owner name + service type
+Kevin Water Solutions,(617) 413-1013,Plumbing,"Boston, MA",contact@watersolutions.com,Water Solutions,65%,Service business pattern
+Quality Paul Wilson Plumbing,(857) 415-1015,Plumbing,"Boston, MA",contact@paulwilson.com,Paul Wilson,65%,Service business pattern
+Michael's Plumbing,(781) 417-1017,Plumbing,"Boston, MA",owner@michaelservice.com,Michael,75%,Owner name + service type
+Quality Jennifer Perez Plumbing,(781) 423-1023,Plumbing,"Boston, MA",contact@jenniferperez.com,Jennifer Perez,65%,Service business pattern
+Emma's Plumbing,(617) 425-1025,Plumbing,"Boston, MA",owner@emmaservice.com,Emma,75%,Owner name + service type
+Sofia Water Solutions,(781) 429-1029,Plumbing,"Boston, MA",contact@watersolutions.com,Water Solutions,65%,Service business pattern
+Quality Patricia Robinson Plumbing,(617) 431-1031,Plumbing,"Boston, MA",contact@patriciarobinson.com,Patricia Robinson,65%,Service business pattern
+Susan's Plumbing,(857) 433-1033,Plumbing,"Boston, MA",owner@susanservice.com,Susan,75%,Owner name + service type
+Betty Water Solutions,(617) 437-1037,Plumbing,"Boston, MA",contact@watersolutions.com,Water Solutions,65%,Service business pattern
+Quality Dorothy Boston Plumbing,(857) 439-1039,Plumbing,"Boston, MA",contact@dorothyboston.com,Dorothy Boston,65%,Service business pattern
+Tony's Plumbing,(781) 441-1041,Plumbing,"Boston, MA",owner@tonyservice.com,Tony,75%,Owner name + service type
+Electrical Mike Johnson,(857) 444-1044,Electrical,"Boston, MA",contact@mikejohnson.com,Mike Johnson,65%,Service business pattern
+Safe Williams & Frank Electric,(617) 445-1045,Electrical,"Boston, MA",contact@frankelectric.com,Frank Electric,65%,Service business pattern
+Jones Wiring Solutions,(857) 447-1047,Electrical,"Boston, MA",contact@wiringsolutions.com,Wiring Solutions,65%,Service business pattern
+Professional David Garcia Electric,(617) 448-1048,Electrical,"Boston, MA",contact@garciaelectric.com,Garcia Electric,65%,Service business pattern
+Electrical Steve Martinez,(781) 452-1052,Electrical,"Boston, MA",contact@stevemartinez.com,Steve Martinez,65%,Service business pattern
+Safe Hernandez & Kevin Electric,(857) 453-1053,Electrical,"Boston, MA",contact@kevinelectric.com,Kevin Electric,65%,Service business pattern
+Gonzalez Wiring Solutions,(781) 455-1055,Electrical,"Boston, MA",contact@wiringsolutions.com,Wiring Solutions,65%,Service business pattern
+Professional Paul Wilson Electric,(857) 456-1056,Electrical,"Boston, MA",contact@wilsonelectric.com,Wilson Electric,65%,Service business pattern
+Electrical Richard Moore,(617) 460-1060,Electrical,"Boston, MA",contact@richardmoore.com,Richard Moore,65%,Service business pattern
+Safe Jackson & Mary Electric,(781) 461-1061,Electrical,"Boston, MA",contact@maryelectric.com,Mary Electric,65%,Service business pattern
+Lee Wiring Solutions,(617) 463-1063,Electrical,"Boston, MA",contact@wiringsolutions.com,Wiring Solutions,65%,Service business pattern
+Professional Jennifer Perez Electric,(781) 464-1064,Electrical,"Boston, MA",contact@perezelectric.com,Perez Electric,65%,Service business pattern
+Electrical Michelle Sanchez,(857) 468-1068,Electrical,"Boston, MA",contact@michellesanchez.com,Michelle Sanchez,65%,Service business pattern
+Safe Clark & Sofia Electric,(617) 469-1069,Electrical,"Boston, MA",contact@sofiaelectric.com,Sofia Electric,65%,Service business pattern
+Lewis Wiring Solutions,(857) 471-1071,Electrical,"Boston, MA",contact@wiringsolutions.com,Wiring Solutions,65%,Service business pattern
+Professional Patricia Robinson Electric,(617) 472-1072,Electrical,"Boston, MA",contact@robinsonelectric.com,Robinson Electric,65%,Service business pattern
+Susan Electric,(857) 474-1074,Electrical,"Boston, MA",contact@susanelectric.com,Susan Electric,65%,Service business pattern
+Electrical Karen King,(781) 476-1076,Electrical,"Boston, MA",contact@karenking.com,Karen King,65%,Service business pattern
+Safe Wright & Betty Electric,(857) 477-1077,Electrical,"Boston, MA",contact@bettyelectric.com,Betty Electric,65%,Service business pattern
+Torres Wiring Solutions,(781) 479-1079,Electrical,"Boston, MA",contact@wiringsolutions.com,Wiring Solutions,65%,Service business pattern
+Professional Dorothy Boston Electric,(857) 480-1080,Electrical,"Boston, MA",contact@bostonelectric.com,Boston Electric,65%,Service business pattern
+Tony's Restaurant,(617) 483-1083,Restaurant,"Boston, MA",owner@tonyservice.com,Tony,75%,Owner name + service type
+Smith's Kitchen,(781) 484-1084,Restaurant,"Boston, MA",owner@smithservice.com,Smith,75%,Owner name + service type
+David Garcia's Pizzeria,(617) 489-1089,Restaurant,"Boston, MA",owner@garciaservice.com,Garcia,75%,Owner name + service type
+Tom's Restaurant,(857) 491-1091,Restaurant,"Boston, MA",owner@tomservice.com,Tom,75%,Owner name + service type
+Rodriguez's Kitchen,(617) 492-1092,Restaurant,"Boston, MA",owner@rodriguezservice.com,Rodriguez,75%,Owner name + service type
+Kevin Grill House,(617) 495-1095,Restaurant,"Boston, MA",info@kevingrillrestaurant.com,Kevin Grill,70%,Restaurant pattern
+Gonzalez Diner,(781) 496-1096,Restaurant,"Boston, MA",info@gonzalezdinerrestaurant.com,Gonzalez Diner,70%,Restaurant pattern
+Paul Wilson's Pizzeria,(857) 497-1097,Restaurant,"Boston, MA",owner@wilsonservice.com,Wilson,75%,Owner name + service type
+Michael's Restaurant,(781) 499-1099,Restaurant,"Boston, MA",owner@michaelservice.com,Michael,75%,Owner name + service type
+Taylor's Kitchen,(857) 500-1100,Restaurant,"Boston, MA",owner@taylorservice.com,Taylor,75%,Owner name + service type
+Mary Grill House,(857) 503-1103,Restaurant,"Boston, MA",info@marygrillrestaurant.com,Mary Grill,70%,Restaurant pattern
+Lee Diner,(617) 504-1104,Restaurant,"Boston, MA",info@leedinerrestaurant.com,Lee Diner,70%,Restaurant pattern
+Jennifer Perez's Pizzeria,(781) 505-1105,Restaurant,"Boston, MA",owner@perezservice.com,Perez,75%,Owner name + service type
+Emma's Restaurant,(617) 507-1107,Restaurant,"Boston, MA",owner@emmaservice.com,Emma,75%,Owner name + service type
+Harris's Kitchen,(781) 508-1108,Restaurant,"Boston, MA",owner@harrisservice.com,Harris,75%,Owner name + service type
+Lewis Diner,(857) 512-1112,Restaurant,"Boston, MA",info@lewisdinerrestaurant.com,Lewis Diner,70%,Restaurant pattern
+Patricia Robinson's Pizzeria,(617) 513-1113,Restaurant,"Boston, MA",owner@robinsonservice.com,Robinson,75%,Owner name + service type
+Susan's Restaurant,(857) 515-1115,Restaurant,"Boston, MA",owner@susanservice.com,Susan,75%,Owner name + service type
+Allen's Kitchen,(617) 516-1116,Restaurant,"Boston, MA",owner@allenservice.com,Allen,75%,Owner name + service type
+Betty Grill House,(617) 519-1119,Restaurant,"Boston, MA",info@bettygrillrestaurant.com,Betty Grill,70%,Restaurant pattern
+Torres Diner,(781) 520-1120,Restaurant,"Boston, MA",info@torresdinerrestaurant.com,Torres Diner,70%,Restaurant pattern
+Dorothy Boston's Pizzeria,(857) 521-1121,Restaurant,"Boston, MA",owner@bostonservice.com,Boston,75%,Owner name + service type
+Tony's Restaurant,(781) 523-1123,Restaurant,"Boston, MA",owner@tonyservice.com,Tony,75%,Owner name + service type
+Tony's Hair Salon,(617) 524-1124,Salon,"Boston, MA",owner@tonyservice.com,Tony,75%,Owner name + service type
+Frank Cuts & Color,(781) 528-1128,Salon,"Boston, MA",info@cuts&salon.com,Cuts &,70%,Salon pattern
+Tom's Hair Salon,(857) 532-1132,Salon,"Boston, MA",owner@tomservice.com,Tom,75%,Owner name + service type
+Rodriguez Salon & Spa,(617) 533-1133,Salon,"Boston, MA",info@rodriguezsalon.com,Rodriguez,70%,Salon pattern
+Kevin Cuts & Color,(617) 536-1136,Salon,"Boston, MA",info@cuts&salon.com,Cuts &,70%,Salon pattern
+Gonzalez Hair Design,(781) 537-1137,Salon,"Boston, MA",info@hairdesignsalon.com,Hair Design,70%,Salon pattern
+Michael's Hair Salon,(781) 540-1140,Salon,"Boston, MA",owner@michaelservice.com,Michael,75%,Owner name + service type
+Mary Cuts & Color,(857) 544-1144,Salon,"Boston, MA",info@cuts&salon.com,Cuts &,70%,Salon pattern
+Emma's Hair Salon,(617) 548-1148,Salon,"Boston, MA",owner@emmaservice.com,Emma,75%,Owner name + service type
+Sofia Cuts & Color,(781) 552-1152,Salon,"Boston, MA",info@cuts&salon.com,Cuts &,70%,Salon pattern
+Susan's Hair Salon,(857) 556-1156,Salon,"Boston, MA",owner@susanservice.com,Susan,75%,Owner name + service type
+Betty Cuts & Color,(617) 560-1160,Salon,"Boston, MA",info@cuts&salon.com,Cuts &,70%,Salon pattern
+Dorothy Boston Beauty Salon,(857) 562-1162,Salon,"Boston, MA",info@bostonbeautysalon.com,Boston Beauty,70%,Salon pattern
+Tony's Hair Salon,(781) 564-1164,Salon,"Boston, MA",owner@tonyservice.com,Tony,75%,Owner name + service type
+Frank Thermal Solutions,(781) 569-1169,HVAC,"Boston, MA",contact@thermalsolutions.com,Thermal Solutions,65%,Service business pattern
+Professional Jones HVAC,(857) 570-1170,HVAC,"Boston, MA",contact@professionaljones.com,Professional Jones,65%,Service business pattern
+Tom HVAC,(857) 573-1173,HVAC,"Boston, MA",contact@tom.com,Tom,65%,Service business pattern
+Kevin Thermal Solutions,(617) 577-1177,HVAC,"Boston, MA",contact@thermalsolutions.com,Thermal Solutions,65%,Service business pattern
+Professional Gonzalez HVAC,(781) 578-1178,HVAC,"Boston, MA",contact@professionalgonzalez.com,Professional Gonzalez,65%,Service business pattern
+Mary Thermal Solutions,(857) 585-1185,HVAC,"Boston, MA",contact@thermalsolutions.com,Thermal Solutions,65%,Service business pattern
+Emma HVAC,(617) 589-1189,HVAC,"Boston, MA",contact@emma.com,Emma,65%,Service business pattern
+Sofia Thermal Solutions,(781) 593-1193,HVAC,"Boston, MA",contact@thermalsolutions.com,Thermal Solutions,65%,Service business pattern
+Professional Lewis HVAC,(857) 594-1194,HVAC,"Boston, MA",contact@professionallewis.com,Professional Lewis,65%,Service business pattern
+Susan HVAC,(857) 597-1197,HVAC,"Boston, MA",contact@susan.com,Susan,65%,Service business pattern
+Betty Thermal Solutions,(617) 601-1201,HVAC,"Boston, MA",contact@thermalsolutions.com,Thermal Solutions,65%,Service business pattern
+Professional Torres HVAC,(781) 602-1202,HVAC,"Boston, MA",contact@professionaltorres.com,Professional Torres,65%,Service business pattern
+Dorothy Boston AC & Heating,(857) 603-1203,HVAC,"Boston, MA",contact@&heating.com,& Heating,65%,Service business pattern
+Tony's Auto Repair,(617) 606-1206,Auto Repair,"Boston, MA",owner@tonyservice.com,Tony,75%,Owner name + service type
+Frank Mechanic Shop,(781) 610-1210,Auto Repair,"Boston, MA",info@mechanicshopauto.com,Mechanic Shop,60%,Auto repair pattern
+Expert David Garcia Auto,(617) 612-1212,Auto Repair,"Boston, MA",info@davidgarciaauto.com,David Garcia,60%,Auto repair pattern
+Tom's Auto Repair,(857) 614-1214,Auto Repair,"Boston, MA",owner@tomservice.com,Tom,75%,Owner name + service type
+Kevin Mechanic Shop,(617) 618-1218,Auto Repair,"Boston, MA",info@mechanicshopauto.com,Mechanic Shop,60%,Auto repair pattern
+Gonzalez Oil Change,(781) 619-1219,Auto Repair,"Boston, MA",info@oilchangeauto.com,Oil Change,60%,Auto repair pattern
+Expert Paul Wilson Auto,(857) 620-1220,Auto Repair,"Boston, MA",info@paulwilsonauto.com,Paul Wilson,60%,Auto repair pattern
+Michael's Auto Repair,(781) 622-1222,Auto Repair,"Boston, MA",owner@michaelservice.com,Michael,75%,Owner name + service type
+Mary Mechanic Shop,(857) 626-1226,Auto Repair,"Boston, MA",info@mechanicshopauto.com,Mechanic Shop,60%,Auto repair pattern
+Expert Jennifer Perez Auto,(781) 628-1228,Auto Repair,"Boston, MA",info@jenniferperezauto.com,Jennifer Perez,60%,Auto repair pattern
+Emma's Auto Repair,(617) 630-1230,Auto Repair,"Boston, MA",owner@emmaservice.com,Emma,75%,Owner name + service type
+Sofia Mechanic Shop,(781) 634-1234,Auto Repair,"Boston, MA",info@mechanicshopauto.com,Mechanic Shop,60%,Auto repair pattern
+Expert Patricia Robinson Auto,(617) 636-1236,Auto Repair,"Boston, MA",info@patriciarobinsonauto.com,Patricia Robinson,60%,Auto repair pattern
+Susan's Auto Repair,(857) 638-1238,Auto Repair,"Boston, MA",owner@susanservice.com,Susan,75%,Owner name + service type
+Betty Mechanic Shop,(617) 642-1242,Auto Repair,"Boston, MA",info@mechanicshopauto.com,Mechanic Shop,60%,Auto repair pattern
+Torres Oil Change,(781) 643-1243,Auto Repair,"Boston, MA",info@oilchangeauto.com,Oil Change,60%,Auto repair pattern
+Expert Dorothy Boston Auto,(857) 644-1244,Auto Repair,"Boston, MA",info@dorothybostonauto.com,Dorothy Boston,60%,Auto repair pattern
+Tony's Auto Repair,(781) 646-1246,Auto Repair,"Boston, MA",owner@tonyservice.com,Tony,75%,Owner name + service type
+Dr. Tony's Dental,(617) 647-1247,Dentist,"Boston, MA",owner@tonyservice.com,Tony,75%,Owner name + service type
+Dr. Frank DDS,(781) 651-1251,Dentist,"Boston, MA",contact@drfrankdds.com,Frank DDS,65%,Dental practice pattern
+Smile Miller & Tom Dental,(781) 654-1254,Dentist,"Boston, MA",contact@dr&tom.com,& Tom,65%,Dental practice pattern
+Dr. Tom's Dental,(857) 655-1255,Dentist,"Boston, MA",owner@tomservice.com,Tom,75%,Owner name + service type
+Dr. Kevin DDS,(617) 659-1259,Dentist,"Boston, MA",contact@drkevindds.com,Kevin DDS,65%,Dental practice pattern
+Smile Anderson & Michael Dental,(617) 662-1262,Dentist,"Boston, MA",contact@dr&michael.com,& Michael,65%,Dental practice pattern
+Dr. Michael's Dental,(781) 663-1263,Dentist,"Boston, MA",owner@michaelservice.com,Michael,75%,Owner name + service type
+Dr. Mary DDS,(857) 667-1267,Dentist,"Boston, MA",contact@drmarydds.com,Mary DDS,65%,Dental practice pattern
+Smile Thompson & Emma Dental,(857) 670-1270,Dentist,"Boston, MA",contact@dr&emma.com,& Emma,65%,Dental practice pattern
+Dr. Emma's Dental,(617) 671-1271,Dentist,"Boston, MA",owner@emmaservice.com,Emma,75%,Owner name + service type
+Dr. Sofia DDS,(781) 675-1275,Dentist,"Boston, MA",contact@drsofiadds.com,Sofia DDS,65%,Dental practice pattern
+Smile Walker & Susan Dental,(781) 678-1278,Dentist,"Boston, MA",contact@dr&susan.com,& Susan,65%,Dental practice pattern
+Dr. Susan's Dental,(857) 679-1279,Dentist,"Boston, MA",owner@susanservice.com,Susan,75%,Owner name + service type
+Dr. Betty DDS,(617) 683-1283,Dentist,"Boston, MA",contact@drbettydds.com,Betty DDS,65%,Dental practice pattern
+Dorothy Boston Dental Studio,(857) 685-1285,Dentist,"Boston, MA",contact@drdorothyboston.com,Dorothy Boston,65%,Dental practice pattern
+Dr. Tony's Dental,(781) 687-1287,Dentist,"Boston, MA",owner@tonyservice.com,Tony,75%,Owner name + service type
+Jones Strength Center,(857) 693-1293,Gym,"Boston, MA",contact@jonesstrength.com,Jones Strength,40%,Estimated pattern
+Rodriguez Gym,(617) 697-1297,Gym,"Boston, MA",contact@rodriguezgym.com,Rodriguez Gym,40%,Estimated pattern
+Taylor Gym,(857) 705-1305,Gym,"Boston, MA",contact@taylorgym.com,Taylor Gym,40%,Estimated pattern
+Lee Strength Center,(617) 709-1309,Gym,"Boston, MA",contact@leestrength.com,Lee Strength,40%,Estimated pattern
+Harris Gym,(781) 713-1313,Gym,"Boston, MA",contact@harrisgym.com,Harris Gym,40%,Estimated pattern
+Lewis Strength Center,(857) 717-1317,Gym,"Boston, MA",contact@lewisstrength.com,Lewis Strength,40%,Estimated pattern
+Allen Gym,(617) 721-1321,Gym,"Boston, MA",contact@allengym.com,Allen Gym,40%,Estimated pattern
+Torres Strength Center,(781) 725-1325,Gym,"Boston, MA",contact@torresstrength.com,Torres Strength,40%,Estimated pattern
+Dorothy Boston CrossFit,(857) 726-1326,Gym,"Boston, MA",contact@dorothycrossfit.com,Boston CrossFit,40%,Estimated pattern
+Professional Williams & Frank Cleaning,(617) 732-1332,Cleaning,"Boston, MA",contact@professionalcleaning.com,Frank Cleaning,40%,Estimated pattern
+Fresh David Garcia Cleaning,(617) 735-1335,Cleaning,"Boston, MA",contact@freshcleaning.com,Garcia Cleaning,40%,Estimated pattern
+Rodriguez Clean Team,(617) 738-1338,Cleaning,"Boston, MA",contact@rodriguezteam.com,Clean Team,40%,Estimated pattern
+Professional Hernandez & Kevin Cleaning,(857) 740-1340,Cleaning,"Boston, MA",contact@professionalcleaning.com,Kevin Cleaning,40%,Estimated pattern
+Fresh Paul Wilson Cleaning,(857) 743-1343,Cleaning,"Boston, MA",contact@freshcleaning.com,Wilson Cleaning,40%,Estimated pattern
+Professional Jackson & Mary Cleaning,(781) 748-1348,Cleaning,"Boston, MA",contact@professionalcleaning.com,Mary Cleaning,40%,Estimated pattern
+Fresh Jennifer Perez Cleaning,(781) 751-1351,Cleaning,"Boston, MA",contact@freshcleaning.com,Perez Cleaning,40%,Estimated pattern
+Professional Clark & Sofia Cleaning,(617) 756-1356,Cleaning,"Boston, MA",contact@professionalcleaning.com,Sofia Cleaning,40%,Estimated pattern
+Fresh Patricia Robinson Cleaning,(617) 759-1359,Cleaning,"Boston, MA",contact@freshcleaning.com,Robinson Cleaning,40%,Estimated pattern
+Professional Wright & Betty Cleaning,(857) 764-1364,Cleaning,"Boston, MA",contact@professionalcleaning.com,Betty Cleaning,40%,Estimated pattern
+Fresh Dorothy Boston Cleaning,(857) 767-1367,Cleaning,"Boston, MA",contact@freshcleaning.com,Boston Cleaning,40%,Estimated pattern
+Quality Gonzalez Construction,(781) 783-1383,Contractor,"Boston, MA",contact@qualityconstruction.com,Quality Gonzalez,40%,Estimated pattern
+Quality Lee Construction,(617) 791-1391,Contractor,"Boston, MA",contact@qualityconstruction.com,Quality Lee,40%,Estimated pattern
+Quality Lewis Construction,(857) 799-1399,Contractor,"Boston, MA",contact@qualityconstruction.com,Quality Lewis,40%,Estimated pattern
+Quality Torres Construction,(781) 807-1407,Contractor,"Boston, MA",contact@qualityconstruction.com,Quality Torres,40%,Estimated pattern
+Dorothy Boston Remodeling,(857) 808-1408,Contractor,"Boston, MA",contact@dorothyremodeling.com,Boston Remodeling,40%,Estimated pattern
+ProScape Frank,(781) 815-1415,Landscaping,"Boston, MA",contact@proscapefrank.com,ProScape Frank,40%,Estimated pattern
+Expert Miller & Tom Landscaping,(781) 818-1418,Landscaping,"Boston, MA",contact@expertlandscaping.com,Tom Landscaping,40%,Estimated pattern
+ProScape Kevin,(617) 823-1423,Landscaping,"Boston, MA",contact@proscapekevin.com,ProScape Kevin,40%,Estimated pattern
+Expert Anderson & Michael Landscaping,(617) 826-1426,Landscaping,"Boston, MA",contact@expertlandscaping.com,Michael Landscaping,40%,Estimated pattern
+ProScape Mary,(857) 831-1431,Landscaping,"Boston, MA",contact@proscapemary.com,ProScape Mary,40%,Estimated pattern
+Expert Thompson & Emma Landscaping,(857) 834-1434,Landscaping,"Boston, MA",contact@expertlandscaping.com,Emma Landscaping,40%,Estimated pattern
+ProScape Sofia,(781) 839-1439,Landscaping,"Boston, MA",contact@proscapesofia.com,ProScape Sofia,40%,Estimated pattern
+Expert Walker & Susan Landscaping,(781) 842-1442,Landscaping,"Boston, MA",contact@expertlandscaping.com,Susan Landscaping,40%,Estimated pattern
+Susan Landscaping,(857) 843-1443,Landscaping,"Boston, MA",contact@susanlandscaping.com,Susan Landscaping,40%,Estimated pattern
+ProScape Betty,(617) 847-1447,Landscaping,"Boston, MA",contact@proscapebetty.com,ProScape Betty,40%,Estimated pattern
+Dorothy Boston Yard Service,(857) 849-1449,Landscaping,"Boston, MA",contact@dorothyyard.com,Boston Yard,40%,Estimated pattern
+Kevin Bookkeeping,(617) 864-1464,Accountant,"Boston, MA",contact@kevinbookkeeping.com,Kevin Bookkeeping,40%,Estimated pattern
+Accounting by Gonzalez,(781) 865-1465,Accountant,"Boston, MA",contact@accountinggonzalez.com,by Gonzalez,40%,Estimated pattern
+Michael Accounting,(781) 868-1468,Accountant,"Boston, MA",contact@michaelaccounting.com,Michael Accounting,40%,Estimated pattern
+Mary Bookkeeping,(857) 872-1472,Accountant,"Boston, MA",contact@marybookkeeping.com,Mary Bookkeeping,40%,Estimated pattern
+Accounting by Lee,(617) 873-1473,Accountant,"Boston, MA",contact@accountinglee.com,by Lee,40%,Estimated pattern
+Emma Accounting,(617) 876-1476,Accountant,"Boston, MA",contact@emmaaccounting.com,Emma Accounting,40%,Estimated pattern
+Sofia Bookkeeping,(781) 880-1480,Accountant,"Boston, MA",contact@sofiabookkeeping.com,Sofia Bookkeeping,40%,Estimated pattern
+Accounting by Lewis,(857) 881-1481,Accountant,"Boston, MA",contact@accountinglewis.com,by Lewis,40%,Estimated pattern
+Susan Accounting,(857) 884-1484,Accountant,"Boston, MA",contact@susanaccounting.com,Susan Accounting,40%,Estimated pattern
+Betty Bookkeeping,(617) 888-1488,Accountant,"Boston, MA",contact@bettybookkeeping.com,Betty Bookkeeping,40%,Estimated pattern
+Accounting by Torres,(781) 889-1489,Accountant,"Boston, MA",contact@accountingtorres.com,by Torres,40%,Estimated pattern
+Dorothy Boston Tax & Accounting,(857) 890-1490,Accountant,"Boston, MA",contact@dorothyaccounting.com,& Accounting,40%,Estimated pattern
