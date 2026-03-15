@@ -1,0 +1,360 @@
+{
+  "templateName": "Salon & Barbershop",
+  "templateId": "salon",
+  "version": "1.0.0",
+  "category": "Beauty & Personal Care",
+  "description": "Stylish salon website with online booking, service menu, and stylist portfolios. Perfect for hair salons, barbershops, nail salons, and spas.",
+  
+  "theme": {
+    "colorPalette": {
+      "primary": "#D4A5A5",
+      "primaryDark": "#B88383",
+      "primaryLight": "#E8C4C4",
+      "secondary": "#4A4A4A",
+      "accent": "#9B8AA5",
+      "background": "#FDF8F5",
+      "surface": "#FFFFFF",
+      "textPrimary": "#2D2D2D",
+      "textSecondary": "#6B6B6B",
+      "textMuted": "#9B9B9B",
+      "success": "#7CB342",
+      "warning": "#FFA726",
+      "error": "#EF5350"
+    },
+    "fonts": {
+      "heading": "Cormorant Garamond",
+      "body": "Montserrat",
+      "accent": "Great Vibes"
+    },
+    "visualMood": "Sophisticated, feminine, luxurious with soft colors. Clean lines with elegant flourishes. High-quality photography focused on transformations and details.",
+    "style": "Modern luxury with boutique charm"
+  },
+
+  "pages": {
+    "required": [
+      {
+        "id": "home",
+        "name": "Home",
+        "slug": "/",
+        "description": "Hero with ambiance, featured services, and booking CTA"
+      },
+      {
+        "id": "services",
+        "name": "Services",
+        "slug": "/services",
+        "description": "Complete service menu with pricing and descriptions"
+      },
+      {
+        "id": "booking",
+        "name": "Book Appointment",
+        "slug": "/booking",
+        "description": "Online scheduling with stylist selection"
+      },
+      {
+        "id": "stylists",
+        "name": "Our Team",
+        "slug": "/stylists",
+        "description": "Stylist profiles with portfolios and specialties"
+      },
+      {
+        "id": "gallery",
+        "name": "Gallery",
+        "slug": "/gallery",
+        "description": "Before/after transformations and style showcase"
+      },
+      {
+        "id": "contact",
+        "name": "Contact",
+        "slug": "/contact",
+        "description": "Location, hours, contact form"
+      }
+    ],
+    "optional": [
+      {
+        "id": "products",
+        "name": "Products",
+        "slug": "/products",
+        "description": "Retail products for sale",
+        "enabled": false
+      },
+      {
+        "id": "membership",
+        "name": "Membership",
+        "slug": "/membership",
+        "description": "VIP programs and packages",
+        "enabled": false
+      },
+      {
+        "id": "blog",
+        "name": "Style Blog",
+        "slug": "/blog",
+        "description": "Hair tips, trends, tutorials",
+        "enabled": false
+      },
+      {
+        "id": "reviews",
+        "name": "Reviews",
+        "slug": "/reviews",
+        "description": "Customer testimonials",
+        "enabled": true
+      },
+      {
+        "id": "careers",
+        "name": "Careers",
+        "slug": "/careers",
+        "description": "Job openings and application",
+        "enabled": false
+      }
+    ]
+  },
+
+  "features": {
+    "required": [
+      {
+        "id": "online-booking",
+        "name": "Online Appointment Booking",
+        "description": "Real-time scheduling with service and stylist selection"
+      },
+      {
+        "id": "service-menu",
+        "name": "Interactive Service Menu",
+        "description": "Categorized services with prices, durations, and descriptions"
+      },
+      {
+        "id": "stylist-profiles",
+        "name": "Stylist Profiles",
+        "description": "Individual pages for each stylist with photos, bios, and availability"
+      },
+      {
+        "id": "before-after",
+        "name": "Before/After Gallery",
+        "description": "Slider comparison showcasing transformations"
+      },
+      {
+        "id": "sms-reminders",
+        "name": "SMS Appointment Reminders",
+        "description": "Automated text reminders for bookings"
+      }
+    ],
+    "optional": [
+      {
+        "id": "waitlist",
+        "name": "Waitlist Management",
+        "description": "Fill last-minute cancellations automatically",
+        "enabled": true
+      },
+      {
+        "id": "gift-cards",
+        "name": "Digital Gift Cards",
+        "description": "Sell gift certificates online",
+        "enabled": true
+      },
+      {
+        "id": "product-shop",
+        "name": "Product Store",
+        "description": "E-commerce for retail products",
+        "enabled": false
+      },
+      {
+        "id": "loyalty-program",
+        "name": "Loyalty Points",
+        "description": "Rewards for repeat visits",
+        "enabled": false
+      },
+      {
+        "id": "virtual-consult",
+        "name": "Virtual Consultation",
+        "description": "Video chat for color matching and advice",
+        "enabled": false
+      },
+      {
+        "id": "style-quiz",
+        "name": "Style Quiz",
+        "description": "Help clients find their perfect look",
+        "enabled": false
+      },
+      {
+        "id": "instagram-feed",
+        "name": "Instagram Integration",
+        "description": "Show latest work from Instagram",
+        "enabled": true
+      }
+    ]
+  },
+
+  "layout": {
+    "type": "multi-page",
+    "navigation": "sticky-header",
+    "heroStyle": "split-screen-with-image",
+    "contentWidth": "max-w-6xl",
+    "mobileBehavior": "hamburger-menu",
+    "footerColumns": 4
+  },
+
+  "dynamicFields": {
+    "businessInfo": {
+    "businessName": {
+        "type": "text",
+        "required": true,
+        "label": "Salon Name",
+        "placeholder": "Serenity Salon & Spa"
+      },
+      "tagline": {
+        "type": "text",
+        "required": false,
+        "label": "Tagline",
+        "placeholder": "Where Beauty Meets Relaxation"
+      },
+      "description": {
+        "type": "textarea",
+        "required": true,
+        "label": "About Your Salon",
+        "placeholder": "A full-service salon offering hair, nails, and spa treatments..."
+      },
+      "logo": {
+        "type": "image",
+        "required": false,
+        "label": "Salon Logo",
+        "recommendedSize": "400x400px"
+      },
+      "salonType": {
+        "type": "select",
+        "required": true,
+        "label": "Salon Type",
+        "options": ["Hair Salon", "Barbershop", "Nail Salon", "Spa", "Full-Service Salon", "Boutique Salon"]
+      }
+    },
+
+    "contact": {
+      "phone": { "type": "tel", "required": true, "label": "Main Phone" },
+      "bookingPhone": { "type": "tel", "required": false, "label": "Booking Line (if different)" },
+      "email": { "type": "email", "required": true, "label": "Email" },
+      "address": { "type": "address", "required": true, "label": "Address" },
+      "city": { "type": "text", "required": true, "label": "City" },
+      "state": { "type": "text", "required": true, "label": "State" },
+      "zipCode": { "type": "text", "required": true, "label": "ZIP" },
+      "parkingInfo": { "type": "textarea", "required": false, "label": "Parking Instructions" }
+    },
+
+    "hours": {
+      "monday": { "open": "time", "close": "time", "closed": "boolean" },
+      "tuesday": { "open": "time", "close": "time", "closed": "boolean" },
+      "wednesday": { "open": "time", "close": "time", "closed": "boolean" },
+      "thursday": { "open": "time", "close": "time", "closed": "boolean" },
+      "friday": { "open": "time", "close": "time", "closed": "boolean" },
+      "saturday": { "open": "time", "close": "time", "closed": "boolean" },
+      "sunday": { "open": "time", "close": "time", "closed": "boolean" }
+    },
+
+    "stylists": {
+      "type": "array",
+      "label": "Stylists/Barbers",
+      "fields": {
+        "name": { "type": "text", "required": true, "label": "Full Name" },
+        "title": { "type": "text", "label": "Title (e.g., Master Stylist)" },
+        "bio": { "type": "textarea", "label": "Bio" },
+        "photo": { "type": "image", "label": "Portrait Photo", "recommendedSize": "600x800px" },
+        "specialties": { "type": "multiselect", "label": "Specialties", "options": ["Color", "Cuts", "Extensions", "Blowouts", "Updos", "Barbering", "Nails", "Skincare", "Makeup"] },
+        "experience": { "type": "text", "label": "Years of Experience" },
+        "instagram": { "type": "url", "label": "Instagram URL" },
+        "bookingLink": { "type": "url", "label": "Direct Booking Link" },
+        "certifications": { "type": "text", "label": "Certifications" },
+        "availability": { "type": "text", "label": "Available Days" }
+      }
+    },
+
+    "services": {
+      "type": "array",
+      "label": "Service Categories",
+      "fields": {
+        "categoryName": { "type": "text", "required": true, "label": "Category" },
+        "services": {
+          "type": "array",
+          "label": "Services",
+          "fields": {
+            "name": { "type": "text", "required": true },
+            "description": { "type": "textarea" },
+            "price": { "type": "text", "placeholder": "$50 or $50+" },
+            "duration": { "type": "text", "placeholder": "45 min" },
+            "image": { "type": "image" },
+            "addOns": { "type": "text", "label": "Available Add-ons" }
+          }
+        }
+      }
+    },
+
+    "gallery": {
+      "transformations": {
+        "type": "array",
+        "label": "Before/After Photos",
+        "fields": {
+          "beforeImage": { "type": "image", "required": true },
+          "afterImage": { "type": "image", "required": true },
+          "service": { "type": "text", "label": "Service Performed" },
+          "stylist": { "type": "text", "label": "Stylist Name" },
+          "description": { "type": "textarea" }
+        }
+      },
+      "portfolio": {
+        "type": "imageArray",
+        "label": "Portfolio Images",
+        "maxImages": 30
+      }
+    },
+
+    "booking": {
+      "bookingSystem": {
+        "type": "select",
+        "options": ["Square Appointments", "Acuity Scheduling", "Schedulicity", "Vagaro", "Fresha", "Custom"],
+        "label": "Booking Platform"
+      },
+      "bookingUrl": { "type": "url", "label": "Booking URL" },
+      "depositRequired": { "type": "boolean", "label": "Require Deposit" },
+      "depositAmount": { "type": "text", "label": "Deposit Amount" },
+      "cancellationPolicy": { "type": "textarea", "label": "Cancellation Policy" },
+      "latePolicy": { "type": "textarea", "label": "Late Arrival Policy" }
+    },
+
+    "social": {
+      "instagram": { "type": "url", "label": "Instagram (essential for salons)" },
+      "facebook": { "type": "url", "label": "Facebook" },
+      "pinterest": { "type": "url", "label": "Pinterest" },
+      "tiktok": { "type": "url", "label": "TikTok" },
+      "yelp": { "type": "url", "label": "Yelp" }
+    },
+
+    "seo": {
+      "metaTitle": { "type": "text", "label": "SEO Title", "maxLength": 60 },
+      "metaDescription": { "type": "textarea", "label": "SEO Description", "maxLength": 160 },
+      "keywords": { "type": "text", "label": "Keywords", "placeholder": "hair salon, balayage, haircuts, color specialist" }
+    }
+  },
+
+  "sections": {
+    "home": [
+      { "id": "hero", "name": "Hero", "toggleable": false },
+      { "id": "services-preview", "name": "Services Preview", "toggleable": true, "default": true },
+      { "id": "featured-stylists", "name": "Featured Stylists", "toggleable": true, "default": true },
+      { "id": "transformations", "name": "Recent Transformations", "toggleable": true, "default": true },
+      { "id": "booking-cta", "name": "Book Now CTA", "toggleable": true, "default": true },
+      { "id": "reviews", "name": "Client Reviews", "toggleable": true, "default": true },
+      { "id": "instagram", "name": "Instagram Feed", "toggleable": true, "default": true }
+    ]
+  },
+
+  "integrations": {
+    "supported": [
+      "Square Appointments",
+      "Acuity Scheduling",
+      "Schedulicity",
+      "Vagaro",
+      "Fresha",
+      "StyleSeat",
+      "Booksy",
+      "Instagram",
+      "Facebook",
+      "Yelp",
+      "Google Business"
+    ]
+  }
+}

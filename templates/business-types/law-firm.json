@@ -1,0 +1,127 @@
+{
+  "templateName": "Law Firm",
+  "templateId": "law-firm",
+  "version": "1.0.0",
+  "category": "Legal Services",
+  "description": "Professional law firm website with practice areas, attorney profiles, and case evaluation forms. Trust-building design with authoritative presence.",
+  
+  "theme": {
+    "colorPalette": {
+      "primary": "#1A365D",
+      "primaryDark": "#0F2744",
+      "primaryLight": "#2C5282",
+      "secondary": "#C0A062",
+      "accent": "#744210",
+      "background": "#FFFFFF",
+      "surface": "#F7FAFC",
+      "textPrimary": "#1A202C",
+      "textSecondary": "#4A5568",
+      "textMuted": "#718096"
+    },
+    "fonts": {
+      "heading": "Crimson Text",
+      "body": "Source Sans Pro",
+      "accent": "Libre Baskerville"
+    },
+    "visualMood": "Authoritative, trustworthy, professional. Deep blues and gold accents convey stability and prestige. Clean layouts with classic typography. Conservative yet modern.",
+    "style": "Traditional professional with modern touches"
+  },
+
+  "pages": {
+    "required": [
+      { "id": "home", "name": "Home", "slug": "/" },
+      { "id": "practice-areas", "name": "Practice Areas", "slug": "/practice-areas" },
+      { "id": "attorneys", "name": "Attorneys", "slug": "/attorneys" },
+      { "id": "about", "name": "About Firm", "slug": "/about" },
+      { "id": "contact", "name": "Contact", "slug": "/contact" }
+    ],
+    "optional": [
+      { "id": "case-results", "name": "Case Results", "slug": "/case-results", "enabled": true },
+      { "id": "testimonials", "name": "Client Testimonials", "slug": "/testimonials", "enabled": true },
+      { "id": "blog", "name": "Legal Insights", "slug": "/blog", "enabled": true },
+      { "id": "faq", "name": "FAQ", "slug": "/faq", "enabled": true },
+      { "id": "careers", "name": "Careers", "slug": "/careers", "enabled": false }
+    ]
+  },
+
+  "features": {
+    "required": [
+      { "id": "case-evaluation", "name": "Free Case Evaluation Form", "description": "Secure intake form for potential clients" },
+      { "id": "practice-areas", "name": "Practice Area Pages", "description": "Detailed service descriptions for each legal specialty" },
+      { "id": "attorney-profiles", "name": "Attorney Profiles", "description": "Bios, credentials, and photos for each lawyer" },
+      { "id": "live-chat", "name": "Live Chat", "description": "Immediate client communication" }
+    ],
+    "optional": [
+      { "id": "appointment", "name": "Appointment Scheduling", "description": "Book consultations online", "enabled": true },
+      { "id": "client-portal", "name": "Client Portal", "description": "Secure document sharing", "enabled": false },
+      { "id": "payment", "name": "Online Payments", "description": "Pay invoices online", "enabled": true }
+    ]
+  },
+
+  "layout": {
+    "type": "multi-page",
+    "navigation": "traditional-header",
+    "heroStyle": "professional-with-cta",
+    "contentWidth": "max-w-6xl"
+  },
+
+  "dynamicFields": {
+    "firmInfo": {
+      "firmName": { "type": "text", "required": true, "label": "Law Firm Name" },
+      "tagline": { "type": "text", "label": "Tagline" },
+      "founded": { "type": "text", "label": "Year Founded" },
+      "description": { "type": "textarea", "label": "Firm Overview" },
+      "logo": { "type": "image" },
+      "firmPhoto": { "type": "image", "label": "Office/Firm Photo" }
+    },
+    "attorneys": {
+      "type": "array",
+      "label": "Attorneys",
+      "fields": {
+        "name": { "type": "text", "required": true },
+        "title": { "type": "text", "label": "Title (Partner, Associate, etc.)" },
+        "photo": { "type": "image" },
+        "bio": { "type": "textarea" },
+        "education": { "type": "textarea" },
+        "admissions": { "type": "text", "label": "Bar Admissions" },
+        "specialties": { "type": "text" },
+        "email": { "type": "email" },
+        "phone": { "type": "tel" }
+      }
+    },
+    "practiceAreas": {
+      "type": "array",
+      "label": "Practice Areas",
+      "fields": {
+        "name": { "type": "text", "required": true },
+        "description": { "type": "textarea" },
+        "icon": { "type": "image" },
+        "details": { "type": "textarea", "label": "Detailed Description" }
+      }
+    },
+    "contact": {
+      "mainPhone": { "type": "tel", "required": true },
+      "tollFree": { "type": "tel", "label": "Toll-Free Number" },
+      "email": { "type": "email", "required": true },
+      "address": { "type": "address", "required": true },
+      "city": { "type": "text" },
+      "state": { "type": "text" },
+      "zipCode": { "type": "text" },
+      "hours": { "type": "text", "label": "Office Hours" }
+    },
+    "caseResults": {
+      "type": "array",
+      "label": "Notable Case Results",
+      "fields": {
+        "caseType": { "type": "text" },
+        "result": { "type": "text" },
+        "amount": { "type": "text", "label": "Settlement/Verdict" },
+        "description": { "type": "textarea" }
+      }
+    }
+  },
+
+  "integrations": {
+    "supported": ["LawPay", "Clio", "MyCase", "Calendly", "LiveChat"]
+  }
+}

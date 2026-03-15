@@ -1,0 +1,154 @@
+{
+  "templateName": "Fitness Studio",
+  "templateId": "fitness",
+  "version": "1.0.0",
+  "category": "Health & Fitness",
+  "description": "Energetic fitness studio website with class schedules, membership options, and trainer profiles. Perfect for gyms, yoga studios, CrossFit boxes, and boutique fitness.",
+  
+  "theme": {
+    "colorPalette": {
+      "primary": "#FF6B35",
+      "primaryDark": "#E85A2D",
+      "primaryLight": "#FF8C5A",
+      "secondary": "#1A1A2E",
+      "accent": "#00D9C0",
+      "background": "#FFFFFF",
+      "surface": "#F8F9FA",
+      "textPrimary": "#1A1A2E",
+      "textSecondary": "#4A4A5A",
+      "textMuted": "#8A8A9A"
+    },
+    "fonts": {
+      "heading": "Oswald",
+      "body": "Roboto",
+      "accent": "Bebas Neue"
+    },
+    "visualMood": "Energetic, motivational, dynamic. Bold orange with dark navy creates energy and strength. Action photography with bold typography. High contrast for impact.",
+    "style": "Bold athletic with modern edge"
+  },
+
+  "pages": {
+    "required": [
+      { "id": "home", "name": "Home", "slug": "/" },
+      { "id": "classes", "name": "Classes", "slug": "/classes" },
+      { "id": "schedule", "name": "Schedule", "slug": "/schedule" },
+      { "id": "trainers", "name": "Trainers", "slug": "/trainers" },
+      { "id": "membership", "name": "Membership", "slug": "/membership" },
+      { "id": "contact", "name": "Contact", "slug": "/contact" }
+    ],
+    "optional": [
+      { "id": "about", "name": "Our Story", "slug": "/about", "enabled": true },
+      { "id": "amenities", "name": "Amenities", "slug": "/amenities", "enabled": true },
+      { "id": "blog", "name": "Blog", "slug": "/blog", "enabled": false },
+      { "id": "success-stories", "name": "Success Stories", "slug": "/success-stories", "enabled": true },
+      { "id": "faq", "name": "FAQ", "slug": "/faq", "enabled": true },
+      { "id": "careers", "name": "Careers", "slug": "/careers", "enabled": false }
+    ]
+  },
+
+  "features": {
+    "required": [
+      { "id": "class-schedule", "name": "Interactive Class Schedule", "description": "Weekly calendar with class times and availability" },
+      { "id": "online-booking", "name": "Class Booking", "description": "Reserve spots in classes online" },
+      { "id": "membership-plans", "name": "Membership Display", "description": "Pricing tiers with feature comparison" },
+      { "id": "trainer-profiles", "name": "Trainer Profiles", "description": "Bios, specialties, and schedules for each trainer" },
+      { "id": "contact-form", "name": "Free Trial Form", "description": "Capture leads with free class offers" }
+    ],
+    "optional": [
+      { "id": "mobile-app", "name": "Mobile App Integration", "description": "Link to branded member app", "enabled": false },
+      { "id": "video-classes", "name": "On-Demand Video", "description": "Online workout library", "enabled": false },
+      { "id": "challenges", "name": "Fitness Challenges", "description": "Gamified member competitions", "enabled": true },
+      { "id": "nutrition", "name": "Nutrition Plans", "description": "Meal planning integration", "enabled": false },
+      { "id": "wearables", "name": "Wearable Integration", "description": "Connect Fitbit, Apple Watch, etc.", "enabled": true }
+    ]
+  },
+
+  "layout": {
+    "type": "multi-page",
+    "navigation": "sticky-bold",
+    "heroStyle": "dynamic-video-or-slider",
+    "contentWidth": "max-w-6xl"
+  },
+
+  "dynamicFields": {
+    "studioInfo": {
+      "studioName": { "type": "text", "required": true, "label": "Studio Name" },
+      "studioType": { 
+        "type": "select", 
+        "label": "Studio Type",
+        "options": ["Gym", "Yoga Studio", "CrossFit", "Pilates", "Boutique Fitness", "Personal Training", "Martial Arts", "Dance Studio"]
+      },
+      "tagline": { "type": "text", "label": "Tagline" },
+      "mission": { "type": "textarea", "label": "Mission Statement" },
+      "logo": { "type": "image" },
+      "heroVideo": { "type": "video", "label": "Hero Background Video" }
+    },
+    "contact": {
+      "phone": { "type": "tel", "required": true },
+      "email": { "type": "email", "required": true },
+      "address": { "type": "address", "required": true },
+      "city": { "type": "text" },
+      "state": { "type": "text" },
+      "zipCode": { "type": "text" },
+      "parking": { "type": "textarea" }
+    },
+    "hours": {
+      "monday": { "open": "time", "close": "time" },
+      "tuesday": { "open": "time", "close": "time" },
+      "wednesday": { "open": "time", "close": "time" },
+      "thursday": { "open": "time", "close": "time" },
+      "friday": { "open": "time", "close": "time" },
+      "saturday": { "open": "time", "close": "time" },
+      "sunday": { "open": "time", "close": "time" }
+    },
+    "trainers": {
+      "type": "array",
+      "label": "Trainers/Instructors",
+      "fields": {
+        "name": { "type": "text", "required": true },
+        "photo": { "type": "image" },
+        "title": { "type": "text" },
+        "bio": { "type": "textarea" },
+        "certifications": { "type": "text" },
+        "specialties": { "type": "text" },
+        "instagram": { "type": "url" }
+      }
+    },
+    "classes": {
+      "type": "array",
+      "label": "Class Types",
+      "fields": {
+        "name": { "type": "text", "required": true },
+        "description": { "type": "textarea" },
+        "duration": { "type": "text" },
+        "intensity": { "type": "select", "options": ["Low", "Moderate", "High", "All Levels"] },
+        "calories": { "type": "text", "label": "Calories Burned (approx)" },
+        "image": { "type": "image" }
+      }
+    },
+    "membership": {
+      "type": "array",
+      "label": "Membership Plans",
+      "fields": {
+        "planName": { "type": "text", "required": true },
+        "price": { "type": "text" },
+        "billing": { "type": "select", "options": ["Monthly", "Annual", "Per Class"] },
+        "features": { "type": "textarea", "label": "Features (one per line)" },
+        "popular": { "type": "boolean" }
+      }
+    },
+    "amenities": {
+      "type": "array",
+      "label": "Amenities",
+      "fields": {
+        "name": { "type": "text" },
+        "description": { "type": "textarea" },
+        "icon": { "type": "image" }
+      }
+    }
+  },
+
+  "integrations": {
+    "supported": ["Mindbody", "Glofox", "Zen Planner", "Wodify", "Mariana Tek", "FitMetrix"]
+  }
+}

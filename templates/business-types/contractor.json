@@ -1,0 +1,141 @@
+{
+  "templateName": "Contractor / Tradesperson",
+  "templateId": "contractor",
+  "version": "1.0.0",
+  "category": "Home Services",
+  "description": "Professional contractor website with service listings, project galleries, and quote requests. Built for plumbers, electricians, HVAC, roofing, and general contractors.",
+  
+  "theme": {
+    "colorPalette": {
+      "primary": "#D97800",
+      "primaryDark": "#B56300",
+      "primaryLight": "#F09020",
+      "secondary": "#2C3E50",
+      "accent": "#27AE60",
+      "background": "#FFFFFF",
+      "surface": "#F4F4F4",
+      "textPrimary": "#1A1A1A",
+      "textSecondary": "#4A4A4A",
+      "textMuted": "#7A7A7A"
+    },
+    "fonts": {
+      "heading": "Roboto Condensed",
+      "body": "Open Sans",
+      "accent": "Oswald"
+    },
+    "visualMood": "Trustworthy, professional, hardworking. Bold orange conveys energy and reliability. Clean layouts with strong CTAs. Project photography showcasing quality work.",
+    "style": "Professional trades with modern polish"
+  },
+
+  "pages": {
+    "required": [
+      { "id": "home", "name": "Home", "slug": "/" },
+      { "id": "services", "name": "Services", "slug": "/services" },
+      { "id": "projects", "name": "Our Work", "slug": "/projects" },
+      { "id": "about", "name": "About", "slug": "/about" },
+      { "id": "contact", "name": "Contact", "slug": "/contact" }
+    ],
+    "optional": [
+      { "id": "quote", "name": "Get a Quote", "slug": "/quote", "enabled": true },
+      { "id": "reviews", "name": "Reviews", "slug": "/reviews", "enabled": true },
+      { "id": "faq", "name": "FAQ", "slug": "/faq", "enabled": true },
+      { "id": "financing", "name": "Financing", "slug": "/financing", "enabled": false },
+      { "id": "blog", "name": "Tips & Advice", "slug": "/blog", "enabled": false },
+      { "id": "careers", "name": "Careers", "slug": "/careers", "enabled": false }
+    ]
+  },
+
+  "features": {
+    "required": [
+      { "id": "quote-form", "name": "Online Quote Request", "description": "Detailed project inquiry form with photo upload" },
+      { "id": "service-listings", "name": "Service Pages", "description": "Detailed descriptions of each service offered" },
+      { "id": "project-gallery", "name": "Project Gallery", "description": "Before/after photos of completed work" },
+      { "id": "click-to-call", "name": "Click-to-Call", "description": "Prominent phone number for mobile users" },
+      { "id": "service-area", "name": "Service Area Map", "description": "Map showing areas served" }
+    ],
+    "optional": [
+      { "id": "financing", "name": "Financing Options", "description": "Payment plan information", "enabled": false },
+      { "id": "emergency", "name": "24/7 Emergency Service", "description": "Highlight emergency availability", "enabled": true },
+      { "id": "warranty", "name": "Warranty Info", "description": "Workmanship guarantee details", "enabled": true },
+      { "id": "reviews", "name": "Review Integration", "description": "Google, Yelp, Angi reviews", "enabled": true },
+      { "id": "live-chat", "name": "Live Chat", "description": "Quick questions answered", "enabled": false }
+    ]
+  },
+
+  "layout": {
+    "type": "multi-page",
+    "navigation": "sticky-with-phone",
+    "heroStyle": "trust-focused-with-cta",
+    "contentWidth": "max-w-6xl"
+  },
+
+  "dynamicFields": {
+    "businessInfo": {
+      "companyName": { "type": "text", "required": true, "label": "Company Name" },
+      "tradeType": { 
+        "type": "select", 
+        "label": "Trade Type",
+        "options": ["General Contractor", "Plumber", "Electrician", "HVAC", "Roofer", "Painter", "Landscaper", "Carpenter", "Mason", "Flooring", "Other"]
+      },
+      "tagline": { "type": "text", "label": "Tagline" },
+      "description": { "type": "textarea", "label": "Company Description" },
+      "logo": { "type": "image" },
+      "yearsInBusiness": { "type": "text" },
+      "licenseNumber": { "type": "text", "label": "License Number" },
+      "insured": { "type": "boolean", "label": "Fully Insured" },
+      "bonded": { "type": "boolean", "label": "Bonded" }
+    },
+    "contact": {
+      "phone": { "type": "tel", "required": true },
+      "emergencyPhone": { "type": "tel", "label": "Emergency Line" },
+      "email": { "type": "email" },
+      "address": { "type": "address" },
+      "city": { "type": "text" },
+      "state": { "type": "text" },
+      "zipCode": { "type": "text" },
+      "serviceRadius": { "type": "text", "label": "Service Radius (miles)" }
+    },
+    "hours": {
+      "monday": { "open": "time", "close": "time" },
+      "tuesday": { "open": "time", "close": "time" },
+      "wednesday": { "open": "time", "close": "time" },
+      "thursday": { "open": "time", "close": "time" },
+      "friday": { "open": "time", "close": "time" },
+      "saturday": { "open": "time", "close": "time", "closed": "boolean" },
+      "sunday": { "open": "time", "close": "time", "closed": "boolean" },
+      "emergencyAvailable": { "type": "boolean", "label": "24/7 Emergency Available" }
+    },
+    "services": {
+      "type": "array",
+      "label": "Services Offered",
+      "fields": {
+        "name": { "type": "text", "required": true },
+        "description": { "type": "textarea" },
+        "priceRange": { "type": "text", "label": "Price Range (e.g., $100-$500)" },
+        "image": { "type": "image" }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "label": "Completed Projects",
+      "fields": {
+        "title": { "type": "text", "required": true },
+        "description": { "type": "textarea" },
+        "location": { "type": "text" },
+        "beforeImages": { "type": "imageArray" },
+        "afterImages": { "type": "imageArray" },
+        "testimonial": { "type": "textarea" },
+        "clientName": { "type": "text" }
+      }
+    },
+    "credentials": {
+      "certifications": { "type": "textarea", "label": "Certifications & Training" },
+      "awards": { "type": "textarea" },
+      "affiliations": { "type": "textarea", "label": "Professional Affiliations" }
+    }
+  },
+
+  "integrations": {
+    "supported": ["Housecall Pro", "ServiceTitan", "Jobber", "Thumbtack", "Angi", "HomeAdvisor"]
+  }
+}

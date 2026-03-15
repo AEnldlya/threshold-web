@@ -1,0 +1,143 @@
+{
+  "templateName": "Real Estate Agent",
+  "templateId": "real-estate",
+  "version": "1.0.0",
+  "category": "Real Estate",
+  "description": "Sophisticated real estate website with property listings, agent profile, and lead capture. MLS integration ready with map-based search.",
+  
+  "theme": {
+    "colorPalette": {
+      "primary": "#1E3A5F",
+      "primaryDark": "#152A45",
+      "primaryLight": "#2E5984",
+      "secondary": "#C9A227",
+      "accent": "#E8D5B7",
+      "background": "#FFFFFF",
+      "surface": "#F5F5F5",
+      "textPrimary": "#1A1A1A",
+      "textSecondary": "#4A4A4A",
+      "textMuted": "#8A8A8A"
+    },
+    "fonts": {
+      "heading": "Cormorant Garamond",
+      "body": "Lato",
+      "accent": "Montserrat"
+    },
+    "visualMood": "Luxurious, trustworthy, aspirational. Deep navy and gold convey prestige. Large property photography with elegant typography. Clean lines with sophisticated details.",
+    "style": "Luxury real estate with modern functionality"
+  },
+
+  "pages": {
+    "required": [
+      { "id": "home", "name": "Home", "slug": "/" },
+      { "id": "listings", "name": "Properties", "slug": "/listings" },
+      { "id": "about", "name": "About", "slug": "/about" },
+      { "id": "contact", "name": "Contact", "slug": "/contact" }
+    ],
+    "optional": [
+      { "id": "buyers", "name": "Buyers", "slug": "/buyers", "enabled": true },
+      { "id": "sellers", "name": "Sellers", "slug": "/sellers", "enabled": true },
+      { "id": "neighborhoods", "name": "Neighborhoods", "slug": "/neighborhoods", "enabled": true },
+      { "id": "testimonials", "name": "Testimonials", "slug": "/testimonials", "enabled": true },
+      { "id": "blog", "name": "Market Insights", "slug": "/blog", "enabled": false },
+      { "id": "valuation", "name": "Home Valuation", "slug": "/valuation", "enabled": true }
+    ]
+  },
+
+  "features": {
+    "required": [
+      { "id": "property-search", "name": "Property Search", "description": "Advanced search with filters (price, beds, baths, etc.)" },
+      { "id": "property-listings", "name": "Property Listings", "description": "Grid or map view of available properties" },
+      { "id": "property-detail", "name": "Property Detail Pages", "description": "Full property pages with photos, virtual tours, details" },
+      { "id": "contact-forms", "name": "Lead Capture Forms", "description": "Inquiry forms on every listing" },
+      { "id": "mortgage-calculator", "name": "Mortgage Calculator", "description": "Payment estimation tool" }
+    ],
+    "optional": [
+      { "id": "map-search", "name": "Map-Based Search", "description": "Interactive map with property pins", "enabled": true },
+      { "id": "virtual-tours", "name": "Virtual Tours", "description": "3D walkthrough integration", "enabled": true },
+      { "id": "saved-searches", "name": "Saved Searches", "description": "User accounts for saved properties", "enabled": true },
+      { "id": "valuation-tool", "name": "Home Valuation Tool", "description": "Automated home value estimate", "enabled": true },
+      { "id": "neighborhood-guides", "name": "Neighborhood Guides", "description": "Area information and stats", "enabled": true }
+    ]
+  },
+
+  "layout": {
+    "type": "multi-page",
+    "navigation": "transparent-to-solid",
+    "heroStyle": "full-screen-property-slider",
+    "contentWidth": "max-w-7xl"
+  },
+
+  "dynamicFields": {
+    "agentInfo": {
+      "name": { "type": "text", "required": true, "label": "Agent/Team Name" },
+      "title": { "type": "text", "label": "Title" },
+      "tagline": { "type": "text", "label": "Tagline" },
+      "bio": { "type": "textarea", "label": "Agent Bio" },
+      "photo": { "type": "image", "label": "Agent Photo" },
+      "logo": { "type": "image", "label": "Team Logo" },
+      "licenseNumber": { "type": "text", "label": "License Number" },
+      "brokerage": { "type": "text", "label": "Brokerage Name" },
+      "yearsExperience": { "type": "text", "label": "Years in Business" }
+    },
+    "contact": {
+      "phone": { "type": "tel", "required": true },
+      "email": { "type": "email", "required": true },
+      "officeAddress": { "type": "address" },
+      "city": { "type": "text" },
+      "state": { "type": "text" },
+      "zipCode": { "type": "text" },
+      "serviceAreas": { "type": "text", "label": "Service Areas (comma separated)" }
+    },
+    "properties": {
+      "type": "array",
+      "label": "Property Listings",
+      "fields": {
+        "address": { "type": "text", "required": true },
+        "city": { "type": "text" },
+        "state": { "type": "text" },
+        "zipCode": { "type": "text" },
+        "price": { "type": "number", "required": true },
+        "bedrooms": { "type": "number" },
+        "bathrooms": { "type": "number" },
+        "sqft": { "type": "number", "label": "Square Feet" },
+        "propertyType": { "type": "select", "options": ["Single Family", "Condo", "Townhouse", "Multi-Family", "Land", "Commercial"] },
+        "description": { "type": "textarea" },
+        "photos": { "type": "imageArray", "maxImages": 25 },
+        "virtualTourUrl": { "type": "url" },
+        "status": { "type": "select", "options": ["Active", "Pending", "Sold", "Coming Soon"] }
+      }
+    },
+    "neighborhoods": {
+      "type": "array",
+      "label": "Featured Neighborhoods",
+      "fields": {
+        "name": { "type": "text" },
+        "description": { "type": "textarea" },
+        "photo": { "type": "image" },
+        "avgPrice": { "type": "text" },
+        "schools": { "type": "text" }
+      }
+    },
+    "testimonials": {
+      "type": "array",
+      "label": "Client Testimonials",
+      "fields": {
+        "clientName": { "type": "text" },
+        "photo": { "type": "image" },
+        "testimonial": { "type": "textarea" },
+        "transactionType": { "type": "select", "options": ["Buyer", "Seller", "Both"] }
+      }
+    },
+    "stats": {
+      "propertiesSold": { "type": "text" },
+      "totalSalesVolume": { "type": "text" },
+      "averageDaysOnMarket": { "type": "text" },
+      "listToSaleRatio": { "type": "text" }
+    }
+  },
+
+  "integrations": {
+    "supported": ["MLS", "Zillow", "Realtor.com", "IDX", "Docusign", "Dotloop"]
+  }
+}

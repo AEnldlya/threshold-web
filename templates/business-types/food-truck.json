@@ -1,0 +1,137 @@
+{
+  "templateName": "Food Truck",
+  "templateId": "food-truck",
+  "version": "1.0.0",
+  "category": "Food & Beverage",
+  "description": "Vibrant food truck website with live location tracking, daily menus, and event calendar. Perfect for mobile food vendors and pop-up restaurants.",
+  
+  "theme": {
+    "colorPalette": {
+      "primary": "#FF6B6B",
+      "primaryDark": "#EE5A5A",
+      "primaryLight": "#FF8E8E",
+      "secondary": "#4ECDC4",
+      "accent": "#FFE66D",
+      "background": "#FFFFFF",
+      "surface": "#F7F7F7",
+      "textPrimary": "#2C3E50",
+      "textSecondary": "#5D6D7E",
+      "textMuted": "#8E99A4"
+    },
+    "fonts": {
+      "heading": "Fredoka One",
+      "body": "Nunito",
+      "accent": "Permanent Marker"
+    },
+    "visualMood": "Fun, vibrant, street-style energy. Bold colors with playful typography. Hand-drawn elements and street art influences. Instagram-worthy food photography.",
+    "style": "Playful street food with urban energy"
+  },
+
+  "pages": {
+    "required": [
+      { "id": "home", "name": "Home", "slug": "/" },
+      { "id": "menu", "name": "Menu", "slug": "/menu" },
+      { "id": "location", "name": "Find Us", "slug": "/location" },
+      { "id": "events", "name": "Events", "slug": "/events" },
+      { "id": "about", "name": "Our Story", "slug": "/about" },
+      { "id": "contact", "name": "Contact", "slug": "/contact" }
+    ],
+    "optional": [
+      { "id": "catering", "name": "Catering", "slug": "/catering", "enabled": true },
+      { "id": "gallery", "name": "Gallery", "slug": "/gallery", "enabled": true },
+      { "id": "reviews", "name": "Reviews", "slug": "/reviews", "enabled": true },
+      { "id": "blog", "name": "Blog", "slug": "/blog", "enabled": false },
+      { "id": "merch", "name": "Merch", "slug": "/merch", "enabled": false }
+    ]
+  },
+
+  "features": {
+    "required": [
+      { "id": "live-location", "name": "Live Location", "description": "Real-time map showing current location" },
+      { "id": "schedule", "name": "Schedule/Calendar", "description": "Weekly schedule with locations and times" },
+      { "id": "menu", "name": "Digital Menu", "description": "Current menu with prices and photos" },
+      { "id": "social-feed", "name": "Social Media Feed", "description": "Live Instagram/Twitter updates" },
+      { "id": "sms-alerts", "name": "Location Alerts", "description": "SMS alerts for nearby locations" }
+    ],
+    "optional": [
+      { "id": "preorder", "name": "Pre-Order", "description": "Order ahead for pickup", "enabled": true },
+      { "id": "catering-form", "name": "Catering Requests", "description": "Private event inquiries", "enabled": true },
+      { "id": "loyalty", "name": "Loyalty Program", "description": "Punch card digital system", "enabled": true },
+      { "id": "wait-time", "name": "Live Wait Time", "description": "Current line wait estimate", "enabled": false }
+    ]
+  },
+
+  "layout": {
+    "type": "multi-page",
+    "navigation": "mobile-first-sticky",
+    "heroStyle": "bold-branding-focused",
+    "contentWidth": "max-w-4xl"
+  },
+
+  "dynamicFields": {
+    "truckInfo": {
+      "truckName": { "type": "text", "required": true, "label": "Food Truck Name" },
+      "cuisineType": { 
+        "type": "select", 
+        "label": "Cuisine Type",
+        "options": ["American", "Mexican", "Asian", "Mediterranean", "BBQ", "Dessert", "Fusion", "Vegan/Vegetarian", "Seafood", "Other"]
+      },
+      "tagline": { "type": "text", "label": "Tagline" },
+      "story": { "type": "textarea", "label": "Our Story" },
+      "logo": { "type": "image" },
+      "truckPhoto": { "type": "image", "label": "Truck Photo" },
+      "founded": { "type": "text", "label": "Year Founded" }
+    },
+    "contact": {
+      "phone": { "type": "tel", "required": true },
+      "email": { "type": "email" },
+      "socialMedia": { "type": "textarea", "label": "Social Media Handles" }
+    },
+    "menu": {
+      "type": "array",
+      "label": "Menu Items",
+      "fields": {
+        "name": { "type": "text", "required": true },
+        "description": { "type": "textarea" },
+        "price": { "type": "text" },
+        "photo": { "type": "image" },
+        "category": { "type": "text", "label": "Category (e.g., Tacos, Sides, Drinks)" },
+        "popular": { "type": "boolean", "label": "Customer Favorite" },
+        "dietary": { "type": "multiselect", "options": ["Vegetarian", "Vegan", "Gluten-Free", "Dairy-Free", "Spicy"] }
+      }
+    },
+    "schedule": {
+      "type": "array",
+      "label": "Weekly Schedule",
+      "fields": {
+        "day": { "type": "select", "options": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] },
+        "location": { "type": "text", "label": "Location/Venue" },
+        "address": { "type": "address" },
+        "startTime": { "type": "time" },
+        "endTime": { "type": "time" },
+        "notes": { "type": "text", "label": "Special Notes" }
+      }
+    },
+    "events": {
+      "type": "array",
+      "label": "Special Events",
+      "fields": {
+        "eventName": { "type": "text" },
+        "date": { "type": "date" },
+        "location": { "type": "text" },
+        "time": { "type": "text" },
+        "description": { "type": "textarea" }
+      }
+    },
+    "catering": {
+      "minimumOrder": { "type": "text" },
+      "menuOptions": { "type": "textarea" },
+      "serviceArea": { "type": "text" },
+      "leadTime": { "type": "text", "label": "Booking Lead Time" }
+    }
+  },
+
+  "integrations": {
+    "supported": ["Square", "Toast", "Instagram", "Twitter", "Google Maps", "StreetFoodFinder"]
+  }
+}

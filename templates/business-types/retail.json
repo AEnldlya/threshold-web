@@ -1,0 +1,303 @@
+{
+  "templateName": "Retail Shop",
+  "templateId": "retail",
+  "version": "1.0.0",
+  "category": "Retail & E-commerce",
+  "description": "Modern retail website with product catalog, shopping cart, and store information. Perfect for boutiques, clothing stores, gift shops, and specialty retailers.",
+  
+  "theme": {
+    "colorPalette": {
+      "primary": "#2D3436",
+      "primaryDark": "#1A1A1A",
+      "primaryLight": "#636E72",
+      "secondary": "#DFE6E9",
+      "accent": "#E17055",
+      "background": "#FFFFFF",
+      "surface": "#F5F6FA",
+      "textPrimary": "#2D3436",
+      "textSecondary": "#636E72",
+      "textMuted": "#B2BEC3",
+      "success": "#00B894",
+      "warning": "#FDCB6E",
+      "error": "#D63031"
+    },
+    "fonts": {
+      "heading": "Poppins",
+      "body": "Open Sans",
+      "accent": "Playfair Display"
+    },
+    "visualMood": "Clean, modern, product-focused with ample white space. Bold typography for impact. High-quality product photography essential. Minimalist with strategic color pops.",
+    "style": "Contemporary minimalist with boutique flair"
+  },
+
+  "pages": {
+    "required": [
+      {
+        "id": "home",
+        "name": "Home",
+        "slug": "/",
+        "description": "Featured products, collections, and promotions"
+      },
+      {
+        "id": "shop",
+        "name": "Shop",
+        "slug": "/shop",
+        "description": "Full product catalog with filters and search"
+      },
+      {
+        "id": "product",
+        "name": "Product Detail",
+        "slug": "/product/:id",
+        "description": "Individual product pages with variants, reviews"
+      },
+      {
+        "id": "cart",
+        "name": "Shopping Cart",
+        "slug": "/cart",
+        "description": "Cart review and checkout process"
+      },
+      {
+        "id": "about",
+        "name": "About",
+        "slug": "/about",
+        "description": "Brand story, values, team"
+      },
+      {
+        "id": "contact",
+        "name": "Contact",
+        "slug": "/contact",
+        "description": "Store locations, hours, contact form"
+      }
+    ],
+    "optional": [
+      {
+        "id": "collections",
+        "name": "Collections",
+        "slug": "/collections",
+        "description": "Curated product collections",
+        "enabled": true
+      },
+      {
+        "id": "lookbook",
+        "name": "Lookbook",
+        "slug": "/lookbook",
+        "description": "Styled outfit/product galleries",
+        "enabled": false
+      },
+      {
+        "id": "blog",
+        "name": "Journal",
+        "slug": "/blog",
+        "description": "Style tips, product features, news",
+        "enabled": false
+      },
+      {
+        "id": "reviews",
+        "name": "Reviews",
+        "slug": "/reviews",
+        "description": "Customer reviews and photos",
+        "enabled": true
+      },
+      {
+        "id": "size-guide",
+        "name": "Size Guide",
+        "slug": "/size-guide",
+        "description": "Sizing charts and fit information",
+        "enabled": true
+      },
+      {
+        "id": "store-locator",
+        "name": "Store Locator",
+        "slug": "/stores",
+        "description": "Multiple store locations map",
+        "enabled": false
+      }
+    ]
+  },
+
+  "features": {
+    "required": [
+      {
+        "id": "product-catalog",
+        "name": "Product Catalog",
+        "description": "Organized product listings with categories, filters, and sorting"
+      },
+      {
+        "id": "shopping-cart",
+        "name": "Shopping Cart & Checkout",
+        "description": "Full e-commerce functionality with secure checkout"
+      },
+      {
+        "id": "product-variants",
+        "name": "Product Variants",
+        "description": "Size, color, style options with inventory tracking"
+      },
+      {
+        "id": "search",
+        "name": "Product Search",
+        "description": "Smart search with autocomplete and filters"
+      },
+      {
+        "id": "wishlist",
+        "name": "Wishlist/Favorites",
+        "description": "Save items for later"
+      }
+    ],
+    "optional": [
+      {
+        "id": "quick-view",
+        "name": "Quick View",
+        "description": "Preview products without leaving catalog page",
+        "enabled": true
+      },
+      {
+        "id": "reviews",
+        "name": "Customer Reviews",
+        "description": "Photo reviews, ratings, verified purchases",
+        "enabled": true
+      },
+      {
+        "id": "related-products",
+        "name": "Related Products",
+        "description": "You may also like recommendations",
+        "enabled": true
+      },
+      {
+        "id": "inventory-alerts",
+        "name": "Back in Stock Alerts",
+        "description": "Notify customers when sold out items return",
+        "enabled": true
+      },
+      {
+        "id": "live-chat",
+        "name": "Live Chat Support",
+        "description": "Real-time customer service",
+        "enabled": false
+      },
+      {
+        "id": "loyalty-program",
+        "name": "Rewards Program",
+        "description": "Points for purchases, referrals, reviews",
+        "enabled": false
+      },
+      {
+        "id": "gift-cards",
+        "name": "Digital Gift Cards",
+        "description": "Sell gift cards online",
+        "enabled": true
+      },
+      {
+        "id": "abandoned-cart",
+        "name": "Abandoned Cart Recovery",
+        "description": "Email reminders for incomplete purchases",
+        "enabled": true
+      }
+    ]
+  },
+
+  "layout": {
+    "type": "multi-page",
+    "navigation": "sticky-header-with-cart",
+    "heroStyle": "carousel-with-products",
+    "contentWidth": "max-w-7xl",
+    "mobileBehavior": "hamburger-menu",
+    "footerColumns": 4
+  },
+
+  "dynamicFields": {
+    "businessInfo": {
+      "businessName": { "type": "text", "required": true, "label": "Store Name" },
+      "tagline": { "type": "text", "label": "Tagline" },
+      "description": { "type": "textarea", "required": true, "label": "Store Description" },
+      "logo": { "type": "image", "label": "Logo" },
+      "storeType": { 
+        "type": "select", 
+        "label": "Store Type",
+        "options": ["Clothing/Fashion", "Jewelry", "Home Goods", "Gift Shop", "Specialty Food", "Electronics", "Sporting Goods", "Beauty", "Other"]
+      }
+    },
+
+    "contact": {
+      "phone": { "type": "tel", "required": true },
+      "email": { "type": "email", "required": true },
+      "customerServiceEmail": { "type": "email", "label": "Customer Service Email" },
+      "address": { "type": "address" },
+      "city": { "type": "text" },
+      "state": { "type": "text" },
+      "zipCode": { "type": "text" }
+    },
+
+    "hours": {
+      "monday": { "open": "time", "close": "time", "closed": "boolean" },
+      "tuesday": { "open": "time", "close": "time", "closed": "boolean" },
+      "wednesday": { "open": "time", "close": "time", "closed": "boolean" },
+      "thursday": { "open": "time", "close": "time", "closed": "boolean" },
+      "friday": { "open": "time", "close": "time", "closed": "boolean" },
+      "saturday": { "open": "time", "close": "time", "closed": "boolean" },
+      "sunday": { "open": "time", "close": "time", "closed": "boolean" }
+    },
+
+    "products": {
+      "type": "array",
+      "label": "Products",
+      "fields": {
+        "name": { "type": "text", "required": true },
+        "description": { "type": "textarea" },
+        "price": { "type": "number", "required": true },
+        "compareAtPrice": { "type": "number", "label": "Compare at Price (for sales)" },
+        "sku": { "type": "text", "label": "SKU" },
+        "images": { "type": "imageArray", "maxImages": 10 },
+        "category": { "type": "text", "label": "Category" },
+        "tags": { "type": "text", "label": "Tags (comma separated)" },
+        "variants": {
+          "type": "array",
+          "label": "Variants (size, color, etc.)",
+          "fields": {
+            "variantName": { "type": "text" },
+            "price": { "type": "number" },
+            "sku": { "type": "text" },
+            "inventory": { "type": "number" }
+          }
+        },
+        "inventory": { "type": "number", "label": "Stock Quantity" },
+        "weight": { "type": "text", "label": "Weight (for shipping)" },
+        "dimensions": { "type": "text", "label": "Dimensions" }
+      }
+    },
+
+    "shipping": {
+      "freeShippingThreshold": { "type": "text", "label": "Free Shipping Over ($)" },
+      "standardShippingRate": { "type": "text", "label": "Standard Shipping Rate" },
+      "expressShippingRate": { "type": "text", "label": "Express Shipping Rate" },
+      "shippingPolicy": { "type": "textarea" },
+      "returnPolicy": { "type": "textarea" }
+    },
+
+    "social": {
+      "instagram": { "type": "url" },
+      "facebook": { "type": "url" },
+      "pinterest": { "type": "url" },
+      "tiktok": { "type": "url" }
+    },
+
+    "seo": {
+      "metaTitle": { "type": "text", "maxLength": 60 },
+      "metaDescription": { "type": "textarea", "maxLength": 160 }
+    }
+  },
+
+  "integrations": {
+    "supported": [
+      "Shopify",
+      "Square",
+      "Stripe",
+      "PayPal",
+      "Klarna",
+      "Afterpay",
+      "Mailchimp",
+      "Klaviyo",
+      "Instagram Shopping",
+      "Facebook Shop"
+    ]
+  }
+}

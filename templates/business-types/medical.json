@@ -1,0 +1,140 @@
+{
+  "templateName": "Medical / Dental Office",
+  "templateId": "medical",
+  "version": "1.0.0",
+  "category": "Healthcare",
+  "description": "Clean, trustworthy medical practice website with appointment booking, doctor profiles, and patient resources. HIPAA-conscious design.",
+  
+  "theme": {
+    "colorPalette": {
+      "primary": "#0D9488",
+      "primaryDark": "#0F766E",
+      "primaryLight": "#14B8A6",
+      "secondary": "#F0FDFA",
+      "accent": "#F59E0B",
+      "background": "#FFFFFF",
+      "surface": "#F8FAFC",
+      "textPrimary": "#1E293B",
+      "textSecondary": "#64748B",
+      "textMuted": "#94A3B8"
+    },
+    "fonts": {
+      "heading": "Work Sans",
+      "body": "Inter",
+      "accent": "Merriweather"
+    },
+    "visualMood": "Clean, calming, professional. Medical teal conveys trust and health. Ample white space for readability. Soft gradients and rounded elements for approachability.",
+    "style": "Modern healthcare with patient-friendly design"
+  },
+
+  "pages": {
+    "required": [
+      { "id": "home", "name": "Home", "slug": "/" },
+      { "id": "services", "name": "Services", "slug": "/services" },
+      { "id": "providers", "name": "Our Providers", "slug": "/providers" },
+      { "id": "appointments", "name": "Book Appointment", "slug": "/appointments" },
+      { "id": "about", "name": "About", "slug": "/about" },
+      { "id": "contact", "name": "Contact", "slug": "/contact" }
+    ],
+    "optional": [
+      { "id": "patient-portal", "name": "Patient Portal", "slug": "/portal", "enabled": true },
+      { "id": "forms", "name": "Patient Forms", "slug": "/forms", "enabled": true },
+      { "id": "insurance", "name": "Insurance", "slug": "/insurance", "enabled": true },
+      { "id": "testimonials", "name": "Patient Stories", "slug": "/testimonials", "enabled": true },
+      { "id": "blog", "name": "Health Blog", "slug": "/blog", "enabled": false },
+      { "id": "faq", "name": "FAQ", "slug": "/faq", "enabled": true }
+    ]
+  },
+
+  "features": {
+    "required": [
+      { "id": "online-booking", "name": "Online Appointment Booking", "description": "Schedule appointments with provider selection" },
+      { "id": "provider-profiles", "name": "Provider Profiles", "description": "Doctor bios with photos and specialties" },
+      { "id": "services-directory", "name": "Services Directory", "description": "Comprehensive treatment descriptions" },
+      { "id": "patient-forms", "name": "Downloadable Forms", "description": "New patient paperwork" }
+    ],
+    "optional": [
+      { "id": "patient-portal", "name": "Patient Portal Integration", "description": "Access to medical records", "enabled": true },
+      { "id": "telehealth", "name": "Telehealth Booking", "description": "Virtual appointment scheduling", "enabled": true },
+      { "id": "insurance-checker", "name": "Insurance Verification", "description": "Check accepted plans", "enabled": true },
+      { "id": "sms-reminders", "name": "Appointment Reminders", "description": "Text/email notifications", "enabled": true }
+    ]
+  },
+
+  "layout": {
+    "type": "multi-page",
+    "navigation": "clean-header",
+    "heroStyle": "welcoming-with-cta",
+    "contentWidth": "max-w-6xl"
+  },
+
+  "dynamicFields": {
+    "practiceInfo": {
+      "practiceName": { "type": "text", "required": true, "label": "Practice Name" },
+      "practiceType": { 
+        "type": "select", 
+        "label": "Practice Type",
+        "options": ["Medical Practice", "Dental Office", "Specialty Clinic", "Urgent Care", "Physical Therapy", "Mental Health", "Other"]
+      },
+      "tagline": { "type": "text", "label": "Tagline" },
+      "description": { "type": "textarea", "label": "Practice Description" },
+      "logo": { "type": "image" },
+      "officePhoto": { "type": "image", "label": "Office/Facility Photo" }
+    },
+    "providers": {
+      "type": "array",
+      "label": "Healthcare Providers",
+      "fields": {
+        "name": { "type": "text", "required": true },
+        "title": { "type": "text", "label": "Title (MD, DDS, NP, etc.)" },
+        "photo": { "type": "image" },
+        "specialties": { "type": "text" },
+        "bio": { "type": "textarea" },
+        "education": { "type": "textarea" },
+        "certifications": { "type": "text" },
+        "languages": { "type": "text" },
+        "acceptingNewPatients": { "type": "boolean" }
+      }
+    },
+    "services": {
+      "type": "array",
+      "label": "Services & Treatments",
+      "fields": {
+        "name": { "type": "text", "required": true },
+        "description": { "type": "textarea" },
+        "duration": { "type": "text" },
+        "preparation": { "type": "textarea", "label": "Patient Preparation Instructions" }
+      }
+    },
+    "contact": {
+      "mainPhone": { "type": "tel", "required": true, "label": "Main Phone" },
+      "appointmentsPhone": { "type": "tel", "label": "Appointments Line" },
+      "afterHours": { "type": "tel", "label": "After-Hours Number" },
+      "email": { "type": "email" },
+      "address": { "type": "address", "required": true },
+      "city": { "type": "text" },
+      "state": { "type": "text" },
+      "zipCode": { "type": "text" },
+      "parking": { "type": "textarea", "label": "Parking Information" }
+    },
+    "hours": {
+      "monday": { "open": "time", "close": "time" },
+      "tuesday": { "open": "time", "close": "time" },
+      "wednesday": { "open": "time", "close": "time" },
+      "thursday": { "open": "time", "close": "time" },
+      "friday": { "open": "time", "close": "time" },
+      "saturday": { "open": "time", "close": "time", "closed": "boolean" },
+      "sunday": { "open": "time", "close": "time", "closed": "boolean" }
+    },
+    "insurance": {
+      "acceptedPlans": { "type": "textarea", "label": "Accepted Insurance Plans" },
+      "medicare": { "type": "boolean", "label": "Accepts Medicare" },
+      "medicaid": { "type": "boolean", "label": "Accepts Medicaid" },
+      "selfPay": { "type": "boolean", "label": "Self-Pay Options" }
+    }
+  },
+
+  "integrations": {
+    "supported": ["Zocdoc", "Healthgrades", "Epic", "Cerner", "SimplePractice", "Square Appointments"]
+  }
+}

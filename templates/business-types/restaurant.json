@@ -1,0 +1,423 @@
+{
+  "templateName": "Restaurant",
+  "templateId": "restaurant",
+  "version": "1.0.0",
+  "category": "Food & Beverage",
+  "description": "Elegant restaurant website with online menu, reservation system, and food gallery. Perfect for fine dining, casual eateries, cafes, and bars.",
+  
+  "theme": {
+    "colorPalette": {
+      "primary": "#D4A574",
+      "primaryDark": "#B8935F",
+      "primaryLight": "#E8C9A0",
+      "secondary": "#2C3E50",
+      "accent": "#E74C3C",
+      "background": "#FAFAFA",
+      "surface": "#FFFFFF",
+      "textPrimary": "#2C3E50",
+      "textSecondary": "#7F8C8D",
+      "textMuted": "#95A5A6",
+      "success": "#27AE60",
+      "warning": "#F39C12",
+      "error": "#E74C3C"
+    },
+    "fonts": {
+      "heading": "Playfair Display",
+      "body": "Lato",
+      "accent": "Cormorant Garamond"
+    },
+    "visualMood": "Warm, inviting, appetizing with rich imagery. Elegant typography paired with clean layouts. High contrast for readability. Food photography focused.",
+    "style": "Modern elegant with rustic touches"
+  },
+
+  "pages": {
+    "required": [
+      {
+        "id": "home",
+        "name": "Home",
+        "slug": "/",
+        "description": "Hero section with ambiance, featured dishes, and quick info"
+      },
+      {
+        "id": "menu",
+        "name": "Menu",
+        "slug": "/menu",
+        "description": "Full menu with categories, prices, dietary indicators"
+      },
+      {
+        "id": "reservations",
+        "name": "Reservations",
+        "slug": "/reservations",
+        "description": "Online booking system with date/time selection"
+      },
+      {
+        "id": "about",
+        "name": "About",
+        "slug": "/about",
+        "description": "Story, chef bio, awards, philosophy"
+      },
+      {
+        "id": "contact",
+        "name": "Contact",
+        "slug": "/contact",
+        "description": "Location, hours, phone, contact form, map"
+      }
+    ],
+    "optional": [
+      {
+        "id": "gallery",
+        "name": "Gallery",
+        "slug": "/gallery",
+        "description": "Food and ambiance photo gallery",
+        "enabled": true
+      },
+      {
+        "id": "events",
+        "name": "Private Events",
+        "slug": "/events",
+        "description": "Catering, private dining, special events",
+        "enabled": false
+      },
+      {
+        "id": "blog",
+        "name": "Blog",
+        "slug": "/blog",
+        "description": "News, recipes, chef's corner",
+        "enabled": false
+      },
+      {
+        "id": "reviews",
+        "name": "Reviews",
+        "slug": "/reviews",
+        "description": "Customer testimonials and ratings",
+        "enabled": true
+      },
+      {
+        "id": "gift-cards",
+        "name": "Gift Cards",
+        "slug": "/gift-cards",
+        "description": "Digital and physical gift card sales",
+        "enabled": false
+      }
+    ]
+  },
+
+  "features": {
+    "required": [
+      {
+        "id": "online-reservations",
+        "name": "Online Reservation System",
+        "description": "Real-time table booking with OpenTable or Resy integration"
+      },
+      {
+        "id": "interactive-menu",
+        "name": "Interactive Digital Menu",
+        "description": "Categorized menu with photos, prices, dietary filters (vegan, gluten-free, etc.)"
+      },
+      {
+        "id": "hours-display",
+        "name": "Dynamic Hours Display",
+        "description": "Shows current open/closed status with special holiday hours"
+      },
+      {
+        "id": "click-to-call",
+        "name": "Click-to-Call",
+        "description": "One-tap phone dialing for mobile users"
+      },
+      {
+        "id": "google-maps",
+        "name": "Embedded Google Maps",
+        "description": "Interactive map with directions"
+      }
+    ],
+    "optional": [
+      {
+        "id": "online-ordering",
+        "name": "Online Ordering / Delivery",
+        "description": "Direct ordering or integration with DoorDash, UberEats",
+        "enabled": false
+      },
+      {
+        "id": "waitlist",
+        "name": "Virtual Waitlist",
+        "description": "Join waitlist remotely with SMS notifications",
+        "enabled": false
+      },
+      {
+        "id": "loyalty-program",
+        "name": "Loyalty Program",
+        "description": "Points system for repeat customers",
+        "enabled": false
+      },
+      {
+        "id": "live-chat",
+        "name": "Live Chat",
+        "description": "Real-time customer support",
+        "enabled": false
+      },
+      {
+        "id": "instagram-feed",
+        "name": "Instagram Feed",
+        "description": "Live Instagram photos on website",
+        "enabled": true
+      },
+      {
+        "id": "review-widgets",
+        "name": "Review Aggregator",
+        "description": "Yelp, Google, TripAdvisor reviews displayed",
+        "enabled": true
+      },
+      {
+        "id": "newsletter",
+        "name": "Email Newsletter Signup",
+        "description": "Collect emails for promotions",
+        "enabled": true
+      },
+      {
+        "id": "qr-menu",
+        "name": "QR Code Menu",
+        "description": "Generate QR codes for table-side menu access",
+        "enabled": true
+      }
+    ]
+  },
+
+  "layout": {
+    "type": "multi-page",
+    "navigation": "sticky-header",
+    "heroStyle": "full-screen-image-with-overlay",
+    "contentWidth": "max-w-6xl",
+    "mobileBehavior": "hamburger-menu",
+    "footerColumns": 4
+  },
+
+  "dynamicFields": {
+    "businessInfo": {
+      "businessName": {
+        "type": "text",
+        "required": true,
+        "label": "Restaurant Name",
+        "placeholder": "Bella Vista Bistro"
+      },
+      "tagline": {
+        "type": "text",
+        "required": false,
+        "label": "Tagline",
+        "placeholder": "Authentic Italian Cuisine Since 1985"
+      },
+      "description": {
+        "type": "textarea",
+        "required": true,
+        "label": "Business Description",
+        "placeholder": "A family-owned restaurant serving traditional Italian dishes..."
+      },
+      "logo": {
+        "type": "image",
+        "required": false,
+        "label": "Restaurant Logo",
+        "recommendedSize": "400x400px"
+      },
+      "favicon": {
+        "type": "image",
+        "required": false,
+        "label": "Favicon",
+        "recommendedSize": "32x32px"
+      }
+    },
+    
+    "contact": {
+      "phone": {
+        "type": "tel",
+        "required": true,
+        "label": "Phone Number"
+      },
+      "email": {
+        "type": "email",
+        "required": true,
+        "label": "Email Address"
+      },
+      "address": {
+        "type": "address",
+        "required": true,
+        "label": "Street Address"
+      },
+      "city": {
+        "type": "text",
+        "required": true,
+        "label": "City"
+      },
+      "state": {
+        "type": "text",
+        "required": true,
+        "label": "State"
+      },
+      "zipCode": {
+        "type": "text",
+        "required": true,
+        "label": "ZIP Code"
+      },
+      "googleMapsUrl": {
+        "type": "url",
+        "required": false,
+        "label": "Google Maps Link"
+      }
+    },
+
+    "hours": {
+      "monday": { "open": "time", "close": "time", "closed": "boolean" },
+      "tuesday": { "open": "time", "close": "time", "closed": "boolean" },
+      "wednesday": { "open": "time", "close": "time", "closed": "boolean" },
+      "thursday": { "open": "time", "close": "time", "closed": "boolean" },
+      "friday": { "open": "time", "close": "time", "closed": "boolean" },
+      "saturday": { "open": "time", "close": "time", "closed": "boolean" },
+      "sunday": { "open": "time", "close": "time", "closed": "boolean" },
+      "specialHours": {
+        "type": "array",
+        "label": "Holiday/Special Hours",
+        "fields": ["date", "hours", "note"]
+      }
+    },
+
+    "media": {
+      "heroImage": {
+        "type": "image",
+        "required": true,
+        "label": "Hero Background Image",
+        "recommendedSize": "1920x1080px"
+      },
+      "galleryImages": {
+        "type": "imageArray",
+        "required": false,
+        "label": "Photo Gallery",
+        "maxImages": 20,
+        "recommendedSize": "1200x800px"
+      },
+      "menuPdf": {
+        "type": "file",
+        "required": false,
+        "label": "Menu PDF",
+        "acceptedFormats": [".pdf"]
+      }
+    },
+
+    "menu": {
+      "categories": {
+        "type": "array",
+        "label": "Menu Categories",
+        "fields": {
+          "name": { "type": "text", "label": "Category Name" },
+          "description": { "type": "textarea", "label": "Category Description" },
+          "items": {
+            "type": "array",
+            "label": "Menu Items",
+            "fields": {
+              "name": { "type": "text", "required": true },
+              "description": { "type": "textarea" },
+              "price": { "type": "number", "required": true },
+              "image": { "type": "image" },
+              "dietary": {
+                "type": "multiselect",
+                "options": ["Vegetarian", "Vegan", "Gluten-Free", "Dairy-Free", "Nut-Free", "Spicy"]
+              },
+              "popular": { "type": "boolean", "label": "Mark as Popular" },
+              "allergens": { "type": "text", "label": "Allergen Information" }
+            }
+          }
+        }
+      }
+    },
+
+    "reservations": {
+      "reservationSystem": {
+        "type": "select",
+        "options": ["OpenTable", "Resy", "Tock", "Yelp Reservations", "Custom"],
+        "label": "Reservation Platform"
+      },
+      "reservationUrl": {
+        "type": "url",
+        "label": "Reservation Link"
+      },
+      "partySizes": {
+        "type": "range",
+        "min": 1,
+        "max": 20,
+        "label": "Maximum Party Size"
+      },
+      "advanceBookingDays": {
+        "type": "number",
+        "label": "Days in Advance for Booking"
+      }
+    },
+
+    "social": {
+      "facebook": { "type": "url", "label": "Facebook URL" },
+      "instagram": { "type": "url", "label": "Instagram URL" },
+      "twitter": { "type": "url", "label": "Twitter URL" },
+      "yelp": { "type": "url", "label": "Yelp URL" },
+      "tripadvisor": { "type": "url", "label": "TripAdvisor URL" }
+    },
+
+    "seo": {
+      "metaTitle": {
+        "type": "text",
+        "label": "SEO Title",
+        "maxLength": 60
+      },
+      "metaDescription": {
+        "type": "textarea",
+        "label": "SEO Description",
+        "maxLength": 160
+      },
+      "keywords": {
+        "type": "text",
+        "label": "Keywords",
+        "placeholder": "italian restaurant, fine dining, pasta, boston"
+      }
+    },
+
+    "customization": {
+      "primaryColor": { "type": "color", "label": "Primary Brand Color" },
+      "secondaryColor": { "type": "color", "label": "Secondary Brand Color" },
+      "accentColor": { "type": "color", "label": "Accent Color" },
+      "fontHeading": { "type": "font", "label": "Heading Font" },
+      "fontBody": { "type": "font", "label": "Body Font" }
+    }
+  },
+
+  "sections": {
+    "home": [
+      { "id": "hero", "name": "Hero Section", "toggleable": false },
+      { "id": "featured-dishes", "name": "Featured Dishes", "toggleable": true, "default": true },
+      { "id": "about-preview", "name": "About Preview", "toggleable": true, "default": true },
+      { "id": "hours-location", "name": "Hours & Location", "toggleable": true, "default": true },
+      { "id": "reservation-cta", "name": "Reservation CTA", "toggleable": true, "default": true },
+      { "id": "testimonials", "name": "Testimonials", "toggleable": true, "default": true },
+      { "id": "instagram-feed", "name": "Instagram Feed", "toggleable": true, "default": true },
+      { "id": "newsletter", "name": "Newsletter Signup", "toggleable": true, "default": true }
+    ],
+    "menu": [
+      { "id": "menu-hero", "name": "Menu Hero", "toggleable": false },
+      { "id": "menu-categories", "name": "Menu Categories", "toggleable": false },
+      { "id": "dietary-filters", "name": "Dietary Filters", "toggleable": true, "default": true },
+      { "id": "specials", "name": "Daily Specials", "toggleable": true, "default": false },
+      { "id": "wine-list", "name": "Wine List", "toggleable": true, "default": false }
+    ]
+  },
+
+  "integrations": {
+    "supported": [
+      "OpenTable",
+      "Resy",
+      "Tock",
+      "Yelp",
+      "Google Business",
+      "Square POS",
+      "Toast",
+      "DoorDash",
+      "UberEats",
+      "Grubhub",
+      "Mailchimp",
+      "Constant Contact"
+    ]
+  }
+}

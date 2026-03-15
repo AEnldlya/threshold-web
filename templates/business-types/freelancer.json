@@ -1,0 +1,118 @@
+{
+  "templateName": "Freelancer / Portfolio",
+  "templateId": "freelancer",
+  "version": "1.0.0",
+  "category": "Professional Services",
+  "description": "Stunning portfolio website for freelancers, creatives, and consultants. Showcase work, services, and expertise with a focus on conversions.",
+  
+  "theme": {
+    "colorPalette": {
+      "primary": "#6C5CE7",
+      "primaryDark": "#5B4CC4",
+      "primaryLight": "#A29BFE",
+      "secondary": "#2D3436",
+      "accent": "#00B894",
+      "background": "#FAFAFA",
+      "surface": "#FFFFFF",
+      "textPrimary": "#2D3436",
+      "textSecondary": "#636E72",
+      "textMuted": "#B2BEC3"
+    },
+    "fonts": {
+      "heading": "Space Grotesk",
+      "body": "Inter",
+      "accent": "Syne"
+    },
+    "visualMood": "Bold, creative, professional with personality. Strong typography, generous whitespace, and striking visuals. Portfolio-focused with case study layouts.",
+    "style": "Modern creative with professional polish"
+  },
+
+  "pages": {
+    "required": [
+      { "id": "home", "name": "Home", "slug": "/" },
+      { "id": "portfolio", "name": "Portfolio", "slug": "/portfolio" },
+      { "id": "services", "name": "Services", "slug": "/services" },
+      { "id": "about", "name": "About", "slug": "/about" },
+      { "id": "contact", "name": "Contact", "slug": "/contact" }
+    ],
+    "optional": [
+      { "id": "blog", "name": "Blog", "slug": "/blog", "enabled": true },
+      { "id": "testimonials", "name": "Testimonials", "slug": "/testimonials", "enabled": true },
+      { "id": "process", "name": "Process", "slug": "/process", "enabled": false },
+      { "id": "pricing", "name": "Pricing", "slug": "/pricing", "enabled": true },
+      { "id": "resume", "name": "Resume/CV", "slug": "/resume", "enabled": false }
+    ]
+  },
+
+  "features": {
+    "required": [
+      { "id": "portfolio-grid", "name": "Portfolio Gallery", "description": "Filterable project showcase with case studies" },
+      { "id": "contact-form", "name": "Contact Form", "description": "Project inquiry form with budget and timeline" },
+      { "id": "social-links", "name": "Social Integration", "description": "Links to professional profiles" }
+    ],
+    "optional": [
+      { "id": "booking", "name": "Consultation Booking", "description": "Calendar scheduling for calls", "enabled": true },
+      { "id": "newsletter", "name": "Newsletter", "description": "Email list for updates", "enabled": true },
+      { "id": "testimonials", "name": "Client Testimonials", "description": "Reviews and recommendations", "enabled": true }
+    ]
+  },
+
+  "layout": {
+    "type": "multi-page",
+    "navigation": "minimal-sticky",
+    "heroStyle": "full-screen-intro",
+    "contentWidth": "max-w-5xl"
+  },
+
+  "dynamicFields": {
+    "profile": {
+      "name": { "type": "text", "required": true, "label": "Full Name" },
+      "title": { "type": "text", "required": true, "label": "Professional Title" },
+      "tagline": { "type": "text", "label": "Tagline" },
+      "bio": { "type": "textarea", "required": true },
+      "photo": { "type": "image", "label": "Profile Photo" },
+      "logo": { "type": "image", "label": "Personal Logo" }
+    },
+    "portfolio": {
+      "type": "array",
+      "label": "Projects",
+      "fields": {
+        "title": { "type": "text", "required": true },
+        "client": { "type": "text" },
+        "description": { "type": "textarea" },
+        "category": { "type": "text" },
+        "images": { "type": "imageArray" },
+        "link": { "type": "url" },
+        "testimonial": { "type": "textarea" }
+      }
+    },
+    "services": {
+      "type": "array",
+      "label": "Services Offered",
+      "fields": {
+        "name": { "type": "text", "required": true },
+        "description": { "type": "textarea" },
+        "price": { "type": "text" },
+        "deliverables": { "type": "text" }
+      }
+    },
+    "contact": {
+      "email": { "type": "email", "required": true },
+      "phone": { "type": "tel" },
+      "location": { "type": "text", "label": "Location (City, State)" },
+      "availability": { "type": "text", "label": "Current Availability" }
+    },
+    "social": {
+      "linkedin": { "type": "url" },
+      "twitter": { "type": "url" },
+      "instagram": { "type": "url" },
+      "dribbble": { "type": "url" },
+      "behance": { "type": "url" },
+      "github": { "type": "url" }
+    }
+  },
+
+  "integrations": {
+    "supported": ["Calendly", "Stripe", "PayPal", "Mailchimp", "ConvertKit"]
+  }
+}
