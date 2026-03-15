@@ -2,11 +2,12 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowRight, Sparkles, Target, Heart, Zap, Users } from 'lucide-react';
+import { ArrowRight, Target, Heart, Zap, Users } from 'lucide-react';
 import ScrollProgress from '@/components/animations/ScrollProgress';
 import MagneticButton from '@/components/animations/MagneticButton';
 import Counter from '@/components/animations/Counter';
 import TiltCard from '@/components/animations/TiltCard';
+import Logo from '@/components/Logo';
 
 const values = [
   { icon: Target, title: 'Results Driven', desc: 'We measure success by your business growth, not just pretty pixels.' },
@@ -15,11 +16,7 @@ const values = [
   { icon: Users, title: 'Partnership', desc: 'We are not just vendors, we are your long-term digital partners.' },
 ];
 
-const team = [
-  { name: 'Andy Zhang', role: 'Founder & Lead Developer', bio: 'Full-stack developer with 8+ years of experience building web applications.' },
-  { name: 'Sarah Chen', role: 'UI/UX Designer', bio: 'Award-winning designer passionate about creating intuitive user experiences.' },
-  { name: 'Mike Torres', role: 'SEO Specialist', bio: 'Digital marketing expert helping businesses rank higher on Google.' },
-];
+
 
 export default function AboutPage() {
   return (
@@ -30,11 +27,8 @@ export default function AboutPage() {
       <motion.nav className="fixed top-0 left-0 right-0 z-40 glass">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20 items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-                <Sparkles className="h-5 w-5 text-white" />
-              </div>
-              <span className="text-xl font-bold text-white">WebMaker AI</span>
+            <Link href="/">
+              <Logo />
             </Link>
             <div className="hidden md:flex items-center space-x-8">
               <Link href="/services" className="text-slate-300 hover:text-primary-light transition-colors">Services</Link>
@@ -166,38 +160,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team */}
-      <section className="py-24 bg-surface">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div 
-            className="text-center mb-16"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            <span className="text-primary font-semibold tracking-wider uppercase text-sm">Our Team</span>
-            <h2 className="text-4xl font-bold text-white mt-4">Meet the People Behind the Magic</h2>
-          </motion.div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {team.map((member, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.1 }}
-                className="text-center"
-              >
-                <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-primary to-primary-light mb-6"></div>
-                <h3 className="text-xl font-semibold text-white">{member.name}</h3>
-                <p className="text-primary mb-2">{member.role}</p>
-                <p className="text-slate-400">{member.bio}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="py-24 bg-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -222,12 +184,7 @@ export default function AboutPage() {
       <footer className="bg-surface border-t border-slate-800 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-                <Sparkles className="h-5 w-5 text-white" />
-              </div>
-              <span className="text-xl font-bold text-white">WebMaker AI</span>
-            </div>
+            <Logo className="mb-4 md:mb-0" />
             <p className="text-slate-500 text-sm">2024 WebMaker AI. All rights reserved.</p>
           </div>
         </div>

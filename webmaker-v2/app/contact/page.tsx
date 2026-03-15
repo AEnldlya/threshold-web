@@ -3,9 +3,10 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowRight, Sparkles, MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
+import { ArrowRight, MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
 import ScrollProgress from '@/components/animations/ScrollProgress';
 import MagneticButton from '@/components/animations/MagneticButton';
+import Logo from '@/components/Logo';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -30,11 +31,8 @@ export default function ContactPage() {
       <motion.nav className="fixed top-0 left-0 right-0 z-40 glass">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20 items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-                <Sparkles className="h-5 w-5 text-white" />
-              </div>
-              <span className="text-xl font-bold text-white">WebMaker AI</span>
+            <Link href="/">
+              <Logo />
             </Link>
             <div className="hidden md:flex items-center space-x-8">
               <Link href="/services" className="text-slate-300 hover:text-primary-light transition-colors">Services</Link>
@@ -94,7 +92,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-slate-400 text-sm">Phone</p>
-                    <p className="text-white font-semibold">(617) 555-0199</p>
+                    <p className="text-white font-semibold">603 678 0701</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -103,7 +101,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-slate-400 text-sm">Email</p>
-                    <p className="text-white font-semibold">hello@webmaker.ai</p>
+                    <p className="text-white font-semibold">studio.aureum.reachout@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -165,7 +163,7 @@ export default function ContactPage() {
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       className="w-full px-4 py-3 rounded-lg bg-surface border border-slate-700 text-white focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition-all"
-                      placeholder="(617) 555-0199"
+                      placeholder="603 678 0701"
                     />
                   </div>
                   <div>
@@ -209,12 +207,7 @@ export default function ContactPage() {
       <footer className="bg-background border-t border-slate-800 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <div className="w-10 h-10 rounded-xl bg-primary flex items-center justify-center">
-                <Sparkles className="h-5 w-5 text-white" />
-              </div>
-              <span className="text-xl font-bold text-white">WebMaker AI</span>
-            </div>
+            <Logo className="mb-4 md:mb-0" />
             <p className="text-slate-500 text-sm">2024 WebMaker AI. All rights reserved.</p>
           </div>
         </div>

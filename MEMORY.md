@@ -3,6 +3,113 @@
 ## Mission (Set Feb 2026)
 Build and sell professional websites to local businesses without web presence.
 
+## $250k-Tier Website Template (Master Prompt)
+**Use this for EVERY website build:**
+
+```
+⭐️ $250k‑Tier, Ultra‑Premium, Multi‑Page Website Prompt
+with Cinematic, Reversible, Scroll‑Controlled Animations
+
+Create a world‑class, multi‑page website that looks handcrafted by senior designers and motion engineers. The site must feel cinematic, intentional, and unmistakably human‑made — with advanced, reversible scroll animations, timeline‑based motion, and seamless page transitions. No AI‑looking layouts, no generic filler text, and no template structures.
+
+🎨 Design System Requirements
+Luxury, minimal palette with deep contrast and subtle atmospheric gradients.
+Typography curated like a high‑end brand system: modern sans‑serif headers + refined body text.
+Strict design‑system grid, spacing tokens, and modular components.
+Every section must feel composed, balanced, and handcrafted.
+Avoid all AI‑coded tropes: chaotic shapes, neon gradients, random blobs, or generic hero layouts.
+
+⚡️ Animation Requirements (Maximum Complexity)
+Global Motion Principles
+Use GSAP‑style motion, timeline sequencing, and reversible scroll‑scrubbing.
+All animations must run at 60fps with GPU acceleration.
+Motion must feel cinematic, smooth, and engineered — never chaotic.
+
+🎬 Page‑Load Cinematic Sequence
+Logo mark reveals with soft scale‑in + glow fade.
+Navigation fades in with staggered timing.
+Hero headline reveals line‑by‑line with upward motion + opacity.
+Background elements parallax subtly on load.
+Ambient floating particles or soft drifting elements.
+
+🌀 Scroll‑Triggered + Scroll‑Reversible Animations
+These must play forward when scrolling down and reverse when scrolling up:
+Section headers slide in from 20–60px offset with easing (power4.out).
+Cards fade + scale in with staggered timing.
+Images animate with directional parallax.
+Decorative elements orbit, float, or drift with natural motion curves.
+Entire sections can "snap" into place with scroll‑scrubbed timelines.
+Hero illustrations or mockups animate along a scroll‑controlled path.
+Background gradients shift subtly based on scroll direction.
+
+🧲 Hover Micro‑Interactions
+Buttons lift 2–3px with soft shadows + warm accent glow.
+Cards glow subtly with accent highlights.
+Icons rotate, pulse, or tilt gently.
+Links underline with smooth left‑to‑right motion.
+Magnetic cursor effect on key interactive elements.
+
+🚪 Page Transitions
+Smooth, cinematic transitions between pages:
+curtain reveal
+fade‑through
+slide‑in with easing
+masked transitions
+Transitions must feel like a premium app, not a website.
+
+🧱 Multi‑Page Structure (Full Studio‑Grade Site)
+1. Home Page
+Cinematic hero with animated headline + floating elements.
+Services overview with animated cards.
+Portfolio preview with scroll‑triggered reveals.
+Testimonials with staggered fade‑ins.
+CTA section with premium layout + motion.
+
+2. About Page
+Animated timeline of company history.
+Team section with hover‑activated profile reveals.
+Mission + values with staggered text animations.
+Optional: looping background animation or parallax layers.
+
+3. Services Page
+Detailed service cards with icon animations.
+Scroll‑based transitions between service categories.
+Optional interactive pricing table or comparison grid.
+
+4. Portfolio Page
+Masonry or grid layout with hover‑activated previews.
+Case study cards with animated overlays.
+Smooth modal or page transitions for each project.
+
+5. Contact Page
+Clean, modern form with focus animations.
+Map or location element with subtle motion.
+Contact info with icon micro‑interactions.
+
+6. Optional Pages
+Blog with animated article cards.
+Careers page with animated job listings.
+FAQ page with accordion animations.
+
+✍️ Copywriting Requirements
+All text must sound human, confident, and brand‑authentic.
+No generic AI phrases ("We are passionate about…", "Welcome to our website").
+Tone: premium, concise, intentional, modern.
+Use short, powerful sentences and a consistent brand voice.
+
+🛠 Technical Requirements
+Fully responsive across all devices.
+Accessible (contrast, alt text placeholders, semantic HTML).
+Clean, production‑ready code with no unnecessary complexity.
+Modern layout practices (CSS Grid, Flexbox, fluid spacing).
+Smooth 60fps animations with GPU acceleration.
+Reversible scroll animations must be timeline‑based.
+Page transitions must be seamless and cinematic.
+
+🎯 Overall Goal
+Deliver a multi‑page, ultra‑premium, animation‑rich website that feels handcrafted by a top creative studio — cinematic, scroll‑reactive, reversible, and unmistakably human‑designed.
+```
+
 ## Core Strategy
 Professional website platform for WebMaker AI targeting local businesses.
 
