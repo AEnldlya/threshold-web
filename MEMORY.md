@@ -288,3 +288,66 @@ Professional website platform for WebMaker AI targeting local businesses.
 - Mobile responsive
 - Fast loading (Lighthouse 95+)
 - Accessible (WCAG AA)
+
+## Communication Rules
+- No emojis in any output
+- No making up information - only use verified facts
+
+## Animation Standards for Client Websites (Updated March 16, 2026)
+
+### Critical Rule: Unique Animations Per Website
+- NEVER reuse the same animation patterns across different client websites
+- Each website must have custom animations designed specifically for that business/industry
+- Use the MCP server (Playwright/Agent Browser) to research and implement unique animation approaches
+
+### Photo/Imagery Animation Requirements
+All photos must be enhanced with 3D depth and motion:
+- **Parallax depth layers**: Foreground, midground, background move at different speeds
+- **3D perspective transforms**: Images tilt and rotate on scroll
+- **Reveal animations**: Masked reveals, clip-path animations, curtain effects
+- **Floating depth**: Subtle Z-axis movement creating dimensional feel
+- **Mouse-responsive tilt**: Images respond to cursor position with 3D rotation
+- **Ken Burns effect**: Slow zoom and pan on static images
+- **Image-to-image morphing**: Smooth transitions between related photos
+
+### Industry-Specific Animation Categories
+Research current trends via MCP browser before building:
+- **Restaurants**: Steam/smoke particle effects, food reveal sequences, ambient kitchen motion
+- **Salons/Spas**: Fluid liquid morphs, soft glow pulses, transformation reveals
+- **Medical/Dental**: Clean geometric transitions, trust-building steady motion, data visualizations
+- **Construction/Trades**: Blueprint-style line drawings, before/after sliders, progress animations
+- **Retail/Shop**: Product spotlight effects, magnetic product cards, shopping bag physics
+- **Professional Services**: Document unfold animations, signature draws, stamp approvals
+
+### Technical Implementation
+- Use GSAP ScrollTrigger with custom scrub values per section
+- Implement CSS 3D transforms with perspective containers
+- Add WebGL shaders for advanced image effects where appropriate
+- Create custom easing curves - never default ease/ease-in-out
+- Animate multiple properties simultaneously (scale + rotate + translate + opacity)
+
+### Animation Uniqueness Checklist
+Before delivering any website, verify:
+- [ ] Animations are not copy-pasted from previous projects
+- [ ] Photos have 3D depth treatment applied
+- [ ] Scroll behaviors are custom-timed for this site's content
+- [ ] Hover effects match the business personality
+- [ ] Page transitions are unique to this brand
+- [ ] Micro-interactions feel crafted, not generic
+
+## Layout Standards (Updated March 16, 2026)
+
+### Button Spacing Requirements
+- Buttons must have adequate spacing to prevent overlapping
+- Minimum gap between adjacent buttons: 16px (gap-4) on mobile, 24px (gap-6) on desktop
+- Button containers must use flex-wrap to prevent overflow issues
+- Check button positioning at all breakpoints (mobile, tablet, desktop)
+- Verify no z-index conflicts causing buttons to appear on top of each other
+
+### Layout Quality Checklist
+Before delivering any website, verify:
+- [ ] Buttons do not overlap on any screen size
+- [ ] Touch targets are minimum 44x44px for mobile
+- [ ] No elements overflow their containers
+- [ ] Consistent spacing system applied throughout
+- [ ] Navigation does not cover content on scroll
