@@ -351,3 +351,30 @@ Before delivering any website, verify:
 - [ ] No elements overflow their containers
 - [ ] Consistent spacing system applied throughout
 - [ ] Navigation does not cover content on scroll
+
+## Content and Asset Requirements (Updated March 16, 2026)
+
+### Photo and Information Sources
+- ONLY use photos and information from the client's Google Drive
+- MUST use all provided assets - no skipping or substituting
+- No stock photos unless explicitly provided by client
+- No AI-generated images
+- No placeholder text - all copy must come from client materials
+
+### Logo-Based Color Palette
+- Extract primary colors directly from the client's logo
+- Build entire color system around logo colors:
+  - Primary: Main logo color
+  - Secondary: Accent from logo
+  - Background: Complementary to logo
+  - Text: High contrast against background
+- Never use default/generic color schemes
+- Test color combinations for accessibility (WCAG AA)
+
+### Content Verification Checklist
+Before delivering any website, verify:
+- [ ] All photos are from client's Drive
+- [ ] All text content is from provided materials
+- [ ] Color palette is derived from logo
+- [ ] No placeholder or lorem ipsum text remains
+- [ ] All provided assets have been used
