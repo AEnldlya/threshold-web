@@ -378,3 +378,31 @@ Before delivering any website, verify:
 - [ ] Color palette is derived from logo
 - [ ] No placeholder or lorem ipsum text remains
 - [ ] All provided assets have been used
+
+## Website Build Process - Mandatory Compliance (Updated March 16, 2026)
+
+### Before Starting Any Website Build
+1. Read this MEMORY.md file completely
+2. Read the WEBMAKER_ENHANCED_PRD.md for the project
+3. Access client's Google Drive and download ALL assets
+4. Extract color palette from logo using color picker tool
+5. Review all provided text content and photos
+
+### During Build - All Rules Must Be Followed
+Every website build MUST comply with:
+- **$250k-Tier Website Template** (master prompt above)
+- **Animation Standards** (unique animations per site, 3D photo effects)
+- **Layout Standards** (proper button spacing, no overlaps)
+- **Content and Asset Requirements** (Drive-only assets, logo colors)
+- **WEBMAKER_ENHANCED_PRD.md** (project-specific requirements)
+
+### Pre-Launch Verification
+Before considering any website complete, run through ALL checklists:
+- [ ] Animation Uniqueness Checklist (passed)
+- [ ] Layout Quality Checklist (passed)
+- [ ] Content Verification Checklist (passed)
+- [ ] WEBMAKER_ENHANCED_PRD.md requirements (all met)
+
+### Non-Negotiable
+Failure to follow any of these rules requires rebuilding the affected sections.
+No exceptions.
