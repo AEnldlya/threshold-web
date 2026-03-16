@@ -335,6 +335,42 @@ Before delivering any website, verify:
 - [ ] Page transitions are unique to this brand
 - [ ] Micro-interactions feel crafted, not generic
 
+### Page Transition Requirements
+Every website must have custom page transition animations:
+- **Route change animations**: Smooth transitions between pages using Framer Motion AnimatePresence
+- **Exit animations**: Current page animates out (fade, slide, scale, or custom effect)
+- **Enter animations**: New page animates in with staggered content reveals
+- **Shared element transitions**: Smooth morphing of common elements (logo, nav items)
+- **Transition types to vary per site**:
+  - Curtain reveal (horizontal or vertical wipe)
+  - Fade-through with blur
+  - Slide in from direction matching navigation flow
+  - Scale and morph transitions
+  - Masked transitions using clip-path
+  - Page peel or fold effects
+- **Timing**: 400-800ms duration with custom easing (never linear)
+- **Performance**: Use GPU-accelerated properties only (transform, opacity)
+
+### Framer Motion Animation Library (21st.dev)
+Source animations from 21st.dev and customize for each website:
+- **Text animations**: Character-by-character reveals, word splits, line masking
+- **Scroll effects**: Parallax layers, pin-and-reveal, scroll-snapping sections
+- **Hover micro-interactions**: Magnetic pulls, elastic bounces, liquid morphs
+- **Gesture animations**: Drag physics, swipe transitions, pull-to-refresh
+- **Layout animations**: Shared layout transitions, grid reordering, list filtering
+- **SVG animations**: Path drawing, shape morphing, stroke reveals
+- **3D transforms**: Perspective tilts, card flips, depth layering
+- **Spring physics**: Custom spring configs for natural motion
+- **Stagger patterns**: Custom delays and orchestration for group animations
+
+Required Framer Motion features to use:
+- motion components with custom variants
+- AnimatePresence for exit animations
+- useScroll and useTransform for scroll-linked effects
+- useSpring for physics-based motion
+- useMotionValue and useTransform for complex choreographies
+- LayoutGroup for shared element transitions
+
 ## Layout Standards (Updated March 16, 2026)
 
 ### Button Spacing Requirements
@@ -351,6 +387,14 @@ Before delivering any website, verify:
 - [ ] No elements overflow their containers
 - [ ] Consistent spacing system applied throughout
 - [ ] Navigation does not cover content on scroll
+
+### Color Contrast Requirements
+- Text must always be visible against its background
+- Never place same-color text on same-color background
+- Minimum contrast ratio: 4.5:1 for normal text, 3:1 for large text
+- Test all text/background combinations before delivery
+- Use contrast checker tool for verification
+- Provide text shadows or overlays when needed for readability
 
 ## Content and Asset Requirements (Updated March 16, 2026)
 
@@ -379,6 +423,15 @@ Before delivering any website, verify:
 - [ ] No placeholder or lorem ipsum text remains
 - [ ] All provided assets have been used
 
+### Missing Photo Handling
+When no photos are provided for a section:
+- Do NOT leave empty space or placeholder boxes
+- Remove the photo container entirely
+- Redesign the layout to work without images
+- Use text-only layouts, icon-based designs, or decorative patterns
+- Adjust grid layouts to fill the space appropriately
+- Never show broken image icons or gray placeholder boxes
+
 ## Website Build Process - Mandatory Compliance (Updated March 16, 2026)
 
 ### Before Starting Any Website Build
@@ -402,6 +455,10 @@ Before considering any website complete, run through ALL checklists:
 - [ ] Layout Quality Checklist (passed)
 - [ ] Content Verification Checklist (passed)
 - [ ] WEBMAKER_ENHANCED_PRD.md requirements (all met)
+- [ ] Page transition animations implemented
+- [ ] Framer Motion animations from 21st.dev customized
+- [ ] Color contrast verified on all text/background combinations
+- [ ] No empty photo placeholders remain
 
 ### Non-Negotiable
 Failure to follow any of these rules requires rebuilding the affected sections.
