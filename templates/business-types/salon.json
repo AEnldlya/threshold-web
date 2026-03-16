@@ -1,9 +1,16 @@
 {
   "templateName": "Salon & Barbershop",
   "templateId": "salon",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "Beauty & Personal Care",
   "description": "Stylish salon website with online booking, service menu, and stylist portfolios. Perfect for hair salons, barbershops, nail salons, and spas.",
+  "importantNotes": [
+    "REQUIRED: Before/After gallery section must be included on homepage",
+    "REQUIRED: Dedicated /gallery page with transformation showcase",
+    "REQUIRED: Placeholder sections for client before/after photos",
+    "BEST PRACTICE: Include 3-6 before/after examples on homepage",
+    "BEST PRACTICE: Side-by-side comparison layout for transformations"
+  ],
   
   "theme": {
     "colorPalette": {
@@ -60,7 +67,7 @@
         "id": "gallery",
         "name": "Gallery",
         "slug": "/gallery",
-        "description": "Before/after transformations and style showcase"
+        "description": "Before/after transformations and style showcase - ESSENTIAL for salons/barbershops"
       },
       {
         "id": "contact",
@@ -177,6 +184,18 @@
         "id": "instagram-feed",
         "name": "Instagram Integration",
         "description": "Show latest work from Instagram",
+        "enabled": true
+      },
+      {
+        "id": "before-after-gallery",
+        "name": "Before/After Gallery",
+        "description": "Showcase client transformations with side-by-side comparison - REQUIRED for all salon/barbershop sites",
+        "enabled": true
+      },
+      {
+        "id": "transformation-slider",
+        "name": "Transformation Slider",
+        "description": "Interactive before/after image comparison slider",
         "enabled": true
       }
     ]
