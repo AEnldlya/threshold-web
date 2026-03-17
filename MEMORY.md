@@ -948,6 +948,78 @@ Use position:absolute, z-index layering, and mix-blend-mode (screen or overlay) 
 - Agency: matte bold color, dramatic side-lighting, fast rotation
 - Wellness: soft clay matte, warm amber ambient light, slow gentle drift
 
+### COMPONENTS — Every One is Custom-Designed, Not Default:
+
+**Navigation:**
+- Either: ultra-minimal top bar (logo + 2–3 links + CTA), no background, full transparency
+- Or: hidden nav revealed on scroll or hamburger only — forces focus on hero
+- NEVER: standard sticky nav with background box and 5+ link items
+- Mobile: full-screen overlay menu with large type, not a drawer
+
+**Buttons:**
+- ONE primary style. Designed to match the brand, not from a component library.
+- Options: text-only with animated underline draw | outlined pill with fill sweep on hover | solid rectangle with color invert on hover | large all-caps label with arrow
+- NO border-radius 6–8px generic buttons. Choose sharp (0px) or full pill (9999px).
+
+**Cards:**
+- Should feel like designed objects, not data containers
+- Options: edge-to-edge image with text overlay | borderless floating on whitespace | glassmorphism with backdrop-filter: blur() | bento asymmetric with bold type
+- Hover: 3D gyroscope tilt OR clip-path reveal OR scale 1.02 with shadow depth change
+
+**Footer:**
+- Treat it like a section, not an afterthought
+- Include: brand statement or large logotype | minimal nav | social icons | legal line
+- Full-bleed dark or brand-color background
+- One subtle animation: gradient shift or slow background movement
+
+### What to Absolutely Avoid at $50K Tier:
+- Generic component library defaults (shadcn out-of-the-box, Tailwind UI unchanged)
+- Centered hero with gradient blob + floating UI card mockups (most overused SaaS pattern)
+- Three feature columns: icon + heading + paragraph (looks like every $500 site)
+- Purple or blue gradient on white
+- Animations under 0.4s duration (too snappy, feels cheap)
+- More than one font weight used at body size
+- Images with mismatched lighting or color temperature
+- Stock photography that looks like stock photography
+- Rounded corners between 4px and 16px (mushy middle — go sharp or go pill)
+- Any element that hasn't been intentionally designed: default scrollbar, default focus outlines, default selection highlight, default form inputs
+
+**Deliver:**
+The client should feel that nothing was left to chance. Every interaction should feel like it was designed by someone who cares. The site should make competitors' websites look outdated by comparison.
+
+---
+
+## SIDE-BY-SIDE REFERENCE
+
+| | $500 SITE | $50,000 SITE |
+|---|---|---|
+| **Fonts** | 1 versatile sans | 2 paired fonts (display + body) |
+| **Font size (h1)** | 48–64px | 96–160px |
+| **Body size** | 16–18px | 17–20px |
+| **Letter spacing** | Default | Tight display, wide labels |
+| **Colors** | 3 max (bg, text, accent) | 4 values, all named CSS vars |
+| **Background** | White or light gray | Warm off-white or deep near-black |
+| **Animation** | CSS fade-in only | Clip-path, parallax, scramble, spring |
+| **Animation duration** | 0.3–0.4s | 0.8–1.6s |
+| **3D elements** | None | Required — ContentCore WEBM in hero |
+| **Images** | Curated stock | Custom photography / art-directed |
+| **Hero height** | Auto / partial | Full viewport always |
+| **Layout** | Single column, clean | One signature layout concept |
+| **Whitespace** | Functional | Structural and intentional |
+| **Navigation** | Sticky top, standard | Transparent minimal or hidden |
+| **Buttons** | Rounded, solid fill | Sharp or pill, custom interaction |
+| **Cards** | Bordered, light shadow | Borderless, 3D tilt, or glass |
+| **Footer** | 2-column links | Designed section with brand statement |
+| **Scroll behavior** | Standard | Parallax, pinned sections, horizontal |
+| **Page transitions** | None | Color wipe or overlay transition |
+| **Custom cursor** | No | Yes — magnetic or branded |
+| **Scrollbar styling** | Default | Custom styled or hidden |
+| **Form inputs** | Default browser style | Fully custom designed |
+| **Mobile** | Responsive | Pixel-perfect, feels native |
+| **Delivery goal** | Credible and fast | Unforgettable and precise |
+
+---
+
 ## TIER SELECTION CHECKLIST
 
 Before starting any website build:
@@ -957,3 +1029,4 @@ Before starting any website build:
 - [ ] Appropriate rule set selected
 - [ ] No mixing of tier principles (unless hybrid with clear boundaries)
 - [ ] Budget and timeline aligned with tier expectations
+- [ ] Side-by-side reference reviewed for the chosen tier
