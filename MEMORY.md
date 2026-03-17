@@ -720,15 +720,21 @@ Before finalizing any website build, verify:
 
 ---
 
-# WEBSITE TIER DIFFERENTIATION SYSTEM
-## $50,000 vs $500 Website — Design Differentiation
+# WEBSITE QUALITY STANDARD
+## $50,000 Tier — Mandatory for All Builds
 ## (Updated March 17, 2026)
 
-When building a website, first determine the tier. Then apply EVERY rule for that tier without compromise. Mixing tiers produces the worst result: a site that looks neither premium nor intentionally budget.
+**CRITICAL: Every website we build is $50,000 tier quality. No exceptions.**
 
-## HOW TO DETERMINE THE TIER
+The $500 tier documentation below exists only as a reference for what NOT to do. When you see those patterns in other websites, know that we are building something fundamentally different.
 
-### $50,000 TIER signals:
+Our standard: Every pixel is a decision. Every interaction earns its existence.
+
+## OUR STANDARD: THE $50,000 WEBSITE
+
+**This is the ONLY tier we build. Every client gets premium quality.**
+
+### $50,000 Tier Requirements:
 - Client is a luxury brand, high-end agency, funded startup, or enterprise
 - They have custom photography, brand guidelines, or existing identity
 - They are selling high-ticket products/services ($1,000+)
@@ -736,98 +742,60 @@ When building a website, first determine the tier. Then apply EVERY rule for tha
 - They want custom interactions, scroll storytelling, or WebGL
 - Performance, accessibility, and mobile polish are non-negotiable requirements
 
-### $500 TIER signals:
-- Client is a small local business, solo operator, or early-stage startup
-- No custom photography, no brand guidelines, starting from scratch
-- They are selling mid/low-ticket products or services
-- They mentioned: "just need something up", "simple", "template is fine"
-- They need it fast — speed of delivery matters more than perfection
-- The website's job is to inform and convert, not to impress
+**Even when the client is a small local business, we still apply $50K principles.** The difference is in the scope, not the quality. A 3-page local business site can still have:
+- Two carefully chosen Fontshare fonts
+- One signature animation
+- One ContentCore 3D element
+- Custom-designed components
+- Pixel-perfect execution
 
-### HYBRID — when budget is mid-range ($2,000–$15,000):
-- Apply $50K principles to hero + navigation only
-- Apply $500 efficiency to inner pages and components
-- Never compromise on typography or color — these cost nothing extra
+### What We NEVER Do (The $500 Tier — For Reference Only):
 
-## THE $500 WEBSITE
+These are patterns we actively avoid. If you see these in a website, it was not built by us:
 
-**PHILOSOPHY:** Clarity over beauty. Speed over perfection.
-The goal is a functional, credible, fast website that does not embarrass the client. It should look competent and clean — not cheap, not impressive.
+- One font only (we always use two: display + body)
+- CSS-only fade animations (we use 21st.dev, Motion, GSAP)
+- No 3D elements (we require at least one ContentCore 3D element)
+- White backgrounds with generic accents (we use warm off-whites or deep near-blacks)
+- Standard sticky navigation (we use transparent minimal or hidden nav)
+- Rounded 6–8px buttons (we use sharp 0px or full pill 9999px)
+- Bordered cards with light shadows (we use borderless, 3D tilt, or glass)
+- Stock photography that looks like stock (we use Drive assets only)
+- Animations under 0.4s (we use 0.8–1.6s for luxury feel)
+- Default browser form inputs (we fully custom design everything)
 
-### TYPOGRAPHY:
-- Use ONE Fontshare font only (not two). Pick a versatile sans that works at both heading and body size: General Sans, Satoshi, Epilogue, or Plein
-- Size scale: h1 48–64px, h2 32–40px, body 16–18px. No surprises.
-- Line height: 1.5 for body, 1.1–1.2 for headings
-- Letter spacing: default. No wide tracking, no tight condensing.
-- Font weight: use 400 for body, 600–700 for headings only
-- Load via Fontshare API — one import, one family, done
+## THE $500 WEBSITE (REFERENCE — WHAT WE NEVER BUILD)
 
-### COLOR:
-- Maximum 3 colors: background, text, one accent
-- Background: white (#FFFFFF) or very light gray (#F8F8F8)
-- Text: near-black (#111111 or #1A1A1A)
-- Accent: one brand color for buttons and links ONLY
-- No gradients. No mesh. No multi-color backgrounds.
-- Accent must have 4.5:1 contrast ratio minimum
+**READ THIS TO KNOW WHAT TO AVOID. WE DO NOT BUILD $500 WEBSITES.**
 
-### LAYOUT:
-- Single column on mobile, max 2 columns on desktop
-- Max content width: 1140px, centered, consistent gutters (24px)
-- Section padding: 64px top/bottom desktop, 40px mobile
-- Use a simple 12-column grid but only use 6–8 of those columns for content
-- NO asymmetry, NO overlap, NO grid-breaking elements
-- Every section stacks cleanly. Predictable. Easy to scan.
-- Standard section order: Hero → Features/Services → Social proof → CTA → Footer
+If a client asks for "something simple" or "just get it up," we still deliver $50K quality — we just scope the project appropriately (fewer pages, simpler interactions) while maintaining premium execution.
 
-### HERO:
-- Full-width, NOT necessarily full-viewport height
-- Headline + subheadline + one CTA button + one supporting image or simple background color
-- NO video background, NO shader, NO WebGL, NO 3D
-- Background: solid color, very subtle gradient, or a single high-quality photo
-- CTA button: solid fill, rounded corners (6–8px), clear label
+### What $500 Websites Look Like (So We Can Do Better):
 
-### IMAGES:
-- Use Unsplash or Pexels — pick editorial-quality photos with consistent lighting/mood
-- Pick a visual style and stick to it: all warm, all cool, all B&W, all lifestyle. Never mix.
-- Compress all images. WebP format. Lazy load.
-- No stock photo clichés: handshakes, people at whiteboards, generic city skylines
+**Typography:** One font only, h1 48–64px, default spacing, safe weights
+**Color:** White background, 3 colors max, no gradients
+**Layout:** Single column, predictable stacking, no asymmetry
+**Hero:** Partial height, no video/shader/WebGL/3D
+**Images:** Unsplash/Pexels stock, compressed WebP
+**Animation:** CSS fade-in only, 0.4s duration, no parallax
+**3D:** None
+**Navigation:** Standard sticky top bar with background
+**Buttons:** Rounded 6–8px, solid fill generic
+**Cards:** Bordered with light shadows
+**Footer:** Two-column links
 
-### ANIMATION:
-- CSS only. No JavaScript animation libraries.
-- Maximum: fade-in on scroll (opacity 0 → 1, translateY 20px → 0)
-- Duration: 0.4s, ease-out. Apply to sections only, not individual elements.
-- Hover states: color transition on buttons (0.2s), underline on links
-- NO parallax. NO stagger cascades. NO page transitions.
-- If in doubt — add NO animation at all. Static is always better than janky.
+### Why We Avoid This:
 
-### 3D:
-- DO NOT use 3D elements at this tier. Zero.
-- If client insists: use a static ContentCore export (PNG with transparency) — no animation
+These patterns scream "template" and "cheap." They don't differentiate the brand. They don't create emotion. They don't make competitors look outdated.
 
-### COMPONENTS:
-- Navigation: simple sticky top bar, logo left, links right, mobile hamburger
-- Buttons: one style only — solid fill primary, ghost secondary. Consistent border-radius.
-- Cards: flat, white background, subtle border (1px #E0E0E0), light box-shadow on hover
-- Forms: stacked labels, clear inputs, large submit button
-- Footer: two-column max — left brand info, right links. Dark background.
-- NO carousels. NO tabs. NO accordions unless truly needed for FAQ.
+**Our clients — even small local businesses — deserve better than $500 quality.**
 
-### WHAT TO ABSOLUTELY AVOID AT $500 TIER:
-- Trying to look like a $50K site with half-baked animations that lag
-- Using 3+ fonts
-- Dark backgrounds (hard to execute well without polish)
-- Complex layouts that break on mobile
-- Shadows on every element
-- Gradient buttons
-- Hero with floating UI screenshot cards and gradient blob
-- Sections that scroll-jack or hijack native behavior
-
-**DELIVER:** Fast. Clean. Credible. Mobile-perfect. Done. A $500 site wins by never embarrassing its client.
-
-## THE $50,000 WEBSITE
+## THE $50,000 WEBSITE — OUR MANDATORY STANDARD
 
 **PHILOSOPHY:** Every pixel is a decision. Every interaction earns its existence.
 The goal is a website that makes the visitor feel something — wonder, desire, trust, exclusivity. It should feel handcrafted for this specific brand, not assembled from parts. Silence is a design choice. Slowness can be a luxury signal. Restraint is the hardest skill.
+
+**THIS IS THE ONLY WAY WE BUILD. EVERY WEBSITE. EVERY CLIENT. NO EXCEPTIONS.**
 
 ### TYPOGRAPHY:
 - Always TWO fonts: one display, one body. Both from Fontshare.
@@ -1020,13 +988,30 @@ The client should feel that nothing was left to chance. Every interaction should
 
 ---
 
-## TIER SELECTION CHECKLIST
+## QUALITY CHECKLIST — $50K STANDARD
 
 Before starting any website build:
 
-- [ ] Tier determined ($500, $50K, or hybrid)
-- [ ] Client signals reviewed and tier confirmed
-- [ ] Appropriate rule set selected
-- [ ] No mixing of tier principles (unless hybrid with clear boundaries)
-- [ ] Budget and timeline aligned with tier expectations
-- [ ] Side-by-side reference reviewed for the chosen tier
+- [ ] Client business type identified (for design direction)
+- [ ] Scope determined (pages, features, complexity) — NOT quality level
+- [ ] $50K rules confirmed as the standard for this build
+- [ ] No $500-tier shortcuts allowed (even for "simple" requests)
+- [ ] Budget and timeline aligned with scope, not quality compromise
+
+Before delivering any website:
+
+- [ ] Two Fontshare fonts loaded (display + body)
+- [ ] h1 at 96–160px, tight letter-spacing on display
+- [ ] 4 CSS color variables, dominant + accent palette
+- [ ] Full-viewport hero with defining visual moment
+- [ ] At least one ContentCore 3D element embedded
+- [ ] One signature animation from 21st.dev implemented
+- [ ] Animation duration 0.8–1.6s (luxury speed)
+- [ ] Custom navigation (transparent minimal or hidden)
+- [ ] Custom buttons (sharp 0px or full pill 9999px)
+- [ ] Custom cards (borderless, 3D tilt, or glass)
+- [ ] Custom footer (brand statement, not just links)
+- [ ] No default browser elements (scrollbar, inputs, focus outlines)
+- [ ] No $500-tier patterns present
+- [ ] Design feels handcrafted for this specific business
+- [ ] Site makes competitors look outdated
