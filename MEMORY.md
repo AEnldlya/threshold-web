@@ -293,6 +293,36 @@ Professional website platform for WebMaker AI targeting local businesses.
 - No emojis in any output
 - No making up information - only use verified facts
 
+## Multi-Page Website Requirement (Added March 17, 2026)
+**ALL client websites must be multi-page by default.**
+
+### Required Pages (Minimum):
+1. **Home** - Hero, overview, key stats, CTA
+2. **About** - Company story, mission, values, team
+3. **Services** - Detailed service offerings
+4. **Contact** - Form, location, contact info
+
+### Optional Pages (Add as needed):
+- Gallery/Portfolio
+- Testimonials/Reviews
+- FAQ
+- Blog
+- Pricing
+
+### Technical Implementation:
+- Use Next.js App Router with separate page.tsx files
+- Implement cinematic page transitions (Framer Motion AnimatePresence or GSAP)
+- Shared layout with animated navigation
+- Each page has unique scroll animations
+- Consistent design system across all pages
+
+### Page Transition Requirements:
+- Exit animation on current page (fade, slide, scale)
+- Enter animation on new page (staggered content reveals)
+- Shared element transitions where applicable
+- 400-800ms duration with custom easing
+- GPU-accelerated properties only (transform, opacity)
+
 ## Animation Standards for Client Websites (Updated March 16, 2026)
 
 ### Critical Rule: Unique Animations Per Website
