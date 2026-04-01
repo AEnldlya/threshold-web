@@ -289,9 +289,220 @@ Professional website platform for WebMaker AI targeting local businesses.
 - Fast loading (Lighthouse 95+)
 - Accessible (WCAG AA)
 
+## Andy's Website Design Preferences (Documented)
+These are things Andy explicitly said he likes or wants. Apply to ALL future website builds.
+
+### Likes / Wants:
+- **Red, blue, gray color palette** — professional, bold. No amber/orange.
+- **Regular system cursor** — no custom cursors
+- **Pinned hero scroll transitions** — hero stays pinned, scroll does the visual transition (e.g. video fades to shader), THEN page moves down
+- **WebGL shaders** — aurora-like gradient backgrounds, mouse-reactive
+- **Video backgrounds** — BUT they must be relevant to the business (no generic stock)
+- **3D elements** — floating photo galleries, particle fields, rotating objects
+- **Text scramble effects** — Matrix-style decode on section labels
+- **Scroll progress bar** — thin bar at top showing scroll position
+- **Page transitions** — cinematic curtain wipe between pages
+- **$25k tier quality** — WebGL, video, Three.js, premium everything
+- **Contact page should be functional** — quick contact bar, phone/hours/location visible, map embed, clear call-to-action
+- **Real/relevant photos** — high-quality workshop photos, not small social media scrapes
+- **Buttons at same height** — CTAs should be aligned horizontally, same height
+- **No rotating cars** on hero
+- **Less laggy** — optimize particles (300 not 800), cap DPR, performance limits on Three.js
+
+### Dislikes:
+- Custom mouse cursors
+- Rotating 3D car carousels
+- Generic/unrelated stock video
+- Text getting cut off (overflow-hidden issues)
+- Laggy animations
+- Buttons at different heights
+- Placeholders instead of real photos
+
 ## Communication Rules
 - No emojis in any output
 - No making up information - only use verified facts
+
+## Environment & API Keys
+- **When an API key can't be found in the runtime environment**, check the `.env` file(s) first:
+  - Primary: `~/.openclaw/.env`
+  - Workspace: `~/.openclaw/workspace/.env` (if exists)
+  - Project-specific: check project root `.env` / `.env.local` files
+- Current keys in `~/.openclaw/.env`: `MOONSHOT_API_KEY`, `OPENCLAW_GATEWAY_TOKEN`
+- **MATON_API_KEY**: NOT YET SET (needed for api-gateway skill / email checking via Gmail API)
+- To add new env vars to OpenClaw runtime, use `gateway config.patch` with `env.vars` or add to `.env` file
+
+## High-Quality Website Animation Research (Added March 19, 2026)
+**Full research document:** `ANIMATION_RESEARCH.md`
+
+### Quick Summary:
+Analyzed Apple, Linear, Stripe, Vercel, Notion, Framer, Webflow for animation patterns.
+
+### Top 3 Patterns to Use:
+1. **Scroll-triggered reveals** - Elements fade/slide in on scroll
+2. **Progressive image loading** - Images fade from blur to sharp
+3. **Subtle hover effects** - Buttons/cards lift slightly on hover
+
+### Key Findings:
+
+### Sites Analyzed:
+- **Apple** - Progressive image loading, scroll-triggered reveals, transform animations
+- **Linear** - Dark UI, blur effects, smooth transitions, minimal animations
+- **Stripe** - Dark gradients, code snippets as visuals, stats/numbers for credibility
+- **Vercel** - Light theme, clean grid, subtle hover effects
+- **Notion** - Simple illustrations, clean typography, minimal animations
+- **Framer** - 3D transforms, scroll-linked animations
+- **Webflow** - Video backgrounds, customer stories
+
+### Key Animation Patterns Discovered:
+
+#### 1. Progressive Image Loading (Apple-style)
+- Images fade in smoothly as they enter viewport
+- Low-quality placeholder → high-quality image swap
+- Uses `progressive-image` CSS class
+- Subtle opacity transition (0.3-0.5s)
+
+#### 2. Scroll-Triggered Reveals
+- Elements animate when scrolling into view
+- Common patterns: fade-up, slide-in, scale-up
+- Stagger delays between elements (0.1-0.15s)
+- Uses Intersection Observer or ScrollTrigger
+
+#### 3. 3D Transforms (Framer-style)
+- `transform: perspective(1000px) rotateX/Y()`
+- Creates depth and modern feel
+- Subtle rotations (5-15 degrees)
+- Hardware accelerated with `will-change: transform`
+
+#### 4. Blur & Backdrop Effects (Linear-style)
+- `backdrop-filter: blur(20px)` for glassmorphism
+- Frosted glass navigation bars
+- Modern, premium feel
+- Performance: use sparingly
+
+#### 5. Gradient Animations
+- Animated gradient backgrounds
+- `background-position` animation
+- Subtle color shifts
+- Creates living, breathing feel
+
+#### 6. Mouse Tracking / Magnetic Effects
+- Elements follow cursor subtly
+- Buttons that "pull" toward cursor
+- Creates interactive, responsive feel
+- Use `transform: translate()` based on mouse position
+
+#### 7. Text Reveal Animations
+- Characters or words animate in sequence
+- Staggered timing per character
+- `overflow: hidden` on container
+- `transform: translateY(100%)` → `translateY(0)`
+
+#### 8. Parallax Scrolling
+- Background moves slower than foreground
+- Creates depth illusion
+- `transform: translateY()` based on scroll position
+- Multiple layers for depth
+
+### Implementation Techniques:
+
+**Libraries to Use:**
+- GSAP + ScrollTrigger (most powerful)
+- Framer Motion (React, declarative)
+- CSS Animations (simplest, best performance)
+- Intersection Observer API (native, lightweight)
+
+**Performance Best Practices:**
+- Use `transform` and `opacity` only (GPU accelerated)
+- Add `will-change` before animation, remove after
+- Use `requestAnimationFrame` for smooth updates
+- Respect `prefers-reduced-motion`
+- Throttle scroll events
+
+**Timing Standards:**
+- Micro-interactions: 0.2-0.3s
+- Element reveals: 0.5-0.8s
+- Page transitions: 0.4-0.6s
+- Easing: `cubic-bezier(0.23, 1, 0.32, 1)` (smooth deceleration)
+
+### How I Can Implement These:
+
+**For Static Sites (HTML/CSS/JS):**
+- Use GSAP with ScrollTrigger plugin
+- CSS `@keyframes` for simple animations
+- Intersection Observer for scroll triggers
+
+**For React/Next.js Sites:**
+- Framer Motion for component animations
+- `useInView` hook for scroll triggers
+- `motion` components with variants
+
+**For Image Animations:**
+- Progressive loading with blur-up technique
+- `next/image` with placeholder="blur"
+- CSS `filter: blur()` transition
+
+---
+
+## Clawbot Product Animation Pipeline (Added March 18, 2026)
+**Complete 11-step Apple-style product animation execution brief.**
+
+### Product Description
+- **Subject**: Clawbot robotic bot
+- **Product line**: OpenClaw Gateway
+- **Form**: Compact metallic chassis, two articulated claw arms, glowing blue optical sensors, segmented neck, visible servo joints
+- **Personality**: Precise, ready, intelligent — about to execute a command
+- **Hero pose**: Weight forward, one claw arm extended toward camera (40% open), sensors bright blue, low coiled stance
+
+### Style Guide (JSON)
+```json
+{
+  "subject": "Clawbot robot",
+  "background": "pure matte black void, RGB(10, 10, 13)",
+  "subject_scale": "18-20% of frame, generous negative space",
+  "lighting": {
+    "rim": "cool white, directly behind, high intensity",
+    "fill": "subtle blue-tinted from front, low intensity"
+  },
+  "shadow": "sharp crisp contact shadow beneath",
+  "render_style": "photorealistic studio render, 8K",
+  "color_palette": {
+    "chassis": "dark gunmetal / matte dark steel",
+    "sensors_active": "vivid electric blue #2A80FF",
+    "sensors_idle": "cold gray #3A3A4A"
+  }
+}
+```
+
+### 5-Shot Video Sequence (27 seconds total)
+
+| Shot | Time | Tool | Camera | Description |
+|------|------|------|--------|-------------|
+| 1. Void Reveal | 0-3s | Runway Gen-4 | Static | Fade from black, rim light blooms, contact shadow grows |
+| 2. Slow Orbit | 3-9s | Kling 3.0 | 270° arc | Orbit around subject, reveals full silhouette |
+| 3. Sensor Wake | 9-14s | Runway Gen-4 | Push-in | Gray sensors → blue glow, pulse ring, neck servo adjustment |
+| 4. Claw Extension | 14-20s | Kling 3.0 | Static macro | Three-segment arm extension, claw opens to 40% |
+| 5. Hero Pull-back | 20-27s | Runway Gen-4 | Dolly back | Reveal full body, decelerate to stop, title card fade-in |
+
+### Post-Production
+- **Upscale**: All clips to 4K (Runway upscaler or Topaz Video AI)
+- **Edit**: DaVinci Resolve / Premiere Pro / CapCut
+- **Timeline**: 3840×2160, 24fps, Rec.709
+- **Color grade**: Lift shadows -5, crush blacks +8, saturation -8, blue gain +4, contrast +6
+- **Sound design**: Low ambient hum (-18dB), power-up tone at 0:09, servo whir, claw mechanism clicks
+
+### Export Formats
+| Format | Use Case | Settings |
+|--------|----------|----------|
+| ProRes 422 HQ | Master archive | 4K 24fps lossless |
+| H.264 MP4 | Web/social | 4K 24fps, 40Mbps, AAC 320kbps |
+| H.264 MP4 | Vertical (9:16) | 1080×1920, 24fps, 20Mbps |
+
+### Website Integration
+- Use hero_master.png as anchor for all animations
+- Implement GSAP ScrollTrigger scrub for scroll-controlled playback
+- Each section corresponds to one animation shot
+- Pure black background sections (RGB 10,10,13) for seamless video integration
+- Scroll progress bar in copper/blue to match Clawbot aesthetic
 
 ## Multi-Page Website Requirement (Added March 17, 2026)
 **ALL client websites must be multi-page by default.**
@@ -1045,3 +1256,200 @@ Before delivering any website:
 - [ ] No $500-tier patterns present
 - [ ] Design feels handcrafted for this specific business
 - [ ] Site makes competitors look outdated
+
+---
+
+## Key Change Website Project (March 29, 2026 - In Progress)
+
+### Project Documents
+1. **KEY_CHANGE_WEBSITE_PRD.md** (1,500+ lines)
+   - Comprehensive product requirements document
+   - Current state audit, critical fixes, design improvements
+   - 30+ specific 21st.dev components mapped to each page
+   - Typography, color system, accessibility standards
+   - Performance targets (Lighthouse 95+)
+
+2. **KEY_CHANGE_BUILD_GUIDE.md** (13KB)
+   - Step-by-step build instructions for developers
+   - Phase 1-4 breakdown (critical → polish)
+   - MCP server integration guide
+   - Troubleshooting, deployment, verification steps
+   - Accessibility & performance checklists
+
+3. **key-change-outreach.md** (1,660 lines)
+   - 50 verified leads with contact info and custom email drafts
+   - 3 growth opportunities for partnerships
+   - Meeting report with top 10 priorities
+   - Shared with Jason at jasonwang@hanovernorwichschools.org
+
+### 21st.dev Components Verified (45 total)
+Components pulled from 21st.dev Magic MCP registry, all with full source code:
+
+**Top Priority (Phase 1):**
+- Fluid Magnetic Cursor (site-wide, GSAP+Framer Motion)
+- Eclipse Button (magnetic hover + spotlight reveal)
+- Shape Landing Hero (cinematic hero, 30.8 similarity score)
+- Text Scramble (matrix-style text decode, 0.36 similarity)
+- Magic Text (scroll-triggered reveals, 1.06 similarity)
+- Scroll Progress (progress bar, 0.04 similarity)
+
+**Phase 2-3 Components:**
+- Liquid Glass (advanced glassmorphism cards, 4.45 similarity)
+- Glass Card (glassmorphism variant, 1.20 similarity)
+- Interactive Card (3D tilt, 0.004 similarity)
+- Modern Timeline (animated step reveals, 0.58 similarity)
+- Animated Counter (number increment, 0.25 similarity)
+- Navbar 1 (animated navigation, 2.06 similarity)
+- Glowing Input (animated form inputs, 0.07 similarity)
+- FAQs Component (accordion animations, 0.76 similarity)
+- Animated Footer (footer entrance animations, 0.86 similarity)
+- Plus 30+ more variants and alternatives
+
+### Technology Stack
+- Framework: Next.js 14 (App Router)
+- Styling: Tailwind CSS + CSS Modules (consolidate from 3 files)
+- Fonts: Fontshare Plein (display) + Epilogue (body)
+- Animations: Framer Motion + GSAP + ScrollTrigger
+- Data: Airtable (donations, contacts, volunteers)
+- Email: Resend (transactional + daily digest)
+- Deployment: Vercel (auto-deploy on git push)
+
+### Color System
+--color-base: #0F1923 (deep navy, replaces flat blue)
+--color-surface: #162032 (card backgrounds)
+--color-accent: #F5C518 (gold, existing)
+--color-accent2: #2560e8 (blue, secondary)
+--color-text: #F0F4F8 (warm white, WCAG AA)
+
+### Critical Fixes Required
+1. Form validation (client-side, all 3 forms)
+2. Image upload (FormData + Vercel Blob, not base64)
+3. Lora font loading (add to Fontshare import)
+4. Password gate config (env var toggle)
+5. "Brcurrent" typo fix (stats section)
+6. Copyright year (2025 → 2026)
+7. CSS consolidation (3 files → modules)
+8. Per-page SEO metadata
+
+### Build Phases
+Phase 1 (Week 1): Critical fixes + fonts + scroll progress + magnetic buttons (6-8 hrs)
+Phase 2 (Week 2): 21st.dev components + design (12-16 hrs)
+Phase 3 (Week 3): New content sections (12-16 hrs)
+Phase 4 (Week 4): Accessibility + performance (8-12 hrs)
+
+### Status (March 29, 2026 19:20 UTC)
+- PRD: Complete, expanded with component variations
+- Build Guide: Complete, 13KB with instructions
+- Outreach: Complete, shared with Jason
+- MCP Server: Live and tested
+- Build Agent: Spawned, working on Phase 1
+
+## Phase 5 TODO - Key Change Website (March 30, 2026)
+Next improvements after current animations/optimization complete:
+
+### 1. Add 3D Features (Music/Instrument Focused - MUST BE RELEVANT)
+Using Three.js + @react-three/fiber
+
+**3D Animated Music Notes (Homepage Hero):**
+- Replace 2D floating notes with 3D rotating musical note shape
+- Orbiting animation in 3D space
+- Metallic gold sheen (#F5C518)
+- Subtle glow effect, navy background
+- Particles: 8-12 3D notes floating at varying speeds
+
+**3D Instrument Icons (How It Works Section):**
+- Violin, Guitar, Piano, Trumpet (3D models)
+- Each rotates slowly on X/Y axes
+- When scrolled into view, spin faster
+- Glow effect on hover
+- Apply to: Process steps (Home), Volunteer roles (Get Involved)
+
+**3D Rotating Sphere with Instruments (About Page Hero):**
+- Central 3D sphere (navy #0F1923)
+- Instrument silhouettes orbiting around it (violin, cello, trumpet, piano)
+- Continuous rotation (one full rotation every 20s)
+- Light refracts across sphere surface
+- Very subtle, not distracting from text
+
+**3D Instrument Gallery (Donate Page):**
+- Showcase donated instrument types in 3D
+- User can hover to rotate each instrument
+- Shows condition state with color (green=good, yellow=needs repair)
+- Click to expand details
+
+### 2. Add More Photos (High-Quality, Relevant)
+Sources: Unsplash (search terms below)
+
+**Homepage:**
+- Students playing instruments together (diverse group)
+- Search: "music education students playing"
+
+**About Page:**
+- Group of musicians in circle/ensemble
+- Search: "orchestra ensemble diversity"
+
+**Donate Page:**
+- Close-ups: violin, cello, brass (trumpet, trombone)
+- Search: "classical instruments close-up", "violin strings", "saxophone detail"
+
+**Get Involved Page:**
+- Young volunteers sorting/organizing instruments
+- Search: "volunteer group working together", "youth community service"
+
+**Contact Page:**
+- Hands playing piano, sheet music
+- Search: "piano hands playing", "sheet music close-up"
+
+**Fix Broken Images:**
+- Audit all pages for missing images
+- Check next.config.js remotePatterns
+- Ensure Unsplash URLs are correct (case-sensitive, HTTPS)
+- Test on mobile/desktop
+
+### 3. Fix Text Spacing Issues
+CSS Spacing System:
+
+```css
+/* Letter spacing */
+--letter-spacing-tight: -0.02em;      /* Headings */
+--letter-spacing-normal: 0em;         /* Body text */
+--letter-spacing-wide: 0.05em;        /* Labels, captions */
+
+/* Line height */
+--line-height-tight: 1.2;             /* Headings */
+--line-height-normal: 1.6;            /* Body */
+--line-height-relaxed: 1.8;           /* Long-form content */
+
+/* Spacing tokens */
+--space-xs: 0.25rem;
+--space-sm: 0.5rem;
+--space-md: 1rem;
+--space-lg: 1.5rem;
+--space-xl: 2rem;
+--space-2xl: 3rem;
+```
+
+Apply to:
+- Headings: letter-spacing -0.02em, line-height 1.2
+- Body: letter-spacing 0em, line-height 1.6
+- Section padding: 3rem desktop, 1.5rem mobile
+- Paragraph margins: 1rem between paragraphs
+- WCAG AA contrast maintained
+
+### 4. Image Configuration
+Update `next.config.mjs`:
+- Add Unsplash remote patterns
+- Ensure Vercel Blob CDN included
+- Enable AVIF/WebP formats
+- Set device/image sizes for responsive
+
+### 5. Quality Rules
+- 3D must be relevant to instruments/music (not random)
+- 60fps on mobile
+- prefers-reduced-motion: static 3D (no animation)
+- Responsive images with alt text
+- No emojis anywhere
+- Build: 0 errors
+- Lighthouse: 90+
+
+**Current Status:** 20x 21st.dev premium animations integrated, 16 active on pages. Website live at https://keychange-redesigned.vercel.app
