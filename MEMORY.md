@@ -322,6 +322,40 @@ These are things Andy explicitly said he likes or wants. Apply to ALL future web
 - No emojis in any output
 - No making up information - only use verified facts
 
+## Andy's Design Preferences (Documented April 1, 2026)
+Things Andy likes and wants on websites:
+
+### Likes:
+- WebGL shaders, video backgrounds, 3D elements ($25k tier)
+- Pinned hero scroll transitions (video fades out, shader fades in, page stays still until transition completes)
+- Red/blue/gray color palettes (professional, not amber/rust)
+- Text scramble/decode effects on section labels
+- Scroll progress bars
+- Particle fields (but optimized, not laggy)
+- 3D gear/wrench decorative elements
+- High-quality workshop/automotive photos
+- Videos must be RELEVANT to the business (automotive videos for auto shop, etc.)
+- Contact pages need actual business info (phone, hours, address, map)
+- ClipPath animations for text reveal (not overflow-hidden which clips text)
+- CTA buttons at same height, horizontal layout
+- Cinematic page transitions (amber/accent curtain wipe)
+
+### Dislikes:
+- Custom cursors (prefers regular system cursor)
+- Rotating 3D car carousels
+- Laggy/heavy animations (optimize particle counts, cap DPR)
+- Generic/unrelated stock videos
+- Text getting cut off (overflow-hidden on large text)
+- Buttons at different heights
+- Missing business photos (needs real workshop images)
+
+### Rules:
+- Always use videos related to the actual business
+- Contact page must have phone, hours, address, Google Maps
+- Document everything Andy likes for future reference
+- Performance over flash (reduce particles, cap DPR, lazy-load 3D)
+- Text must NEVER be clipped or cut off
+
 ## Environment & API Keys
 - **When an API key can't be found in the runtime environment**, check the `.env` file(s) first:
   - Primary: `~/.openclaw/.env`
