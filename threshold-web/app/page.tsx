@@ -1,14 +1,14 @@
 'use client'
 
 import Header from '@/components/Header'
-import Hero from '@/components/Hero'
+import HeroAceternity from '@/components/HeroAceternity'
 import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-retro-olive">
+    <main className="min-h-screen bg-navy">
       <Header />
-      <Hero />
+      <HeroAceternity />
       <Footer />
     </main>
   )
