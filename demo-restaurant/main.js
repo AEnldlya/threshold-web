@@ -23,6 +23,107 @@ const cartClose = document.getElementById('cart-close');
 const cartItems = document.getElementById('cart-items');
 const cartTotal = document.getElementById('cart-total');
 const checkoutBtn = document.getElementById('checkout-btn');
+const hero = document.getElementById('hero');
+const heroContent = document.getElementById('hero-content');
+const spotlight = document.getElementById('spotlight');
+const heroBtn = document.getElementById('hero-btn');
+const scrollProgress = document.getElementById('scroll-progress');
+
+// ============================================
+// ACETERNITY ANIMATIONS
+// ============================================
+
+// 1. MOUSE SPOTLIGHT EFFECT
+function initSpotlight() {
+  if (!hero || !spotlight) return;
+  
+  hero.addEventListener('mousemove', (e) => {
+    const rect = hero.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    spotlight.style.setProperty('--mouse-x', `${x}%`);
+    spotlight.style.setProperty('--mouse-y', `${y}%`);
+  });
+}
+
+// 2. 3D TILT EFFECT
+function initTiltEffect() {
+  if (!hero || !heroContent) return;
+  
+  const maxTilt = 10; // Maximum rotation in degrees
+  
+  hero.addEventListener('mousemove', (e) => {
+    const rect = hero.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    
+    const mouseX = e.clientX - centerX;
+    const mouseY = e.clientY - centerY;
+    
+    const rotateY = (mouseX / (rect.width / 2)) * maxTilt;
+    const rotateX = -(mouseY / (rect.height / 2)) * maxTilt;
+    
+    heroContent.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+    heroContent.style.setProperty('--rotateX', `${rotateX}deg`);
+    heroContent.style.setProperty('--rotateY', `${rotateY}deg`);
+  });
+  
+  hero.addEventListener('mouseleave', () => {
+    heroContent.style.transform = 'rotateX(0deg) rotateY(0deg)';
+    heroContent.style.setProperty('--rotateX', '0deg');
+    heroContent.style.setProperty('--rotateY', '0deg');
+  });
+}
+
+// 3. MAGNETIC BUTTON EFFECT
+function initMagneticButton() {
+  if (!heroBtn) return;
+  
+  const magneticStrength = 0.3;
+  
+  heroBtn.addEventListener('mousemove', (e) => {
+    const rect = heroBtn.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    
+    const deltaX = (e.clientX - centerX) * magneticStrength;
+    const deltaY = (e.clientY - centerY) * magneticStrength;
+    
+    heroBtn.style.transform = `translate(${deltaX}px, ${deltaY}px) scale(1.05)`;
+  });
+  
+  heroBtn.addEventListener('mouseleave', () => {
+    heroBtn.style.transform = 'translate(0, 0) scale(1)';
+  });
+}
+
+// 4. SCROLL PROGRESS BAR
+function initScrollProgress() {
+  if (!scrollProgress) return;
+  
+  window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const scrollPercent = (scrollTop / docHeight) * 100;
+    scrollProgress.style.width = `${scrollPercent}%`;
+  });
+}
+
+// 5. INITIALIZE FLOATING PARTICLES (randomize start positions)
+function initParticles() {
+  const particles = document.querySelectorAll('.particle');
+  particles.forEach((particle, index) => {
+    // Randomize initial vertical position for variety
+    const randomDelay = Math.random() * 5;
+    const randomDuration = 10 + Math.random() * 10;
+    particle.style.animationDelay = `${randomDelay}s`;
+    particle.style.animationDuration = `${randomDuration}s`;
+  });
+}
+
+// ============================================
+// CART FUNCTIONALITY
+// ============================================
 
 // RENDER MENU
 function renderMenu() {
@@ -157,5 +258,15 @@ checkoutBtn.addEventListener('click', () => {
   alert(`Order Total: $${total.toFixed(2)}\n\nItems: ${itemsList}\n\nIn a real site, this would redirect to Stripe checkout.\n\nCall (555) 123-4567 to confirm your order!`);
 });
 
+// ============================================
 // INITIALIZE
-renderMenu();
+// ============================================
+
+document.addEventListener('DOMContentLoaded', () => {
+  renderMenu();
+  initSpotlight();
+  initTiltEffect();
+  initMagneticButton();
+  initScrollProgress();
+  initParticles();
+});
